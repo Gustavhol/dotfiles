@@ -1,0 +1,594 @@
+Script started on 2020-07-08 07:05:03+02:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="104" LINES="60"]
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[45C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1893 [39m[37m[39m[47m[30m 07:05:03[K[00m[39m[49m[66D[?1h=[?2004hc[90md i3[39mc[39md[39m [39ms[39m cript[?1l>[?2004l
+]2;cdcd: no such file or directory: script
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[43C[39m[0m[49m[31m[39m[41m[38;5;226m 1[38;5;226m ↵ [39m[38;5;244m[39m[48;5;244m[30m 1894 [39m[37m[39m[47m[30m 07:05:16[K[00m[39m[49m[66D[?1h=[?2004hi[90m3 --moreversion[39m[15Di[39m.[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14Di[90m3[90m --moreversion[39m[15Di[39m3[39mx[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13Drocks[1m [0m[0m [?1l>[?2004l
+]2;i3xrocks<2>Failed to load configuration.
+[s[?25l[u[K[u[Kcd
+<3>failed to read bar
+qqqq
+<3>failed to read bar
+
+
+
+
+
+
+
+^C[?25h[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[45C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1895 [39m[37m[39m[47m[30m 07:05:41[K[00m[39m[49m[66D[?1h=[?2004hc[90md script[39m[8Dc[39md[39m [39mi[90m3[39m[39m [39m [39m [39m [39m3x[90mrocks[39m[39mr[39mo[39mc[39mk[39ms[1m/[0m[0m [?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;..lith/i3xrocks[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/i3xrocks [49m[34m[39m [K[36C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1896 [39m[37m[39m[47m[30m 07:05:46[K[00m[39m[49m[57D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 8,0K
+-rw-r--r-- 1 gustav 2,0K feb 15 17:41 config
+drwxr-xr-x 2 gustav 4,0K jun  5 06:13 conf.d
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..lith/i3xrocks[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/i3xrocks [49m[34m[39m [K[36C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1897 [39m[37m[39m[47m[30m 07:05:47[K[00m[39m[49m[57D[?1h=[?2004h.[90m.[39m.[39m. [?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[45C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1898 [39m[37m[39m[47m[30m 07:05:53[K[00m[39m[49m[66D[?1h=[?2004hc[90md i3xrocks[39m[10Dc[39md[39m [39ms[90mc[90mr[90mi[90mp[90mt[39m[39m [39m [39mt[39m [39m [39m [39m yles[?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;..golith/styles[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/styles [49m[34m[39m [K[38C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1899 [39m[37m[39m[47m[30m 07:05:56[K[00m[39m[49m[59D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 32K
+-rw-r--r-- 1 gustav  683 jan 29 06:35 st-term
+-rw-r--r-- 1 gustav 3,9K feb 29 05:29 i3-wm
+-rw-r--r-- 1 gustav  105 maj 10 04:37 root
+-rw-r--r-- 1 gustav  270 maj 10 04:37 rofi
+-rw-r--r-- 1 gustav 1,9K maj 10 04:37 i3xrocks
+-rw-r--r-- 1 gustav  253 maj 10 04:37 gnome
+drwxr-xr-x 2 gustav 4,0K maj 19 15:33 cahuella
+drwxr-xr-x 2 gustav 4,0K jun  5 07:01 lascaille
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..golith/styles[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/styles [49m[34m[39m [K[38C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1900 [39m[37m[39m[47m[30m 07:05:57[K[00m[39m[49m[59D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[45C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1901 [39m[37m[39m[47m[30m 07:06:03[K[00m[39m[49m[66D[?1h=[?2004hc[90md styles[39m[8Dc[39md[39m [39mf[39m [39m [39m [39m [39m lags[?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;..egolith/flags[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/flags [49m[34m[39m [K[39C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1902 [39m[37m[39m[47m[30m 07:06:06[K[00m[39m[49m[60D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 4,0K
+-rw-rw-r-- 1 gustav  0 jun  5 07:04 first-time-setup-r1-4-1
+-rw-rw-r-- 1 gustav 33 jun  5 07:04 ui-fingerprint
+-rw-rw-r-- 1 gustav  0 jun  5 07:04 show-shortcuts
+-rw-rw-r-- 1 gustav  0 jun  5 07:04 term-profile
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..egolith/flags[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith/flags [49m[34m[39m [K[39C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1903 [39m[37m[39m[47m[30m 07:06:07[K[00m[39m[49m[60D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;..nfig/regolith[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/regolith [49m[34m[39m [K[45C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1904 [39m[37m[39m[47m[30m 07:06:20[K[00m[39m[49m[66D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1904 [39m[37m[39m[47m[30m 07:06:22[K[00m[39m[49m[75D[?1h=[?2004hg[90mit init --bare $HOME/.cfg[39m[25Dg[39mi[39mt[39m [90m [90mt[39mg[90mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26Dc[90md flags[39mc[39mo[90mn[90mf[90mi[90mg[90m [90ma[90mdd .zshrc[39m[15D[39mn[39mf[39mi[39mg[39m [39ma[39ms[39m [39m [39m [39m [39m [39m [39m [39m [8D[90md[90md .zshrc[39m[9D[39md[39md[39m [39m.[39m/[39m [39m [39m [39m regolith[?1l>[?2004l
+]2;config[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1905 [39m[37m[39m[47m[30m 07:06:52[K[00m[39m[49m[75D[?1h=[?2004hc[90monfig add ./regolith[39m[20Dc[39mo[39mn[39mf[39mi[39mg[39m [39ms[90mt[90ma[90mt[90mu[90ms[39m[39m [39m [39m [39m [39m [39m [39m [39m [13D[39mt[39ma[39mt[39mu[39ms[?1l>[?2004l
+]2;configOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   regolith/flags/first-time-setup-r1-4-1[m
+	[32mnew file:   regolith/flags/show-shortcuts[m
+	[32mnew file:   regolith/flags/term-profile[m
+	[32mnew file:   regolith/flags/ui-fingerprint[m
+	[32mnew file:   regolith/i3/config[m
+	[32mnew file:   regolith/i3/config.bak[m
+	[32mnew file:   regolith/i3/script/blurlock_rick.sh[m
+	[32mnew file:   regolith/i3/script/lockscreen.sh[m
+	[32mnew file:   regolith/i3xrocks/conf.d/01_setup[m
+	[32mnew file:   regolith/i3xrocks/conf.d/30_net-traffic[m
+	[32mnew file:   regolith/i3xrocks/conf.d/40_cpu-usage[m
+	[32mnew file:   regolith/i3xrocks/conf.d/50_memory[m
+	[32mnew file:   regolith/i3xrocks/conf.d/80_battery[m
+	[32mnew file:   regolith/i3xrocks/conf.d/80_rofication[m
+	[32mnew file:   regolith/i3xrocks/conf.d/90_time[m
+	[32mnew file:   regolith/i3xrocks/config[m
+	[32mnew file:   regolith/styles/cahuella/color[m
+	[32mnew file:   regolith/styles/cahuella/rofi.rasi[m
+	[32mnew file:   regolith/styles/cahuella/root[m
+	[32mnew file:   regolith/styles/cahuella/theme[m
+	[32mnew file:   regolith/styles/cahuella/typeface[m
+	[32mnew file:   regolith/styles/gnome[m
+	[32mnew file:   regolith/styles/i3-wm[m
+	[32mnew file:   regolith/styles/i3xrocks[m
+	[32mnew file:   regolith/styles/lascaille/color[m
+	[32mnew file:   regolith/styles/lascaille/i3-wm[m
+	[32mnew file:   regolith/styles/lascaille/rofi.rasi[m
+	[32mnew file:   regolith/styles/lascaille/root[m
+	[32mnew file:   regolith/styles/lascaille/st-term[m
+	[32mnew file:   regolith/styles/lascaille/theme[m
+	[32mnew file:   regolith/styles/lascaille/typeface[m
+	[32mnew file:   regolith/styles/rofi[m
+	[32mnew file:   regolith/styles/root[m
+	[32mnew file:   regolith/styles/st-term[m
+	[32mnew file:   regolith/typescript[m
+	[32mnew file:   ../.mailcap[m
+	[32mnew file:   ../.zshrc[m
+
+Untracked files not listed (use -u option to show untracked files)
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1906 [39m[37m[39m[47m[30m 07:06:58[K[00m[39m[49m[75D[?1h=[?2004h.[90m.[39m [39m l[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 216K
+-rw-r--r--  1 gustav    3 feb 28 08:01  gnome-initial-setup-done
+-rw-------  1 gustav  633 feb 28 08:01  user-dirs.dirs
+drwx------  2 gustav 4,0K apr  1 12:36  mpv
+drwx------  2 gustav 4,0K apr 16 07:27  enchant
+drwxr-xr-x  2 gustav 4,0K apr 16 07:27  gedit
+drwx------  4 gustav 4,0K apr 16 07:28  teams
+drwx------ 13 gustav 4,0K apr 16 07:28  Postman
+drwxrwxr-x  2 gustav 4,0K apr 16 07:28  tuir
+drwxr-xr-x  3 gustav 4,0K apr 16 07:28  geary
+drwx------ 21 gustav 4,0K apr 16 07:28  google-chrome
+drwx------  4 gustav 4,0K apr 16 07:28  spotify
+drwxrwxr-x  2 gustav 4,0K apr 16 07:28  neofetch
+drwxr-x---  2 gustav 4,0K apr 21 07:58  Rygel
+drwx------  3 gustav 4,0K apr 21 07:58  ibus
+drwx------  3 gustav 4,0K apr 21 07:58  gnome-session
+-rw-rw-r--  1 gustav    5 apr 21 07:58  user-dirs.locale
+drwx------  3 gustav 4,0K apr 21 07:58  evolution
+drwx------  2 gustav 4,0K apr 21 07:59  update-notifier
+drwx------  2 gustav 4,0K apr 21 09:27  pulse
+drwxr-xr-x  2 gustav 4,0K apr 21 09:27  goa-1.0
+drwx------  2 gustav 4,0K apr 22 08:36  procps
+drwxrwxr-x  4 gustav 4,0K apr 22 10:14  freerdp
+drwxrwxr-x  2 gustav 4,0K apr 24 07:07  key-mon
+drwxr-xr-x  2 gustav 4,0K apr 24 13:12  nautilus
+drwx------  2 gustav 4,0K apr 24 13:43  gtk-2.0
+drwxrwxr-x  2 gustav 4,0K apr 27 08:11  FreeCAD
+drwxrwxr-x  2 gustav 4,0K apr 30 12:34  vlc
+-rw-rw-r--  1 gustav 4,8K maj  5 10:14  monitors.xml~
+-rw-rw-r--  1 gustav 4,8K maj  5 10:19  monitors.xml
+drwx------  3 gustav 4,0K maj  7 07:08 'teams (deleted)'
+drwxrwxr-x  4 gustav 4,0K maj  7 07:14  Microsoft
+drwxrwxr-x  2 gustav 4,0K maj  7 07:14  autostart
+drwx------  4 gustav 4,0K maj  7 07:16  teams-insiders
+drwx------  9 gustav 4,0K maj  7 13:39  balena-etcher-electron
+-rwxr-xr-x  1 gustav 2,1K maj 12 20:58  baraction.sh
+drwxr-xr-x  6 gustav 4,0K maj 25 15:41  cura
+drwxr-x---  2 gustav 4,0K maj 27 14:06  remmina
+drwx------  4 gustav 4,0K jun  3 06:54 'teams-insiders (deleted)'
+drwxrwxr-x  4 gustav 4,0K jun  3 13:45  blender
+drwxrwxr-x  2 gustav 4,0K jun 11 06:55  ranger
+drwxrwxr-x  2 gustav 4,0K jun 15 14:25  alacritty
+drwx------  6 gustav 4,0K jun 17 07:30  pagraphcontrol
+-rw-rw-r--  1 gustav  109 jun 20 09:51  pavucontrol.ini
+drwxrwxr-x  2 gustav 4,0K jul  6 17:42  OpenSCAD
+-rw-r--r--  1 gustav  526 jul  6 17:45  QtProject.conf
+drwx------ 12 gustav 4,0K jul  8 06:32  Code
+drwxr-xr-x  5 gustav 4,0K jul  8 06:33  transmission
+drwx------  2 gustav 4,0K jul  8 06:39  gtk-3.0
+-rw-rw-r--  1 gustav  333 jul  8 06:39  mimeapps.list
+drwx------  2 gustav 4,0K jul  8 06:40  dconf
+drwx------  2 gustav 4,0K jul  8 06:43  configstore
+drwxrwxr-x  6 gustav 4,0K jul  8 07:05  regolith
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1907 [39m[37m[39m[47m[30m 07:07:06[K[00m[39m[49m[75D[?1h=[?2004hc[90monfig status[39m[12Dc[39md[90m [90mf[90ml[90ma[90mg[90ms[39m[39m [39m [39m [39m [39m [11D[39m [39mb[90mi[90mn[39m[39m [39m [39ml[39m ender[?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;..onfig/blender[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender [49m[34m[39m [K[46C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1908 [39m[37m[39m[47m[30m 07:07:55[K[00m[39m[49m[67D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 8,0K
+drwxrwxr-x 3 gustav 4,0K apr 23 05:56 2.80
+drwxrwxr-x 3 gustav 4,0K jun  3 13:45 2.82
+[1m[7m%[27m[1m[0m                                                                                                        ]2;..onfig/blender[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender [49m[34m[39m [K[46C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1909 [39m[37m[39m[47m[30m 07:07:56[K[00m[39m[49m[67D[?1h=[?2004hc[90md blender[39m[9Dc[39md[39m [39m,[39m [39m [39m [39m [39m [39m [90mb[90mlender[39m[39m2[39m [39m [39m [39m [39m [39m .85 2[?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;../blender/2.82[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender/2.82 [49m[34m[39m [K[41C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1910 [39m[37m[39m[47m[30m 07:08:08[K[00m[39m[49m[62D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 4,0K
+drwxrwxr-x 2 gustav 4,0K jun  3 14:12 config
+[1m[7m%[27m[1m[0m                                                                                                        ]2;../blender/2.82[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender/2.82 [49m[34m[39m [K[41C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1911 [39m[37m[39m[47m[30m 07:08:10[K[00m[39m[49m[62D[?1h=[?2004hn[90mvim README.md[39m[13Dn[39mb[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12Din  n[90mv[90mim README.md[39m[13Dn[39mv[39mi[39mm[39m [39mc[90mo[90mn[90mf[90mi[90mg[90m.[90me[90ml[39m[8D[39mo[39mn[39mf[39mi[39mg[39m [39m [39m [?1l>[?2004l
+]2;nvim[?1049h[22;0;0t[22;0;0t[?1h=[H[2J]11;?[?2004h[?25h[?25l(B[m[H[2J]112[2 q]112[2 q[?25h[?25l[?1004h[96m" ============================================================================(B[m[K
+[96m" Netrw Directory Listing                                        (B[0;1m[96m(netrw v165)(B[m[K
+[96m"   /home/gustav/.config/blender/2.82/config(B[m[K
+[96m"   Sorted by(B[m[93m      name(B[m[K
+[96m"   Sort sequence:(B[m[93m [\/]$(B[m[96m,(B[m[93m\<core\%(\.\d\+\)\=\>(B[m[96m,(B[m[93m\.h$(B[m[96m,(B[m[93m\.c$(B[m[96m,(B[m[93m\.cpp$(B[m[96m,(B[m[93m\~\=\*$(B[m[96m,(B[m[93m*(B[m[96m,(B[m[93m\.o$(B[m[96m,(B[m[93m\.obj$(B[m[96m,(B[m[93m\.info$(B[m[96m,(B[m[93m\.swp$(B[m[96m,(B[m[93m\.b
+(B[m[96m"   Quick Help: (B[0;1m[96m<F1>(B[m[38;5;224m:(B[mhelp  (B[0;1m[96m-(B[m[38;5;224m:(B[mgo up dir  (B[0;1m[96mD(B[m[38;5;224m:(B[mdelete  (B[0;1m[96mR(B[m[38;5;224m:(B[mrename  (B[0;1m[96ms(B[m[38;5;224m:(B[msort-by  (B[0;1m[96mx(B[m[38;5;224m:(B[mspecial[K
+[96m" ==============================================================================(B[m[K
+(B[0;4m[38;5;159m..(B[0;1;4m[96m/(B[0;4m                                                                                                     
+(B[m[38;5;159m.(B[0;1m[96m/(B[m[K
+bookmarks.txt[K
+platform_support.txt[K
+userpref.blend[K
+[94m~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+(B[0;1;7mconfig [RO]                                                                           8,1            All[51A[?25h[?25l[60;94H(B[m:         [52A[?25h[?25l[52B[J:]112[2 q[?25h[?25lq[?25h[?25l[60;1H[?25h[?25l]112[2 q[?25h[?25l]112[2 q(B[m[?25h[?1l>[?1049l[23;0;0t[23;0;0t[?2004l[?1004l[?25h[1m[7m%[27m[1m[0m                                                                                                        ]2;../blender/2.82[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender/2.82 [49m[34m[39m [K[41C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1912 [39m[37m[39m[47m[30m 07:08:24[K[00m[39m[49m[62D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;..onfig/blender[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/blender [49m[34m[39m [K[46C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1913 [39m[37m[39m[47m[30m 07:08:28[K[00m[39m[49m[67D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1913 [39m[37m[39m[47m[30m 07:08:29[K[00m[39m[49m[75D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 220K
+-rw-r--r--  1 gustav    3 feb 28 08:01  gnome-initial-setup-done
+-rw-------  1 gustav  633 feb 28 08:01  user-dirs.dirs
+drwx------  2 gustav 4,0K apr  1 12:36  mpv
+drwx------  2 gustav 4,0K apr 16 07:27  enchant
+drwxr-xr-x  2 gustav 4,0K apr 16 07:27  gedit
+drwx------  4 gustav 4,0K apr 16 07:28  teams
+drwx------ 13 gustav 4,0K apr 16 07:28  Postman
+drwxrwxr-x  2 gustav 4,0K apr 16 07:28  tuir
+drwxr-xr-x  3 gustav 4,0K apr 16 07:28  geary
+drwx------ 21 gustav 4,0K apr 16 07:28  google-chrome
+drwx------  4 gustav 4,0K apr 16 07:28  spotify
+drwxrwxr-x  2 gustav 4,0K apr 16 07:28  neofetch
+drwxr-x---  2 gustav 4,0K apr 21 07:58  Rygel
+drwx------  3 gustav 4,0K apr 21 07:58  ibus
+drwx------  3 gustav 4,0K apr 21 07:58  gnome-session
+-rw-rw-r--  1 gustav    5 apr 21 07:58  user-dirs.locale
+drwx------  3 gustav 4,0K apr 21 07:58  evolution
+drwx------  2 gustav 4,0K apr 21 07:59  update-notifier
+drwx------  2 gustav 4,0K apr 21 09:27  pulse
+drwxr-xr-x  2 gustav 4,0K apr 21 09:27  goa-1.0
+drwx------  2 gustav 4,0K apr 22 08:36  procps
+drwxrwxr-x  4 gustav 4,0K apr 22 10:14  freerdp
+drwxrwxr-x  2 gustav 4,0K apr 24 07:07  key-mon
+drwxr-xr-x  2 gustav 4,0K apr 24 13:12  nautilus
+drwx------  2 gustav 4,0K apr 24 13:43  gtk-2.0
+drwxrwxr-x  2 gustav 4,0K apr 27 08:11  FreeCAD
+drwxrwxr-x  2 gustav 4,0K apr 30 12:34  vlc
+-rw-rw-r--  1 gustav 4,8K maj  5 10:14  monitors.xml~
+-rw-rw-r--  1 gustav 4,8K maj  5 10:19  monitors.xml
+drwx------  3 gustav 4,0K maj  7 07:08 'teams (deleted)'
+drwxrwxr-x  4 gustav 4,0K maj  7 07:14  Microsoft
+drwxrwxr-x  2 gustav 4,0K maj  7 07:14  autostart
+drwx------  4 gustav 4,0K maj  7 07:16  teams-insiders
+drwx------  9 gustav 4,0K maj  7 13:39  balena-etcher-electron
+-rwxr-xr-x  1 gustav 2,1K maj 12 20:58  baraction.sh
+drwxr-xr-x  6 gustav 4,0K maj 25 15:41  cura
+drwxr-x---  2 gustav 4,0K maj 27 14:06  remmina
+drwx------  4 gustav 4,0K jun  3 06:54 'teams-insiders (deleted)'
+drwxrwxr-x  4 gustav 4,0K jun  3 13:45  blender
+drwxrwxr-x  2 gustav 4,0K jun 11 06:55  ranger
+drwxrwxr-x  2 gustav 4,0K jun 15 14:25  alacritty
+drwx------  6 gustav 4,0K jun 17 07:30  pagraphcontrol
+-rw-rw-r--  1 gustav  109 jun 20 09:51  pavucontrol.ini
+drwxrwxr-x  2 gustav 4,0K jul  6 17:42  OpenSCAD
+-rw-r--r--  1 gustav  526 jul  6 17:45  QtProject.conf
+drwx------ 12 gustav 4,0K jul  8 06:32  Code
+drwxr-xr-x  5 gustav 4,0K jul  8 06:33  transmission
+drwx------  2 gustav 4,0K jul  8 06:39  gtk-3.0
+-rw-rw-r--  1 gustav  333 jul  8 06:39  mimeapps.list
+drwx------  2 gustav 4,0K jul  8 06:40  dconf
+drwx------  2 gustav 4,0K jul  8 06:43  configstore
+drwxrwxr-x  6 gustav 4,0K jul  8 07:05  regolith
+drwxr-xr-x  2 gustav 4,0K jul  8 07:08  nvim
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1914 [39m[37m[39m[47m[30m 07:08:33[K[00m[39m[49m[75D[?1h=[?2004hc[90md 2.82[39mc[39md[39m [39mn[39m [39m [39m vim[?1l>[?2004l
+]2;cd[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config/nvim[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/nvim [49m[34m[39m [K[49C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1915 [39m[37m[39m[47m[30m 07:08:46[K[00m[39m[49m[70D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 0
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config/nvim[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config/nvim [49m[34m[39m [K[49C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1916 [39m[37m[39m[47m[30m 07:08:47[K[00m[39m[49m[70D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.config[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.config [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1917 [39m[37m[39m[47m[30m 07:08:50[K[00m[39m[49m[75D[?1h=[?2004h.[90m.[39m.[39m.[?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1917 [39m[37m[39m[47m[30m 07:08:51[K[00m[39m[49m[83D[?1h=[?2004hl[90ms[39ml[39ma[?1l>[?2004l
+]2;latotal 1,6M
+-rw-r--r--  1 gustav 6,0K dec 18  2019 .vimrc
+drwxrwxr-x 12 gustav 4,0K feb 28 10:57 powerlevel9k
+drwxr-xr-x  9 gustav 4,0K apr  1 07:36 .PrusaSlicer
+-rw-rw-r--  1 gustav 3,5K apr  2 10:34 .mailcap
+-rw-r--r--  1 gustav  807 apr 21 07:51 .profile
+-rw-r--r--  1 gustav 3,7K apr 21 07:51 .bashrc
+-rw-r--r--  1 gustav  220 apr 21 07:51 .bash_logout
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Templates
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Public
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Music
+-rw-rw-r--  1 gustav  812 apr 21 07:58 .regolith-gnome-backup
+drwx------  3 gustav 4,0K apr 21 07:58 .nv
+drwx------  5 gustav 4,0K apr 21 07:58 .mozilla
+-rw-r--r--  1 gustav    0 apr 21 08:19 .sudo_as_admin_successful
+drwxrwxr-x  2 gustav 4,0K apr 21 08:35 .screenlayout
+-rw-r--r--  1 gustav 2,9K apr 21 10:11 .zshrc.pre-oh-my-zsh
+-rw-r--r--  1 gustav 3,5K apr 21 11:15 .zshrc.bak
+-rw-r--r--  1 gustav   10 apr 21 11:16 .shell.pre-oh-my-zsh
+-rw-------  1 gustav 3,1K apr 21 11:46 .bash_history
+drwxrwxr-x 15 gustav 4,0K apr 21 13:10 .asdf
+-rw-rw-r--  1 gustav   15 apr 21 13:28 .tool-versions
+-rw-rw-r--  1 gustav   57 apr 21 14:03 .angular-config.json
+drwx------  2 gustav 4,0K apr 21 14:18 .ssh
+drwxrwxr-x  3 gustav 4,0K apr 21 14:27 .node-gyp
+drwx------  3 gustav 4,0K apr 22 07:19 .pki
+drwxrwxr-x  5 gustav 4,0K apr 22 07:51 .local
+-rw-rw-r--  1 gustav 7,0K apr 22 11:07 package-lock.json
+-rw-rw-r--  1 gustav   66 apr 22 13:05 .gitconfig
+drwxrwxr-x 31 gustav 4,0K apr 24 13:53 node_modules
+drwxrwxr-x  2 gustav 4,0K apr 27 08:11 .FreeCAD
+drwxrwxr-x  2 gustav 4,0K apr 28 11:10 .lein
+drwxrwxr-x  3 gustav 4,0K apr 28 11:10 .m2
+drwxrwxr-x  3 gustav 4,0K apr 29 20:58 .swt
+drwxr-xr-x  2 gustav 4,0K apr 30 10:01 Videos
+-rw-rw-r--  1 gustav 2,4K apr 30 10:10 .nvidia-settings-rc
+-rw-------  1 gustav   28 apr 30 12:26 .lesshst
+-rw-rw-r--  1 gustav  116 maj  5 12:48 .yarnrc
+drwxr-x---  5 gustav 4,0K maj  5 13:59 .openfortigui
+drwxr-xr-x  2 gustav 4,0K maj 13 14:54 Pictures
+-rwxr-xr-x  1 gustav 7,8K maj 17 21:03 .spectrwm.conf
+drwx------  3 gustav 4,0K maj 19 15:33 .launchpadlib
+-rw-rw-r--  1 gustav  949 maj 19 15:37 .regolith-gnome-backup-r1-4
+drwxrwxr-x  3 gustav 4,0K maj 20 06:54 .doom.d
+-rw-rw-r--  1 gustav 1,1M maj 26 08:24 untitled-Cylinder_006.stl
+-rw-r--r--  1 gustav 2,4K maj 29 13:24 .zshrc
+-rw-rw-r--  1 gustav  49K jun  2 11:19 .zcompdump-NL546-5.7.1
+drwxr-xr-x  8 gustav 4,0K jun  3 06:45 Documents
+drwxr-xr-x  2 gustav 4,0K jun  4 05:55 Desktop
+drwxrwxr-x  3 gustav 4,0K jun  4 13:42 .vscode
+-rw-rw-r--  1 gustav  738 jun  5 06:04 releasenotes
+drwxrwxr-x  3 gustav 4,0K jun  5 06:09 regolith-backup
+drwxr-xr-x  8 gustav 4,0K jun  5 08:00 snap
+drwxrwxr-x 11 gustav 4,0K jun  5 08:01 .emacs.d
+-rw-------  1 gustav   70 jun 12 09:43 .npmrc
+drwxrwxr-x  3 gustav 4,0K jun 18 08:37 apps
+drwxrwxr-x  4 gustav 4,0K jun 18 08:38 .AndroidStudio4.0
+drwxrwxr-x  4 gustav 4,0K jun 18 08:38 .java
+drwxrwxr-x  2 gustav 4,0K jun 18 08:38 .android
+drwxrwxr-x  3 gustav 4,0K jun 18 08:42 Android
+drwxr-xr-x 12 gustav 4,0K jul  2 21:31 .oh-my-zsh
+-rw-rw-r--  1 gustav  50K jul  2 21:31 .zcompdump-NL546-5.8
+drwxr-xr-x  2 gustav  12K jul  6 17:44 fontconfig
+drwxr-xr-x  8 gustav 4,0K jul  7 14:13 dev
+drwxrwxr-x  7 gustav 4,0K jul  7 14:16 .platformio
+drwxr-x--- 30 gustav 4,0K jul  7 17:26 .cache
+drwxr-xr-x 13 gustav 4,0K jul  7 22:47 Downloads
+-rw-rw-r--  1 gustav  49K jul  8 06:40 .zcompdump
+drwx------  4 gustav 4,0K jul  8 06:43 .gnupg
+drwxrwxr-x  6 gustav 4,0K jul  8 06:43 .npm
+drwxrwxr-x  7 gustav 4,0K jul  8 07:06 .cfg
+drwxr-x--- 46 gustav 4,0K jul  8 07:08 .config
+-rw-rw-r--  1 gustav 2,2K jul  8 07:08 .z
+-rw-------  1 gustav  64K jul  8 07:08 .zsh_history
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1918 [39m[37m[39m[47m[30m 07:08:53[K[00m[39m[49m[83D[?1h=[?2004hc[90md nvim[39mc[39mo[90mn[90mf[90mi[90mg[90m [90mstatus[39m[11D[39mn[39mf[39mi[39mg[39m [39ma[90md[90md[90m [90m.[90m/[90mregolith[39m[13D[39md[39md[39m [39m.[39mc[39m [39m [39m [39m [39m [39m [39m [39m [8Dongi  fig/nvim[?1l>[?2004l
+]2;config[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1919 [39m[37m[39m[47m[30m 07:14:29[K[00m[39m[49m[83D[?1h=[?2004hc[90monfig add .config/nvim[39m[22Dc[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21Dn c[90mo[90mnfig add .config/nvim[39m[22Dc[39mo[39mn[39mf[39mi[39mg[39m [39ms[90mt[90ma[90mt[90mu[90ms[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[39mt[39ma[39mt[39ms[39m [90mu[90ms[39m[39mu[39ms[?1l>[?2004l
+]2;configOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .config/nvim/.netrwhist[m
+	[32mnew file:   .config/nvim/coc-settings.json[m
+	[32mnew file:   .config/nvim/init.vim[m
+	[32mnew file:   .config/regolith/flags/first-time-setup-r1-4-1[m
+	[32mnew file:   .config/regolith/flags/show-shortcuts[m
+	[32mnew file:   .config/regolith/flags/term-profile[m
+	[32mnew file:   .config/regolith/flags/ui-fingerprint[m
+	[32mnew file:   .config/regolith/i3/config[m
+	[32mnew file:   .config/regolith/i3/config.bak[m
+	[32mnew file:   .config/regolith/i3/script/blurlock_rick.sh[m
+	[32mnew file:   .config/regolith/i3/script/lockscreen.sh[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/01_setup[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/30_net-traffic[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/40_cpu-usage[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/50_memory[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/80_battery[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/80_rofication[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/90_time[m
+	[32mnew file:   .config/regolith/i3xrocks/config[m
+	[32mnew file:   .config/regolith/styles/cahuella/color[m
+	[32mnew file:   .config/regolith/styles/cahuella/rofi.rasi[m
+	[32mnew file:   .config/regolith/styles/cahuella/root[m
+	[32mnew file:   .config/regolith/styles/cahuella/theme[m
+	[32mnew file:   .config/regolith/styles/cahuella/typeface[m
+	[32mnew file:   .config/regolith/styles/gnome[m
+	[32mnew file:   .config/regolith/styles/i3-wm[m
+	[32mnew file:   .config/regolith/styles/i3xrocks[m
+	[32mnew file:   .config/regolith/styles/lascaille/color[m
+	[32mnew file:   .config/regolith/styles/lascaille/i3-wm[m
+	[32mnew file:   .config/regolith/styles/lascaille/rofi.rasi[m
+	[32mnew file:   .config/regolith/styles/lascaille/root[m
+	[32mnew file:   .config/regolith/styles/lascaille/st-term[m
+	[32mnew file:   .config/regolith/styles/lascaille/theme[m
+	[32mnew file:   .config/regolith/styles/lascaille/typeface[m
+	[32mnew file:   .config/regolith/styles/rofi[m
+	[32mnew file:   .config/regolith/styles/root[m
+	[32mnew file:   .config/regolith/styles/st-term[m
+	[32mnew file:   .config/regolith/typescript[m
+	[32mnew file:   .mailcap[m
+	[32mnew file:   .zshrc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .config/regolith/typescript[m
+
+Untracked files not listed (use -u option to show untracked files)
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1920 [39m[37m[39m[47m[30m 07:14:37[K[00m[39m[49m[83D[?1h=[?2004hlls[?1l>[?2004l
+]2;lstotal 1,1M
+drwxrwxr-x 12 gustav 4,0K feb 28 10:57 powerlevel9k
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Templates
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Public
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Music
+-rw-rw-r--  1 gustav 7,0K apr 22 11:07 package-lock.json
+drwxrwxr-x 31 gustav 4,0K apr 24 13:53 node_modules
+drwxr-xr-x  2 gustav 4,0K apr 30 10:01 Videos
+drwxr-xr-x  2 gustav 4,0K maj 13 14:54 Pictures
+-rw-rw-r--  1 gustav 1,1M maj 26 08:24 untitled-Cylinder_006.stl
+drwxr-xr-x  8 gustav 4,0K jun  3 06:45 Documents
+drwxr-xr-x  2 gustav 4,0K jun  4 05:55 Desktop
+-rw-rw-r--  1 gustav  738 jun  5 06:04 releasenotes
+drwxrwxr-x  3 gustav 4,0K jun  5 06:09 regolith-backup
+drwxr-xr-x  8 gustav 4,0K jun  5 08:00 snap
+drwxrwxr-x  3 gustav 4,0K jun 18 08:37 apps
+drwxrwxr-x  3 gustav 4,0K jun 18 08:42 Android
+drwxr-xr-x  2 gustav  12K jul  6 17:44 fontconfig
+drwxr-xr-x  8 gustav 4,0K jul  7 14:13 dev
+drwxr-xr-x 13 gustav 4,0K jul  7 22:47 Downloads
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~s[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1921 [39m[37m[39m[47m[30m 07:14:48[K[00m[39m[49m[83D[?1h=[?2004hs[90mcript[39ms[39m [39m [39m [39m [39m [?1l>[?2004l
+]2;szsh: command not found: s
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[58C[39m[0m[49m[31m[39m[41m[38;5;226m 127[38;5;226m ↵ [39m[38;5;244m[39m[48;5;244m[30m 1922 [39m[37m[39m[47m[30m 07:14:49[K[00m[39m[49m[83D[?1h=[?2004hl[90ms[39ml[39ms[?1l>[?2004l
+]2;lstotal 1,1M
+drwxrwxr-x 12 gustav 4,0K feb 28 10:57 powerlevel9k
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Templates
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Public
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Music
+-rw-rw-r--  1 gustav 7,0K apr 22 11:07 package-lock.json
+drwxrwxr-x 31 gustav 4,0K apr 24 13:53 node_modules
+drwxr-xr-x  2 gustav 4,0K apr 30 10:01 Videos
+drwxr-xr-x  2 gustav 4,0K maj 13 14:54 Pictures
+-rw-rw-r--  1 gustav 1,1M maj 26 08:24 untitled-Cylinder_006.stl
+drwxr-xr-x  8 gustav 4,0K jun  3 06:45 Documents
+drwxr-xr-x  2 gustav 4,0K jun  4 05:55 Desktop
+-rw-rw-r--  1 gustav  738 jun  5 06:04 releasenotes
+drwxrwxr-x  3 gustav 4,0K jun  5 06:09 regolith-backup
+drwxr-xr-x  8 gustav 4,0K jun  5 08:00 snap
+drwxrwxr-x  3 gustav 4,0K jun 18 08:37 apps
+drwxrwxr-x  3 gustav 4,0K jun 18 08:42 Android
+drwxr-xr-x  2 gustav  12K jul  6 17:44 fontconfig
+drwxr-xr-x  8 gustav 4,0K jul  7 14:13 dev
+drwxr-xr-x 13 gustav 4,0K jul  7 22:47 Downloads
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1923 [39m[37m[39m[47m[30m 07:14:50[K[00m[39m[49m[83D[?1h=[?2004hl[90ms[39ml[39ma[?1l>[?2004l
+]2;latotal 1,6M
+-rw-r--r--  1 gustav 6,0K dec 18  2019 .vimrc
+drwxrwxr-x 12 gustav 4,0K feb 28 10:57 powerlevel9k
+drwxr-xr-x  9 gustav 4,0K apr  1 07:36 .PrusaSlicer
+-rw-rw-r--  1 gustav 3,5K apr  2 10:34 .mailcap
+-rw-r--r--  1 gustav  807 apr 21 07:51 .profile
+-rw-r--r--  1 gustav 3,7K apr 21 07:51 .bashrc
+-rw-r--r--  1 gustav  220 apr 21 07:51 .bash_logout
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Templates
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Public
+drwxr-xr-x  2 gustav 4,0K apr 21 07:58 Music
+-rw-rw-r--  1 gustav  812 apr 21 07:58 .regolith-gnome-backup
+drwx------  3 gustav 4,0K apr 21 07:58 .nv
+drwx------  5 gustav 4,0K apr 21 07:58 .mozilla
+-rw-r--r--  1 gustav    0 apr 21 08:19 .sudo_as_admin_successful
+drwxrwxr-x  2 gustav 4,0K apr 21 08:35 .screenlayout
+-rw-r--r--  1 gustav 2,9K apr 21 10:11 .zshrc.pre-oh-my-zsh
+-rw-r--r--  1 gustav 3,5K apr 21 11:15 .zshrc.bak
+-rw-r--r--  1 gustav   10 apr 21 11:16 .shell.pre-oh-my-zsh
+-rw-------  1 gustav 3,1K apr 21 11:46 .bash_history
+drwxrwxr-x 15 gustav 4,0K apr 21 13:10 .asdf
+-rw-rw-r--  1 gustav   15 apr 21 13:28 .tool-versions
+-rw-rw-r--  1 gustav   57 apr 21 14:03 .angular-config.json
+drwx------  2 gustav 4,0K apr 21 14:18 .ssh
+drwxrwxr-x  3 gustav 4,0K apr 21 14:27 .node-gyp
+drwx------  3 gustav 4,0K apr 22 07:19 .pki
+drwxrwxr-x  5 gustav 4,0K apr 22 07:51 .local
+-rw-rw-r--  1 gustav 7,0K apr 22 11:07 package-lock.json
+-rw-rw-r--  1 gustav   66 apr 22 13:05 .gitconfig
+drwxrwxr-x 31 gustav 4,0K apr 24 13:53 node_modules
+drwxrwxr-x  2 gustav 4,0K apr 27 08:11 .FreeCAD
+drwxrwxr-x  2 gustav 4,0K apr 28 11:10 .lein
+drwxrwxr-x  3 gustav 4,0K apr 28 11:10 .m2
+drwxrwxr-x  3 gustav 4,0K apr 29 20:58 .swt
+drwxr-xr-x  2 gustav 4,0K apr 30 10:01 Videos
+-rw-rw-r--  1 gustav 2,4K apr 30 10:10 .nvidia-settings-rc
+-rw-------  1 gustav   28 apr 30 12:26 .lesshst
+-rw-rw-r--  1 gustav  116 maj  5 12:48 .yarnrc
+drwxr-x---  5 gustav 4,0K maj  5 13:59 .openfortigui
+drwxr-xr-x  2 gustav 4,0K maj 13 14:54 Pictures
+-rwxr-xr-x  1 gustav 7,8K maj 17 21:03 .spectrwm.conf
+drwx------  3 gustav 4,0K maj 19 15:33 .launchpadlib
+-rw-rw-r--  1 gustav  949 maj 19 15:37 .regolith-gnome-backup-r1-4
+drwxrwxr-x  3 gustav 4,0K maj 20 06:54 .doom.d
+-rw-rw-r--  1 gustav 1,1M maj 26 08:24 untitled-Cylinder_006.stl
+-rw-r--r--  1 gustav 2,4K maj 29 13:24 .zshrc
+-rw-rw-r--  1 gustav  49K jun  2 11:19 .zcompdump-NL546-5.7.1
+drwxr-xr-x  8 gustav 4,0K jun  3 06:45 Documents
+drwxr-xr-x  2 gustav 4,0K jun  4 05:55 Desktop
+drwxrwxr-x  3 gustav 4,0K jun  4 13:42 .vscode
+-rw-rw-r--  1 gustav  738 jun  5 06:04 releasenotes
+drwxrwxr-x  3 gustav 4,0K jun  5 06:09 regolith-backup
+drwxr-xr-x  8 gustav 4,0K jun  5 08:00 snap
+drwxrwxr-x 11 gustav 4,0K jun  5 08:01 .emacs.d
+-rw-------  1 gustav   70 jun 12 09:43 .npmrc
+drwxrwxr-x  3 gustav 4,0K jun 18 08:37 apps
+drwxrwxr-x  4 gustav 4,0K jun 18 08:38 .AndroidStudio4.0
+drwxrwxr-x  4 gustav 4,0K jun 18 08:38 .java
+drwxrwxr-x  2 gustav 4,0K jun 18 08:38 .android
+drwxrwxr-x  3 gustav 4,0K jun 18 08:42 Android
+drwxr-xr-x 12 gustav 4,0K jul  2 21:31 .oh-my-zsh
+-rw-rw-r--  1 gustav  50K jul  2 21:31 .zcompdump-NL546-5.8
+drwxr-xr-x  2 gustav  12K jul  6 17:44 fontconfig
+drwxr-xr-x  8 gustav 4,0K jul  7 14:13 dev
+drwxrwxr-x  7 gustav 4,0K jul  7 14:16 .platformio
+drwxr-x--- 30 gustav 4,0K jul  7 17:26 .cache
+drwxr-xr-x 13 gustav 4,0K jul  7 22:47 Downloads
+-rw-rw-r--  1 gustav  49K jul  8 06:40 .zcompdump
+drwx------  4 gustav 4,0K jul  8 06:43 .gnupg
+drwxr-x--- 46 gustav 4,0K jul  8 07:08 .config
+-rw-rw-r--  1 gustav 2,2K jul  8 07:08 .z
+drwxrwxr-x  6 gustav 4,0K jul  8 07:11 .npm
+drwxrwxr-x  7 gustav 4,0K jul  8 07:14 .cfg
+-rw-------  1 gustav  64K jul  8 07:14 .zsh_history
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1924 [39m[37m[39m[47m[30m 07:14:55[K[00m[39m[49m[83D[?1h=[?2004h.[90m.[39m.[39md[90moom.d[39m[39mo[39mo[39mm[39m.[39md[?1l>[?2004l
+]2;.doom.d[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.doom.d[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.doom.d [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1925 [39m[37m[39m[47m[30m 07:15:00[K[00m[39m[49m[75D[?1h=[?2004hk[90millall compton[39m[14Dk[39ma[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13Dk[90mi[90mllall compton[39m[14D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15Dl[90ma[39ml[39ma[?1l>[?2004l
+]2;latotal 32K
+-rw-rw-r-- 1 gustav 8,8K feb 28 09:29 init.el
+-rw-rw-r-- 1 gustav 2,3K feb 28 09:29 packages.el
+drwxrwxr-x 3 gustav 4,0K apr 23 08:32 snippets
+-rw-r--r-- 1 gustav  223 apr 23 10:37 +javascript.el
+-rw-rw-r-- 1 gustav 5,3K maj 20 06:54 config.el
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~/.doom.d[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~/.doom.d [49m[34m[39m [K[54C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1926 [39m[37m[39m[47m[30m 07:15:25[K[00m[39m[49m[75D[?1h=[?2004h.[90mdoom.d[39m.[39m.[39m [39m [39m [39m [39m [?1l>[?2004l
+]2;..[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1927 [39m[37m[39m[47m[30m 07:15:37[K[00m[39m[49m[83D[?1h=[?2004hc[90monfig status[39m[12Dc[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11Dngi   c[90mo[90mnfig status[39m[12Dc[39mo[39mn[39md[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90mf[90mig status[39m[10D[39mf[39mi[39mg[39m [39ma[90md[90md[90m [90m.[90mc[90monfig/nvim[39m[15D[39md[39md[39m [39m.[39md[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Doom.d[?1l>[?2004l
+]2;config[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1928 [39m[37m[39m[47m[30m 07:15:58[K[00m[39m[49m[83D[?1h=[?2004hc[90monfig add .doom.d[39m[17Dc[39mo[39mn[39mf[39mi[39mg[39m [39ms[90mt[90ma[90mt[90mu[90ms[39m[39m [39m [39m [39m [39m [10D[39mt[39ms[39m [39m [39m t u [90ma[90mtus[39m[39ma[39mu[39m [39m [90mt[90mus[39m[39mt[39mu[39ms[?1l>[?2004l
+]2;configOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .config/nvim/.netrwhist[m
+	[32mnew file:   .config/nvim/coc-settings.json[m
+	[32mnew file:   .config/nvim/init.vim[m
+	[32mnew file:   .config/regolith/flags/first-time-setup-r1-4-1[m
+	[32mnew file:   .config/regolith/flags/show-shortcuts[m
+	[32mnew file:   .config/regolith/flags/term-profile[m
+	[32mnew file:   .config/regolith/flags/ui-fingerprint[m
+	[32mnew file:   .config/regolith/i3/config[m
+	[32mnew file:   .config/regolith/i3/config.bak[m
+	[32mnew file:   .config/regolith/i3/script/blurlock_rick.sh[m
+	[32mnew file:   .config/regolith/i3/script/lockscreen.sh[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/01_setup[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/30_net-traffic[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/40_cpu-usage[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/50_memory[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/80_battery[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/80_rofication[m
+	[32mnew file:   .config/regolith/i3xrocks/conf.d/90_time[m
+	[32mnew file:   .config/regolith/i3xrocks/config[m
+	[32mnew file:   .config/regolith/styles/cahuella/color[m
+	[32mnew file:   .config/regolith/styles/cahuella/rofi.rasi[m
+	[32mnew file:   .config/regolith/styles/cahuella/root[m
+	[32mnew file:   .config/regolith/styles/cahuella/theme[m
+	[32mnew file:   .config/regolith/styles/cahuella/typeface[m
+	[32mnew file:   .config/regolith/styles/gnome[m
+	[32mnew file:   .config/regolith/styles/i3-wm[m
+	[32mnew file:   .config/regolith/styles/i3xrocks[m
+	[32mnew file:   .config/regolith/styles/lascaille/color[m
+	[32mnew file:   .config/regolith/styles/lascaille/i3-wm[m
+	[32mnew file:   .config/regolith/styles/lascaille/rofi.rasi[m
+	[32mnew file:   .config/regolith/styles/lascaille/root[m
+	[32mnew file:   .config/regolith/styles/lascaille/st-term[m
+	[32mnew file:   .config/regolith/styles/lascaille/theme[m
+	[32mnew file:   .config/regolith/styles/lascaille/typeface[m
+	[32mnew file:   .config/regolith/styles/rofi[m
+	[32mnew file:   .config/regolith/styles/root[m
+	[32mnew file:   .config/regolith/styles/st-term[m
+	[32mnew file:   .config/regolith/typescript[m
+	[32mnew file:   .doom.d/+javascript.el[m
+	[32mnew file:   .doom.d/config.el[m
+	[32mnew file:   .doom.d/init.el[m
+	[32mnew file:   .doom.d/packages.el[m
+	[32mnew file:   .doom.d/snippets/typescript-mode/console.log()[m
+	[32mnew file:   .mailcap[m
+	[32mnew file:   .zshrc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .config/regolith/typescript[m
+
+Untracked files not listed (use -u option to show untracked files)
+[1m[7m%[27m[1m[0m                                                                                                        ]2;~[0m[27m[24m[J[39m[0m[49m[40m [33mgustav@NL546 [44m[30m [30m~ [49m[34m[39m [K[62C[39m[0m[49m[30m[39m[40m[32m [32m✔ [39m[38;5;244m[39m[48;5;244m[30m 1929 [39m[37m[39m[47m[30m 07:16:05[K[00m[39m[49m[83D[?1h=[?2004hx[90mkill[39mx[39mi[90mn[90mp[90mu[90mt set-prop "ALP0026:00 044E:1222 Touchpad" 308 1[39m[51D[39mn[39mp[39mu[39mt[39m [39ms[39me[39mt[39m-[39mp[39mr[39mo[39mp[39m [39m"[39mA[39mL[39mP[39m0[39m0[39m2[39m6[39m:[39m0[39m0[39m [39m0[39m4[39m4[39mE[39m:[39m1[39m2[39m2[39m2[39m [39mT[39mo[39mu[39mc[39mh[39mp[39ma[39md[39m"[39m [39m3[39m0[39m8[39m [39m1[?1l>[?2004l
+
