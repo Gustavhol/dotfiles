@@ -30,7 +30,7 @@
 (setq doom-theme 'doom-one)
 
 ;; If you intend to use org, it is recommended you change this!
-(setq org-directory "~/Documents/")
+(setq org-directory "~/Documents/org")
 (require 'org)
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
@@ -73,23 +73,9 @@
                    (concat
                     (ediff-get-region-contents ediff-current-difference 'A ediff-control-buffer)
                     (ediff-get-region-contents ediff-current-difference 'B ediff-control-buffer))))
-(defun add-d-to-ediff-mode-map () (define-key ediff-mode-map "d" 'ediff-copy-both-to-C))
+(defun add-d-to-ediff-mode-map () (define-key ediff-mode-map "c" 'ediff-copy-both-to-C))
 (add-hook 'ediff-keymap-setup-hook 'add-d-to-ediff-mode-map)
 
-
-;; Recenter on next/prev line
-;; (defun my-evil-next-line-and-recenter (&optional count)
-;;   (interactive)
-;;   (evil-next-line count)
-;;   (recenter))
-;; (defun my-evil-previous-line-and-recenter (&optional count)
-;;   (interactive)
-;;   (evil-previous-line count)
-;;   (recenter))
-
-;; ;; Remap next/prev line to the above
-;; (map! [remap evil-next-line] #'my-evil-next-line-and-recenter
-;;       [remap evil-previous-line] #'my-evil-previous-line-and-recenter)
 
 ;; Keymaps
 (map! :leader
