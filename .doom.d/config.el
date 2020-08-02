@@ -30,7 +30,7 @@
 (setq doom-theme 'doom-one)
 
 ;; If you intend to use org, it is recommended you change this!
-(setq org-directory "~/Documents/org")
+(setq org-directory "~/Documents")
 (require 'org)
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
@@ -47,25 +47,6 @@
 (add-hook 'tide-mode-hook 'prettier-js-mode)
 (add-hook 'markdown-mode-hook 'grip-mode)
 (add-hook 'org-mode-hook 'grip-mode)
-
-(use-package! org-super-agenda
-  :after org-agenda
-  :init
-  (setq org-super-agenda-groups '((:name "Today"
-                                         :time-grid t
-                                         :scheduled today)
-                                  (:name "Due today"
-                                         :deadline today)
-                                  (:name "Important"
-                                         :priority "A")
-                                  (:name "Overdue"
-                                         :deadline past)
-                                  (:name "Due soon"
-                                         :deadline future)
-                                  (:name "Big Outcomes"
-                                         :tag "bo")))
-  :config
-  (org-super-agenda-mode))
 
 (defun ediff-copy-both-to-C ()
   (interactive)
@@ -90,7 +71,10 @@
       (:prefix "ö"
         :nv "f w" #'deadgrep
         :nv "f f" #'counsel-fzf
-        :nv "p s" #'+ivy/project-search)
+        :nv "p s" #'+ivy/project-search
+        :nv "w s" #'evil-window-decrease-height
+        :nv "w e" #'evil-window-increase-height)
+
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle
         :nv "c f" #'vimish-fold-avy
@@ -102,6 +86,8 @@
         :nv "f" #'avy-goto-char-2
         :nv "m l" #'avy-move-line
         :nv "m r" #'avy-move-region
+        :nv "k r" #'avy-kill-region
+        :nv "k l" #'avy-kill-whole-line
         :nv "c r" #'avy-copy-region
         :nv "c l" #'avy-copy-line))
 
