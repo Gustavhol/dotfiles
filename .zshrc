@@ -64,7 +64,7 @@ alias zconfig="emacs ~/.zshrc&"
 alias etcher="~/Documents/appimages/balenaEtcher-1.5.81-x64.AppImage&"
 alias pagraph="~/Downloads/pagraphcontrol/dist/pagraphcontrol-linux-x64/pagraphcontrol&"
 alias omzconfig="emacs ~/.oh-my-zsh&"
-alias config='/usr/bin/git --git-dir=$HOME/@HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias reload='source ~/.zshrc'
 alias doomrefresh='~/.emacs.d/bin/doom refresh'
 alias lsa='ls -a -thor'
