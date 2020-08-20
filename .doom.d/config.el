@@ -4,7 +4,7 @@
 ;; refresh' after modifying this file!
 
 ;; Load personal modules
-  (load! "+javascript")
+(load! "+javascript")
 
 ;; These are used for a number of things, particularly for GPG configuration,
 ;; some email clients, file templates and snippets.

@@ -28,7 +28,7 @@ export FZF_DEFAULT_OPTS='--height 50% --reverse --extended --preview "head -100 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git
+plugins=(
 zsh-z
 git
 fzf
@@ -63,13 +63,14 @@ alias reddit="tuir --enable-media"
 alias zconfig="emacs ~/.zshrc&"
 alias etcher="~/Documents/appimages/balenaEtcher-1.5.81-x64.AppImage&"
 alias pagraph="~/Downloads/pagraphcontrol/dist/pagraphcontrol-linux-x64/pagraphcontrol&"
-alias omzconfig="emacs ~/.oh-my-zsh&"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias reload='source ~/.zshrc'
 alias doomrefresh='~/.emacs.d/bin/doom refresh'
-alias lsa='ls -a -thor'
-alias ls='ls -thor'
-alias mm='xrandr --output HDMI-0 --off --output DP-2.1 --primary --mode 2560x1440 --pos 1920x152 --rotate normal --output DP-2.2 --mode 2560x1440 --pos 4480x0 --rotate left --output DP-2 --off --output DP-1 --mode 1920x1080 --pos 0x512 --rotate normal --output DP-0 --off'
+alias doomdoctor='~/.emacs.d/bin/doom doctor'
+alias lsa='ls -a'
+alias ls='ls -F -lh --color=auto'
+alias mm="~/.screenlayout/multimonitor.sh"
+alias vtop='vtop --theme gruvbox'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
