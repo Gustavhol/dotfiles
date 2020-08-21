@@ -91,6 +91,9 @@ set_from_resource $ws17  i3-wm.workspace.17.name "MISC3"
 ## Launch // Terminal // <> Enter ##
 bindsym $mod+Return exec alacritty --config-file ~/.config/alacritty/alacritty.yml
 
+## Launch // Keybinding // <> <Control> h ##
+bindsym $mod+control+h exec ~/.config/regolith/i3/script/i3_keybindings.sh
+
 ## Launch // Browser // <><Shift> Enter ##
 bindsym $mod+Shift+Return exec gtk-launch $(xdg-settings get default-web-browser)
 
@@ -181,7 +184,10 @@ bindsym $mod+Ctrl+Shift+l move workspace to output right
 bindsym $mod+Ctrl+m move to scratchpad
 
 ## Modify // Tile/Float Focus Toggle // <><Shift> t ##
-bindsym $mod+Shift+t focus mode_toggle
+bindsym $mod+Shift+t focus mode_toggle 
+
+## Modify // Tile/Float Window Toggle // <><Ctrl> f
+bindsym $mod+control+f floating toggle
 
 ## Modify // Window Layout Mode // <> t ##
 bindsym $mod+t layout toggle tabbed splith splitv
