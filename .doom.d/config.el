@@ -65,7 +65,7 @@
         :nv "r" #'tide-references
         :nv "d" #'tide-jump-to-definition
         :nv "e" #'tide-goto-error
-        :nv "b" #'tide-jump-back
+        :nv "b" #'evil-jump-backward
         :nv "s r" #'tide-rename-symbol
         :nv "c f" #'tide-code-fix)
       (:prefix "ö"
@@ -82,6 +82,8 @@
         :nv "t a" #'vimish-fold-toggle-all
         :nv "u a" #'vimish-fold-unfold-all
         :nv "r a" #'vimish-fold-refold-all)
+      (:prefix "j"
+       :nv "l" #'+ivy/jump-list)
       (:prefix "a"
         :nv "f" #'avy-goto-char-2
         :nv "m l" #'avy-move-line

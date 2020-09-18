@@ -30,6 +30,8 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'andymass/vim-matchup'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'luochen1990/rainbow'
+Plug 'vimwiki/vimwiki' 
+
 
 call plug#end()
 
@@ -46,7 +48,9 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set smartcase
+set nocompatible
 syntax on
+filetype plugin on
 
 " leader key
 let mapleader="\<space>"
@@ -176,6 +180,11 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+" === VimWiki === "
+
+" Get all your stuff in the same directory
+let g:vimwiki_list = [{'path': '~/vimwiki/' , 'path_html': '~/vimwiki' , 'index': 'index', 'ext': '.wiki'}]
 
 " ============================================================================ "
 " ===                             KEY MAPPINGS                             === "

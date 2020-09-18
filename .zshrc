@@ -71,6 +71,8 @@ alias lsa='ls -a'
 alias ls='ls -F -lh --color=auto'
 alias mm="~/.screenlayout/multimonitor.sh"
 alias vtop='vtop --theme gruvbox'
+alias jp='~/scripts/json_prettify.md'
+alias v='nvim'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
