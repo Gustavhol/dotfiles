@@ -73,6 +73,8 @@ alias mm="~/.screenlayout/multimonitor.sh"
 alias vtop='vtop --theme gruvbox'
 alias jp='~/scripts/json_prettify.md'
 alias v='nvim'
+alias ws='wormhole send'
+alias wr='wormhole recieve'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
