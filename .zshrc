@@ -75,6 +75,7 @@ alias jp='~/scripts/json_prettify.md'
 alias v='nvim'
 alias ws='wormhole send'
 alias wr='wormhole recieve'
+alias ifconfig='ip address'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

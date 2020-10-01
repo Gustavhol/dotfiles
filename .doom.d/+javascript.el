@@ -6,7 +6,7 @@
   )
 
 (setq prettier-js-args '(
-  "--trailing-comma" "all"
+  ;; "--trailing-comma" "all"
   ;; "--semi" "all"
   ;; "single-quote" "true"
 )
