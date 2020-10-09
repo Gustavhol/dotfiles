@@ -75,10 +75,10 @@ set_from_resource $ws17  i3-wm.workspace.17.name "MISC3"
 # Workspace to screen mapping
 ###############################################################################
 
-# workspace $ws1 output DP-1
-# workspace $wsa output DP-1
-# workspace $wss output DP-1
-# workspace $wsd output DP-2.1 DP-1
+# workspace ws11 output eDP-1
+# workspace ws12 output DP-1-1 eDP-1
+# workspace ws13 output DP-1-2 eDP-1
+# workspace ws14 output eDP-1
 # workspace $wsf output DP-2.2 DP-1
 # workspace $wsg output DP-1
 # workspace $wsz output DP-2.1 DP-1

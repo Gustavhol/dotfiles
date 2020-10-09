@@ -93,6 +93,9 @@
         :nv "c r" #'avy-copy-region
         :nv "c l" #'avy-copy-line))
 
+(map! :nv "f" #'nil
+      :nv "f" #'avy-goto-char-2)
+
 (map! :nmv "J" (lambda! (evil-next-line 5))
       :nmv "K" (lambda! (evil-previous-line 5)))
 

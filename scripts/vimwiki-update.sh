@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 commitMsg="updated vimiki"
 while getopts m: opt
 	do

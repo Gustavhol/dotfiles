@@ -44,10 +44,10 @@ command=i3-msg -q exec /usr/bin/remontoire-toggle
 # Displays the wifi network's name
 # If the auto-discovered wifi device is incorrect,
 # override the "instance" value with the desired device
-#[wifi2]
+[wifi2]
 # Replace with your wifi device if you need on next line
-#instance=wlp3s0 
-#interval=5
+instance=wlp0s20f3
+interval=5
 
 # nettraffic
 #
@@ -73,6 +73,9 @@ interval=persist
 [cpu_usage]
 interval=5
 min_width=100%
+
+[temp]
+interval=5
 
 # Battery indicator
 #
