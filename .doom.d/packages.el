@@ -26,7 +26,7 @@
  (package! prettier-js)
 (package! tide)
 (package! org-super-agenda)
-(package! flymd)
+(package! add-node-modules-path)
 (package! deadgrep)
 (package! restclient)
 

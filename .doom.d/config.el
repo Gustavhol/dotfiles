@@ -43,10 +43,15 @@
 (add-to-list 'load-path (expand-file-name "~/.doom.d/lisp"))
 (add-to-list 'custom-theme-load-path "~/.doom.d/themes")
 
-(add-hook 'js2-mode-hook 'prettier-js-mode)
-(add-hook 'tide-mode-hook 'prettier-js-mode)
+;; (add-hook 'js2-mode-hook 'prettier-js-mode)
+;; (add-hook 'tide-mode-hook 'prettier-js-mode)
+(add-hook 'before-save-hook 'prettier-js-mode)
 (add-hook 'markdown-mode-hook 'grip-mode)
 (add-hook 'org-mode-hook 'grip-mode)
+
+(eval-after-load
+	  'typescript-mode
+	  '(add-hook 'typescript-mode-hook #'add-node-modules-path))
 
 (defun ediff-copy-both-to-C ()
   (interactive)
@@ -60,6 +65,12 @@
 
 ;; Keymaps
 (map! :leader
+      (:prefix "j"
+        :nv "j" #'evil-jump-backward
+        :nv "b" #'evil-jump-backward
+        :nv "f" #'evil-jump-forward
+        :nv "l" #'+ivy/jump-list
+        )
       (:prefix "t"
         :nv "f" #'tide-fix
         :nv "r" #'tide-references

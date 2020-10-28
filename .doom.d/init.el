@@ -19,7 +19,8 @@
        ;;japanese
 
        :completion
-       company           ; the ultimate code completion backend
+       (company
+        +auto)                                ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
        ( ivy
@@ -68,7 +69,7 @@
 
        :emacs
        dired             ; making dired pretty [functional]
-      ;; electric          ; smarter, keyword-based electric-indent
+       electric          ; smarter, keyword-based electric-indent
        ibuffer           ; interactive buffer management
        vc                ; version-control and Emacs, sitting in a tree
 
@@ -83,7 +84,7 @@
        ;;debugger          ; FIXME stepping through code, to help you add bugs
        ;;direnv
        ;;docker
-       ;;editorconfig      ; let someone else argue about tabs vs spaces
+       editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        (eval +overlay)     ; run code, run (also, repls)
        flycheck          ; tasing you for every semicolon you forget
@@ -91,7 +92,7 @@
        ;;gist              ; interacting with github gists
        (lookup           ; helps you navigate your code and documentation
         +docsets)        ; ...or in Dash docsets locally
-       ;;lsp
+       lsp
        ;;macos             ; MacOS-specific commands
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
@@ -144,7 +145,7 @@
         ;;+hugo            ; use Emacs for hugo blogging
         ;;+jupyter        ; ipython/jupyter support for babel
         ;;+pandoc          ; export-with-pandoc support
-        ;;+pomodoro        ; be fruitful with the tomato technique
+        ;;+pomodoro        ; be fruitful with the tomatohnique
         +present)        ; using org-mode for presentations
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
@@ -179,6 +180,5 @@
 
        :config
        ;;literate
-       ;;+smartparens
+       +smartparens
        (default +bindings +smartparens))
-

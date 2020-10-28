@@ -46,7 +46,7 @@ set_from_resource $alt  i3-wm.alt Mod1
 # Screenlock script
 ###############################################################################
 
-set $i3lockwall betterlockscreen -l
+set $i3lockwall betterlockscreen -l dim
 # set $i3lockwall sh ~/.config/regolith/i3/script/blurlock_rick.sh
 
 
@@ -554,6 +554,7 @@ exec --no-startup-id firefox
 exec --no-startup-id alacritty
 
 exec betterlockscreen -u ~/Pictures/macros
+exec betterlockscreen -w
 
 # # Use 25 MiB of RAM for debug logs
 # exec i3 --shmlog-size=26214400
