@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: action
+# key:action        
+# --
+export class ${1:ActionName} implements Action {
+  readonly type = ${2:type};
+
+  constructor(public payload: ${0:PayloadType}) {}
+}

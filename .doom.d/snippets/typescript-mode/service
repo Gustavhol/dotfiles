@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: service
+# key: service
+# --
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class $0 {
+
+  constructor() { }
+}

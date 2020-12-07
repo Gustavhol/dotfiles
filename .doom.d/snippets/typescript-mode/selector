@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: selector
+# key:selector
+# --
+export const $1 = createSelector($2, state => state.$0);

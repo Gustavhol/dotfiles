@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: function
+# key:met
+# --
+${1:name}(${2:): ${3:returnType} {
+$0
+}}
