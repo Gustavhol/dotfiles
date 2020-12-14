@@ -38,6 +38,10 @@
 ;; `nil' to disable it:
 (setq display-line-numbers-type 'relative)
 
+;; To avoid using fundamental mode in textfiles, which is about the only undefined files i use.
+(setq default-major-mode 'text-mode
+      initial-major-mode 'text-mode)
+
 ;; To get typescript syntax higilightin
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
 (add-to-list 'load-path (expand-file-name "~/.doom.d/lisp"))
