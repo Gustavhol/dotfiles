@@ -111,8 +111,8 @@
 (map! :nv "f" #'nil
       :nv "f" #'avy-goto-char-2)
 
-(map! :nmv "J" (lambda! (evil-next-line 5))
-      :nmv "K" (lambda! (evil-previous-line 5)))
+(map! :nmv "J" (cmd! (evil-next-line 5))
+      :nmv "K" (cmd! (evil-previous-line 5)))
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;

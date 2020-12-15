@@ -101,6 +101,9 @@ bindsym $mod+Shift+Return exec gtk-launch $(xdg-settings get default-web-browser
 
 set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/lascaille/rofi.rasi
 
+## Launch // Emacsclient // <> e ##
+bindsym $mod+e exec emacsclient -c &
+
 ## Launch // Application // <> Space ##
 set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
 bindsym $mod+space exec $i3-wm.program.launcher.app
@@ -243,13 +246,13 @@ floating_modifier $mod
 
 hide_edge_borders smart
 
-    assign [class="Alacritty"] "TERM"
-    assign [class="Firefox"] "WWW"
-    assign [class="Emacs"] "EMACS"
+    # assign [class="Alacritty"] "TERM"
+    # assign [class="Firefox"] "WWW"
+    # assign [class="Emacs"] "EMACS"
     assign [class="Microsoft Teams - Preview"] "CHAT"
-    assign [class="cura"] "MISC1"
-    assign [class="Firefox Developer Edition"] "MISC2"
-    assign [class="Spotify"] "MISC3"
+    # assign [class="cura"] "MISC1"
+    # assign [class="Firefox Developer Edition"] "MISC2"
+    # assign [class="Spotify"] "MISC3"
 
 
 ###############################################################################
@@ -549,7 +552,7 @@ exec --no-startup-id $i3-wm.program.ftui
 set_from_resource $i3-wm.program.unclutter i3-wm.program.unclutter /usr/bin/regolith-ftue /usr/bin/unclutter -b
 exec --no-startup-id $i3-wm.program.unclutter
 
-exec --no-startup-id emacs
+# exec --no-startup-id emacs
 exec --no-startup-id firefox
 exec --no-startup-id alacritty
 
