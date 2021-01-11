@@ -10,7 +10,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-SOLARIZED_THEME="light"
+# SOLARIZED_THEME="light"
+~/scripts/theme.sh one-half-black
 
 # Uncomment the following line to display red dots whilst waiting for completion.
  COMPLETION_WAITING_DOTS="true"
@@ -76,6 +77,9 @@ alias v='nvim'
 alias ws='wormhole send'
 alias wr='wormhole recieve'
 alias ifconfig='ip address'
+alias theme='~/scripts/theme.sh -i'
+alias exa='exa -F -lh'
+alias exaa='exa -F -lh -a'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

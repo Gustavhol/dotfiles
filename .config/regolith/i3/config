@@ -91,7 +91,8 @@ set_from_resource $ws17  i3-wm.workspace.07.name "7"
 ###############################################################################
 
 ## Launch // Terminal // <> Enter ##
-bindsym $mod+Return exec alacritty --config-file ~/.config/alacritty/alacritty.yml
+# bindsym $mod+Return exec alacritty --config-file ~/.config/alacritty/alacritty.yml
+bindsym $mod+Return exec kitty
 
 ## Launch // Keybinding // <> <Control> h ##
 bindsym $mod+control+h exec ~/.config/regolith/i3/script/i3_keybindings.sh
@@ -260,7 +261,7 @@ hide_edge_borders smart
 ###############################################################################
 
 ## Session // Exit App // <><Shift> q ##
-bindsym $mod+Shift+q [con_id="__focused__"] kill
+bindsym $mod+q [con_id="__focused__"] kill
 
 ## Session // Terminate App // <><Alt> q ##
 bindsym $mod+$alt+q [con_id="__focused__"] exec --no-startup-id kill -9 $(xdotool getwindowfocus getwindowpid)
@@ -554,7 +555,7 @@ exec --no-startup-id $i3-wm.program.unclutter
 
 # exec --no-startup-id emacs
 exec --no-startup-id firefox
-exec --no-startup-id alacritty
+exec --no-startup-id kitty
 
 exec betterlockscreen -u ~/Pictures/macros
 exec betterlockscreen -w
