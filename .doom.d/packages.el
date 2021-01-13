@@ -24,11 +24,12 @@
 ;(package! some-package)
  (package! evil-commentary)
  (package! prettier-js)
-(package! tide)
+;; (package! tide)
 (package! org-super-agenda)
 (package! add-node-modules-path)
 (package! deadgrep)
 (package! restclient)
+(package! exec-path-from-shell)
 
 ;; To install a package directly from a particular repo, you'll need to specify
 ;; a `:recipe'. You'll find documentation on what `:recipe' accepts here:

@@ -104,6 +104,9 @@ set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/lascaille/rofi.rasi
 
 ## Launch // Emacsclient // <> e ##
 bindsym $mod+e exec emacsclient -c &
+## bindsym $mod+e exec emacsclient -c -s /tmp/emacs1000/server &
+## emacs 27 server socket name is /tmp/emacs1000/server
+## emacs 28 will have /run/user/1000/emacs/server
 
 ## Launch // Application // <> Space ##
 set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme

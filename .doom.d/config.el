@@ -49,7 +49,7 @@
 
 ;; (add-hook 'js2-mode-hook 'prettier-js-mode)
 ;; (add-hook 'tide-mode-hook 'prettier-js-mode)
-(add-hook 'before-save-hook 'prettier-js-mode)
+;; (add-hook 'before-save-hook 'prettier-js-mode)
 (add-hook 'markdown-mode-hook 'grip-mode)
 (add-hook 'org-mode-hook 'grip-mode)
 
@@ -76,13 +76,13 @@
         :nv "l" #'+ivy/jump-list
         )
       (:prefix "t"
-        :nv "f" #'tide-fix
-        :nv "r" #'tide-references
-        :nv "d" #'tide-jump-to-definition
+        :nv "f" #'lsp-ui-sideline-apply-code-actions
+        :nv "r" #'lsp-find-references
+        :nv "d" #'lsp-goto-implementation
         :nv "e" #'tide-goto-error
         :nv "b" #'evil-jump-backward
-        :nv "s r" #'tide-rename-symbol
-        :nv "c f" #'tide-code-fix)
+        :nv "s d" #'lsp-ui-doc-show
+        :nv "s r" #'lsp-rename)
       (:prefix "ö"
         :nv "f w" #'deadgrep
         :nv "f f" #'counsel-fzf
