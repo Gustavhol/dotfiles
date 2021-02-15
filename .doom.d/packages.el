@@ -24,6 +24,7 @@
 ;(package! some-package)
  (package! evil-commentary)
  (package! prettier-js)
+(package! json-mode)
 ;; (package! tide)
 (package! org-super-agenda)
 (package! add-node-modules-path)

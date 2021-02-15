@@ -1,0 +1,68 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+backend: Clipboard
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+
+  # Shell commands
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo Hello from your shell"
+
+  - trigger: ":ipw"
+    replace: "{{wireless}}"
+    vars:
+      - name: wireless
+        type: shell
+        params:
+          cmd: "ifconfig | grep -1 wlp | grep inet | awk {'print $2'} | cut -d'/' -f1"
+          
+  - trigger: ":ipc"
+    replace: "{{wired}}"
+    vars:
+      - name: wired
+        type: shell
+        params:
+          cmd: "ifconfig | grep -1 enx | grep inet | awk {'print $2'} | cut -d'/' -f1"
+          
+  - trigger: ":path"
+    replace: "{{path}}"
+    vars:
+      - name: path
+        type: shell
+        params:
+          cmd: "echo $PATH"
+          
+  - trigger: ":scr"
+    replace: "{{ipa}}"
+    vars:
+      - name: ipa
+        type: shell
+        params:
+          cmd: "/home/gustav/.config/espanso/scripts/ipc.sh"
+          
+  - trigger: ":flip"
+    replace: "(╯°□°）╯︵ ┻━┻ "
+

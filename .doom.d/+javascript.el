@@ -9,12 +9,12 @@
 (add-hook 'web-mode-hook 'prettier-js-mode)
 (add-hook 'typescript-mode-hook 'prettier-js-mode)
 
-(setq prettier-js-args '(
-  ;; "--trailing-comma" "all"
-  ;; "--semi" "all"
-  ;; "single-quote" "true"
-)
-)
-(eval-after-load
-	  'typescript-mode
-	  '(add-hook 'typescript-mode-hook #'add-node-modules-path))
+;;(setq prettier-js-args '(
+ ;; "--trailing-comma" "all"
+ ;; "--semi" "all"
+ ;; "single-quote" "true"
+;;)
+;;)
+;;(eval-after-load
+;;	  'typescript-mode
+;;	  '(add-hook 'typescript-mode-hook #'add-node-modules-path))
