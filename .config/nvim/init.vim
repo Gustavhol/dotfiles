@@ -93,7 +93,7 @@ nmap <leader>T :enew<cr>
 
 " Close the current buffer and move to the previous one
 " This replicates the idea of closing a tab
-nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>bk :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
@@ -130,8 +130,8 @@ let g:fzf_action = {
       \ }
 
 nnoremap <c-p> :GFiles<cr>
-nnoremap <Leader>p :Files<cr>
-nnoremap ; :Buffers<cr>
+nnoremap <Leader>. :Files<cr>
+nnoremap <Leader>, :Buffers<cr>
 nmap <Leader>l :BLines<cr>
 nmap <Leader>L :Lines<cr>
 

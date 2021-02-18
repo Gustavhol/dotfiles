@@ -22,6 +22,8 @@ export FZF_DEFAULT_OPTS='--height 50% --reverse --extended --preview "head -100 
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 zsh-z
+npm
+sudo
 nvm
 git
 fzf
@@ -41,6 +43,11 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='nvim'
  fi
 
+ # Adds every command per working directory in ./zsh_history_ext for later referencing
+function zshaddhistory() {
+	echo "${1%%$'\n'}|${PWD}   " >> ~/scripts/logs/.zsh_history_ext
+}
+
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -48,7 +55,11 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
-# vi mode
+
+#################
+###  VI MODE  ###
+#################
+
 bindkey -v
 export KEYTIMEOUT=1
 
@@ -80,6 +91,33 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
+# ci"
+autoload -U select-quoted
+zle -N select-quoted
+for m in visual viopp; do
+  for c in {a,i}{\',\",\`}; do
+    bindkey -M $m $c select-quoted
+  done
+done
+
+# ci{, ci(, di{ etc..
+autoload -U select-bracketed
+zle -N select-bracketed
+for m in visual viopp; do
+  for c in {a,i}${(s..)^:-'()[]{}<>bB'}; do
+    bindkey -M $m $c select-bracketed
+  done
+done
+
+# Edit line in vim with ctrl-e:
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^e' edit-command-line
+
+
+####################
+###  NAVIGATION  ###
+####################
+
 # Use lf to switch directories and bind it to ctrl-o
 lfcd () {
     tmp="$(mktemp)"
@@ -92,38 +130,78 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
-# Edit line in vim with ctrl-e:
-autoload edit-command-line; zle -N edit-command-line
-bindkey '^e' edit-command-line
 
-# Aliases
-alias reddit="tuir --enable-media"
-alias zconfig="emacsclient -c ~/.zshrc&"
-alias etcher="~/Documents/appimages/balenaEtcher-1.5.81-x64.AppImage&"
-alias pagraph="~/Downloads/pagraphcontrol/dist/pagraphcontrol-linux-x64/pagraphcontrol&"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias reload='source ~/.zshrc'
+#################
+###  ALIASES  ###
+#################
+
+# Emacs & Vim
+alias v='nvim'
 alias doomrefresh='~/.emacs.d/bin/doom refresh'
 alias doomdoctor='~/.emacs.d/bin/doom doctor'
-alias lsa='ls -a'
-alias ls='ls -F -lh --color=auto'
-alias mm="~/.screenlayout/multimonitor.sh"
+alias doomsync='~/.emacs.d/bin/doom sync'
+alias doomupgrade='~/.emacs.d/bin/doom upgrade'
+alias doombuild='~/.emacs.d/bin/doom build'
+ 
+# Common apps with flags
+alias reddit="tuir --enable-media"
+alias etcher="~/Documents/appimages/balenaEtcher-1.5.81-x64.AppImage&"
 alias vtop='vtop --theme gruvbox'
-alias jp='~/scripts/json_prettify.sh'
-alias v='nvim'
-alias ws='wormhole send'
-alias wr='wormhole recieve'
-alias ifconfig='ip address'
-alias theme='~/scripts/theme.sh -i'
-alias exa='exa -F -lh'
-alias exaa='exa -F -lh -a'
 
+# Bare git repo for dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Easy config of common dotfiles
+alias zconf="nvim ~/.zshrc"
+alias zconfig="nvim ~/.zshrc"
+alias i3conf="nvim ~/.config/regolith/i3/config"
+alias i3config="nvim ~/.config/regolith/i3/config"
+alias nvimconf="nvim ~/.config/nvim/init.vim"
+alias nvimconfig="nvim ~/.config/nvim/init.vim"
+alias reload='source ~/.zshrc'
+alias restart='exec $SHELL'
+
+# Nav and listing
+alias la='exa -alh --sort=.name --color=auto --group-directories-first'
+alias ls='exa -lh --sort=.name --color=auto --group-directories-first'
+alias lt='exa -alhT --sort=.name --color=auto --group-directories-first'
+
+# Scripts to make life easier
+alias mm="~/.screenlayout/multimonitor.sh" # My xrandr script to set my docked view
+alias jp='~/scripts/json_prettify.sh' # Takes JSON from the clipboard and puts it back formattet. Requires jq and xclip
+alias ws='wormhole send' # Requires Magic Wormhole
+alias wr='wormhole recieve'
+alias ifconfig='ip address' # For those that live in the past
+alias theme='~/scripts/theme.sh -i' # Interactive script to change the theme in the terminal
+alias jog='~/scripts/jog.sh'
+
+# Git
+alias addup='git add -u'
+alias addall='git add .'
+alias branch='git branch'
+alias checkout='git checkout'
+alias clone='git clone'
+alias commit='git commit -m'
+alias fetch='git fetch'
+alias pull='git pull origin'
+alias push='git push origin'
+alias status='git status'
+alias tag='git tag'
+alias newtag='git tag -a'
+
+# switch between shells
+alias tobash="sudo chsh $USER -s /bin/bash && echo 'Log out for changes to take effect.'"
+alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Log out for changes to take effect.'"
+
+# Other
+alias grep="grep --color=auto"
+
+
+######################
+###  HOUSEKEEPING  ###
+######################
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(starship init zsh)"
 path+=(

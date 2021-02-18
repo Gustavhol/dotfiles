@@ -1,0 +1,18 @@
+cd logs|/home/gustav/scripts   
+ls|/home/gustav/scripts/logs   
+touch .zsh_history_ext|/home/gustav/scripts/logs   
+ls|/home/gustav/scripts/logs   
+ls|/home/gustav/scripts/logs   
+ls|/home/gustav/scripts/logs   
+nvim .zsh_history_ext|/home/gustav/scripts/logs   
+jog|/home/gustav/scripts/logs   
+~|/home/gustav/scripts/logs   
+jog|/home/gustav   
+..|/home/gustav   
+z sc|/home   
+ls|/home/gustav/scripts   
+config add logs/|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config add start_screen.sh|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config commit -a -m "updated zshrc, nvim and i3. added kitty"|/home/gustav/scripts   

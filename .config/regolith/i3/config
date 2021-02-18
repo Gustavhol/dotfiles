@@ -264,6 +264,10 @@ hide_edge_borders smart
 # Session Management
 ###############################################################################
 
+
+## Session // Xkill // <> w ##
+bindsym $mod+$alt+w --release exec xkill
+
 ## Session // Exit App // <><Shift> q ##
 bindsym $mod+q [con_id="__focused__"] kill
 
@@ -304,10 +308,6 @@ bindsym $mod+Escape exec $i3-wm.program.lock
 set_from_resource $i3-wm.program.settings i3-wm.program.settings gnome-control-center
 bindsym $mod+c exec $i3-wm.program.settings
 
-## Modify // Wifi Settings // <> w ##
-set_from_resource $i3-wm.program.wifi i3-wm.program.wifi gnome-control-center wifi
-bindsym $mod+w exec $i3-wm.program.wifi
-
 ## Modify // Bluetooth Settings // <> b ##
 set_from_resource $i3-wm.program.bluetooth i3-wm.program.bluetooth gnome-control-center bluetooth
 bindsym $mod+b exec $i3-wm.program.bluetooth
@@ -322,6 +322,9 @@ bindsym $mod+n exec $i3-wm.program.notification_ui
 
 ## Launch // Multimonitor Script // <><Ctrl> x ##
 bindsym $mod+control+x exec sh ~/.screenlayout/multimonitor.sh
+
+## Launch // Flameshot // <><Ctrl> x ##
+bindsym $mod+control+s exec flameshot gui&
 
 ###############################################################################
 # Workspace Management

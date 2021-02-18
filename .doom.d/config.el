@@ -70,6 +70,9 @@
 ;; To get typescript syntax higilightin
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
+(add-to-list 'auto-mode-alist '("\\.keymap\\'" . c-mode))
+(add-to-list 'auto-mode-alist '("\\.overlay\\'" . c-mode))
+(add-to-list 'auto-mode-alist '("\\.conf\\'" . c-mode))
 (add-to-list 'load-path (expand-file-name "~/.doom.d/lisp"))
 (add-to-list 'custom-theme-load-path "~/.doom.d/themes")
 
@@ -80,6 +83,7 @@
 ;; (add-hook 'before-save-hook 'prettier-js-mode)
 (add-hook 'markdown-mode-hook 'grip-mode)
 (add-hook 'org-mode-hook 'grip-mode)
+(add-hook 'c-mode-hook 'irony-mode)
 
 (eval-after-load
 	  'typescript-mode
