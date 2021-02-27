@@ -55,13 +55,13 @@ set $i3lockwall betterlockscreen -l dim
 # These are the labels which define each i3 workspace.
 ###############################################################################
 
-set $ws1 "TERM"
-set $ws2 "WWW"
-set $ws3 "EMACS"
-set $ws4 "CHAT"
-set $ws5 "MISC1"
-set $ws6 "MISC2"
-set $ws7 "MISC3"
+set $ws1 " term"
+set $ws2 " www"
+set $ws3 "ﮰ code"
+set $ws4 " teams"
+set $ws5 " leisure"
+set $ws6 " misc"
+set $ws7 " dev"
 set_from_resource $ws8  i3-wm.workspace.08.name "8"
 set_from_resource $ws9  i3-wm.workspace.09.name "9"
 set_from_resource $ws10  i3-wm.workspace.10.name "10"
@@ -77,13 +77,13 @@ set_from_resource $ws17  i3-wm.workspace.07.name "7"
 # Workspace to screen mapping
 ###############################################################################
 
- workspace "TERM" output eDP-1
- workspace "WWW" output DP-1-1 eDP-1
- workspace "EMACS" output DP-1-2 eDP-1
- workspace "CHAT" output eDP-1
- workspace "MISC1" output DP-1-2 eDP-1
- workspace "MISC2" output DP-1-1 eDP-1
- workspace "MISC3" output DP-1-1 eDP-1
+ workspace " term" output eDP-1
+ workspace " www" output DP-1-1 eDP-1
+ workspace "ﮰ code" output DP-1-2 eDP-1
+ workspace " teams" output eDP-1
+ workspace " leisure" output DP-1-2 eDP-1
+ workspace " misc" output DP-1-1 eDP-1
+ workspace " dev" output DP-1-1 eDP-1
 # workspace $wsx output DP-2.1 DP-1
 
 ###############################################################################
@@ -100,7 +100,7 @@ bindsym $mod+control+h exec ~/.config/regolith/i3/script/i3_keybindings.sh
 ## Launch // Browser // <><Shift> Enter ##
 bindsym $mod+Shift+Return exec gtk-launch $(xdg-settings get default-web-browser)
 
-set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/lascaille/rofi.rasi
+set_from_resource $rofiTheme rofi.theme /etc/regolith/styles/one-dark/rofi.rasi
 
 ## Launch // Emacsclient // <> e ##
 bindsym $mod+e exec emacs &
@@ -109,13 +109,21 @@ bindsym $mod+e exec emacs &
 ## emacs 27 server socket name is /tmp/emacs1000/server
 ## emacs 28 will have /run/user/1000/emacs/server
 
+## Launch // Pavucontrol // <> p ##
+bindsym $mod+p exec pavucontrol &
+
 ## Launch // Application // <> Space ##
-set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
+# set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
+# set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app rofi -show drun -theme $rofiTheme
+set_from_resource $i3-wm.program.launcher.app i3-wm.program.launcher.app j4-dmenu-desktop --term=kitty --dmenu="dmenu -i -p drun"
 bindsym $mod+space exec $i3-wm.program.launcher.app
 
+
 ## Launch // Command // <><Shift> Space ##
-set_from_resource $i3-wm.program.launcher.cmd i3-wm.program.launcher.cmd rofi -show run -theme $rofiTheme
+set_from_resource $i3-wm.program.launcher.cmd i3-wm.program.launcher.cmd dmenu_run -i -p "run"
+# set_from_resource $i3-wm.program.launcher.cmd i3-wm.program.launcher.cmd rofi -show run -theme $rofiTheme
 bindsym $mod+Shift+space exec $i3-wm.program.launcher.cmd
+# dmenu_run -nf "#98BE65" -nb "#282C34" -sb "#2257A0" -sf "#DFDFDF" -fn "monospace-10" -p "dmenu"
 
 ## Navigate // Window by Name // <><Ctrl> Space ##
 set_from_resource $i3-wm.program.launcher.window i3-wm.program.launcher.window rofi -show window -theme $rofiTheme
@@ -151,13 +159,13 @@ bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 ## Navigate // Workspaces 11-17 // <> a..z ##
-bindsym $mod+a workspace "TERM"
-bindsym $mod+s workspace "WWW"
-bindsym $mod+d workspace "EMACS"
-bindsym $mod+f workspace "CHAT"
-bindsym $mod+g workspace "MISC1"
-bindsym $mod+z workspace "MISC2"
-bindsym $mod+x workspace "MISC3"
+bindsym $mod+a workspace " term"
+bindsym $mod+s workspace " www"
+bindsym $mod+d workspace "ﮰ code"
+bindsym $mod+f workspace " teams"
+bindsym $mod+g workspace " leisure"
+bindsym $mod+z workspace " misc"
+bindsym $mod+x workspace " dev"
 
 ## Navigate // Next Workspace // <> Tab ##
 bindsym $mod+Tab workspace next
@@ -217,13 +225,14 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 ## Modify // Move Window to Workspace 11 - 19// <><Ctrl><Shift> 0..9 ##
-bindsym $mod+Shift+a move container to workspace "TERM"
-bindsym $mod+Shift+s move container to workspace "WWW"
-bindsym $mod+Shift+d move container to workspace "EMACS"
-bindsym $mod+Shift+f move container to workspace "CHAT"
-bindsym $mod+Shift+g move container to workspace "MISC1"
-bindsym $mod+Shift+z move container to workspace "MISC2"
-bindsym $mod+Shift+x move container to workspace "MISC3"
+## Modify // Move Window to Workspace a, s, d, f, g, z, x // <><Shift> a...X ##
+bindsym $mod+Shift+a move container to workspace " term"
+bindsym $mod+Shift+s move container to workspace " www"
+bindsym $mod+Shift+d move container to workspace "ﮰ code"
+bindsym $mod+Shift+f move container to workspace " teams"
+bindsym $mod+Shift+g move container to workspace " leisure"
+bindsym $mod+Shift+z move container to workspace " misc"
+bindsym $mod+Shift+x move container to workspace " dev"
 
 # move focused container to workspace, move to workspace
 ## Modify // Carry Window to Workspace 1 - 10// <><Alt> 0..9 ##
@@ -237,14 +246,14 @@ bindsym $mod+$alt+7 move container to workspace number $ws17; workspace number $
 bindsym $mod+$alt+8 move container to workspace number $ws8; workspace number $ws8
 bindsym $mod+$alt+9 move container to workspace number $ws9; workspace number $ws9
 bindsym $mod+$alt+0 move container to workspace number $ws10; workspace number $ws10
-## Modify // Carry Window to Workspace 11 - 19 // <><Alt><Ctrl> 0..9 ##
-bindsym $mod+$alt+a move container to workspace "TERM"
-bindsym $mod+$alt+s move container to workspace "WWW"
-bindsym $mod+$alt+d move container to workspace "EMACS"
-bindsym $mod+$alt+f move container to workspace "CHAT"
-bindsym $mod+$alt+g move container to workspace "MISC1"
-bindsym $mod+$alt+z move container to workspace "MISC2"
-bindsym $mod+$alt+x move container to workspace "MISC3"
+## Modify // Carry Window to Workspace a, s, d, f, g, z, x // <><Alt><Ctrl> a...X ##
+bindsym $mod+$alt+a move container to workspace " term"
+bindsym $mod+$alt+s move container to workspace " www"
+bindsym $mod+$alt+d move container to workspace "ﮰ code"
+bindsym $mod+$alt+f move container to workspace " teams"
+bindsym $mod+$alt+g move container to workspace " leisure"
+bindsym $mod+$alt+z move container to workspace " misc"
+bindsym $mod+$alt+x move container to workspace " dev"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -252,9 +261,11 @@ floating_modifier $mod
 hide_edge_borders smart
 
     # assign [class="Alacritty"] "TERM"
+    # assign [class="Kitty" instance="initial"] " term"
     # assign [class="Firefox"] "WWW"
     # assign [class="Emacs"] "EMACS"
-    assign [class="Microsoft Teams - Preview"] "CHAT"
+    # assign [class="Emacs" instance="initial"] "ﮰ code"
+    assign [class="Microsoft Teams - Preview"] " teams"
     # assign [class="cura"] "MISC1"
     # assign [class="Firefox Developer Edition"] "MISC2"
     # assign [class="Spotify"] "MISC3"
@@ -342,7 +353,7 @@ bindsym $mod+i bar mode toggle
 
 # Cause Settings app to float above tiled windows
 floating_maximum_size -1 x -1
-for_window [class="Gnome-control-center"] floating enable
+for_window [class="Gnome-control-center"]               floating enable
 for_window [window_role="pop-up"]                       floating enable
 for_window [window_role="bubble"]                       floating enable
 for_window [window_role="task_dialog"]                  floating enable
@@ -350,9 +361,13 @@ for_window [window_role="Preferences"]                  floating enable
 for_window [window_type="dialog"]                       floating enable
 for_window [window_type="menu"]                         floating enable
 for_window [title="Microsoft Teams Notification"]       floating enable
-for_window [title="feh"]       floating enable
-for_window [title="vlc"]       floating enable
-for_window [title="mpv"]       floating enable
+for_window [title="feh"]                                floating enable
+for_window [title="vlc"]                                floating enable
+for_window [title="mpv"]                                floating enable
+for_window [class="Pavucontrol"]                        floating enable
+
+# Set specified size for floating apps
+for_window [class="Pavucontrol"]                        resize set 820 560
 
 ###############################################################################
 # Window Resize and Gaps
@@ -478,28 +493,28 @@ client.unfocused        $unfocused.color.border            $unfocused.color.back
 client.urgent           $urgent.color.border               $urgent.color.background           $urgent.color.text                 $urgent.color.indicator            $urgent.color.child_border
 
 # Create variables from Xresources for i3bars's look.
-set_from_resource $i3-wm.bar.background.color i3-wm.bar.background.color "#002b36"
-set_from_resource $i3-wm.bar.statusline.color i3-wm.bar.statusline.color "#93a1a1"
-set_from_resource $i3-wm.bar.separator.color i3-wm.bar.separator.color "#268bd2"
+# set_from_resource $i3-wm.bar.background.color i3-wm.bar.background.color "#002b36"
+# set_from_resource $i3-wm.bar.statusline.color i3-wm.bar.statusline.color "#93a1a1"
+# set_from_resource $i3-wm.bar.separator.color i3-wm.bar.separator.color "#268bd2"
 
-set_from_resource $i3-wm.bar.workspace.focused.border.color i3-wm.bar.workspace.focused.border.color "#073642"
-set_from_resource $i3-wm.bar.workspace.focused.background.color i3-wm.bar.workspace.focused.background.color "#073642"
-set_from_resource $i3-wm.bar.workspace.focused.text.color i3-wm.bar.workspace.focused.text.color "#eee8d5"
+# set_from_resource $i3-wm.bar.workspace.focused.border.color i3-wm.bar.workspace.focused.border.color "#073642"
+# set_from_resource $i3-wm.bar.workspace.focused.background.color i3-wm.bar.workspace.focused.background.color "#073642"
+# set_from_resource $i3-wm.bar.workspace.focused.text.color i3-wm.bar.workspace.focused.text.color "#eee8d5"
 
-set_from_resource $i3-wm.bar.workspace.active.border.color i3-wm.bar.workspace.active.border.color "#073642"
-set_from_resource $i3-wm.bar.workspace.active.background.color i3-wm.bar.workspace.active.background.color "#073642"
-set_from_resource $i3-wm.bar.workspace.active.text.color i3-wm.bar.workspace.active.text.color "#586e75"
+# set_from_resource $i3-wm.bar.workspace.active.border.color i3-wm.bar.workspace.active.border.color "#073642"
+# set_from_resource $i3-wm.bar.workspace.active.background.color i3-wm.bar.workspace.active.background.color "#073642"
+# set_from_resource $i3-wm.bar.workspace.active.text.color i3-wm.bar.workspace.active.text.color "#586e75"
 
-set_from_resource $i3-wm.bar.workspace.inactive.border.color i3-wm.bar.workspace.inactive.border.color "#002b36"
-set_from_resource $i3-wm.bar.workspace.inactive.background.color i3-wm.bar.workspace.inactive.background.color "#002b36"
-set_from_resource $i3-wm.bar.workspace.inactive.text.color i3-wm.bar.workspace.inactive.text.color "#586e75"
+# set_from_resource $i3-wm.bar.workspace.inactive.border.color i3-wm.bar.workspace.inactive.border.color "#002b36"
+# set_from_resource $i3-wm.bar.workspace.inactive.background.color i3-wm.bar.workspace.inactive.background.color "#002b36"
+# set_from_resource $i3-wm.bar.workspace.inactive.text.color i3-wm.bar.workspace.inactive.text.color "#586e75"
 
-set_from_resource $i3-wm.bar.workspace.urgent.border.color i3-wm.bar.workspace.urgent.border.color "#dc322f"
-set_from_resource $i3-wm.bar.workspace.urgent.background.color i3-wm.bar.workspace.urgent.background.color "#dc322f"
-set_from_resource $i3-wm.bar.workspace.urgent.text.color i3-wm.bar.workspace.urgent.text.color "#fdf6e3"
+# set_from_resource $i3-wm.bar.workspace.urgent.border.color i3-wm.bar.workspace.urgent.border.color "#dc322f"
+# set_from_resource $i3-wm.bar.workspace.urgent.background.color i3-wm.bar.workspace.urgent.background.color "#dc322f"
+# set_from_resource $i3-wm.bar.workspace.urgent.text.color i3-wm.bar.workspace.urgent.text.color "#fdf6e3"
 
 # Sets i3 font for dialogs
-set_from_resource $i3-wm.font i3-wm.font pango:Source Code Pro Medium 13
+set_from_resource $i3-wm.font i3-wm.font xft:Hack Nerd Font 11, FontAwesome 10
 font $i3-wm.font
 
 ###############################################################################
@@ -507,19 +522,21 @@ font $i3-wm.font
 ###############################################################################
 
 set_from_resource $i3-wm.bar.position i3-wm.bar.position bottom
-set_from_resource $i3-wm.bar.font i3-wm.bar.font pango:Source Code Pro Medium 13, Material Design Icons 13
+set_from_resource $i3-wm.bar.font i3-wm.bar.font xft:Hack Nerd Font 11
 set_from_resource $i3-wm.bar.separator i3-wm.bar.separator "|"
 set_from_resource $i3-wm.bar.trayoutput i3-wm.bar.trayoutput none
 set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbers yes
 set_from_resource $i3-wm.bar.stripworkspacename i3-wm.bar.stripworkspacename no
 
+# i3status in place of i3xrocks on the bar
+set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3status 
 # i3xrocks config file. Override this for custom status indicators on the bar.
-set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3xrocks -u ~/.config/regolith/i3xrocks/conf.d -d /etc/regolith/i3xrocks/conf.d
+# set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3xrocks -u ~/.config/regolith/i3xrocks/conf.d -d /etc/regolith/i3xrocks/conf.d
 
 # The bar configuration
 bar {
   position $i3-wm.bar.position
-  font $i3-wm.bar.font
+  font xft:Hack Nerd Font 11
   separator_symbol $i3-wm.bar.separator
   status_command $i3-wm.bar.status_command
   tray_output primary
@@ -528,15 +545,24 @@ bar {
   binding_mode_indicator yes
 
   colors {
-      background $i3-wm.bar.background.color
-      statusline $i3-wm.bar.statusline.color
-      separator  $i3-wm.bar.separator.color
+background "#282C34"
+    statusline "#DFDFDF"
+    separator  "#DA8548"
+
+    focused_workspace  "#98BE65" "#282C34" "#98BE65"
+    active_workspace   "#A9A1E1" "#282C34" "#A9A1E1"
+    inactive_workspace "#BBC2CF" "#282C34" "#BBC2CF"
+    urgent_workspace   "#FF6C6B" "#282C34" "#FF6C6B"
+    binding_mode       "#282C34" "#282C34" "#BBC2CF"
+      # background $i3-wm.bar.background.color
+      # statusline $i3-wm.bar.statusline.color
+      # separator  $i3-wm.bar.separator.color
 
 #                        BORDER  BACKGROUND TEXT
-      focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
-      active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
-      inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
-      urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
+      # focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
+      # active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
+      # inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
+      # urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
   }
 }
 
@@ -562,7 +588,7 @@ exec --no-startup-id $i3-wm.program.unclutter
 
 # exec --no-startup-id emacs
 exec --no-startup-id firefox
-exec --no-startup-id kitty
+exec --no-startup-id i3-msg 'workspace   term; exec kitty'
 
 exec betterlockscreen -u ~/Pictures/macros
 exec betterlockscreen -w

@@ -16,3 +16,422 @@ config status|/home/gustav/scripts
 config add start_screen.sh|/home/gustav/scripts   
 config status|/home/gustav/scripts   
 config commit -a -m "updated zshrc, nvim and i3. added kitty"|/home/gustav/scripts   
+config push|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+plugins/|/home/gustav/scripts   
+ls|/home/gustav/scripts/plugins   
+zsh/|/home/gustav/scripts/plugins   
+ls|/home/gustav/scripts/plugins/zsh   
+config add zsh-syntax-highlighting|/home/gustav/scripts/plugins/zsh   
+git rm --cached scripts/plugins/zsh/zsh-syntax-highlighting|/home/gustav/scripts/plugins/zsh   
+config rm --cached scripts/plugins/zsh/zsh-syntax-highlighting|/home/gustav/scripts/plugins/zsh   
+config ststus|/home/gustav/scripts/plugins/zsh   
+config status|/home/gustav/scripts/plugins/zsh   
+apt search libre|/home/gustav/scripts/plugins/zsh   
+apt search libreoffice|/home/gustav/scripts/plugins/zsh   
+sudo apt update|/home/gustav/scripts/plugins/zsh   
+sudo apt install libreoffice|/home/gustav/scripts/plugins/zsh   
+config status|/home/gustav/scripts/plugins/zsh   
+669+561+1043+784|/home/gustav/scripts/plugins/zsh   
+669 + 561 + 1043 + 784|/home/gustav/scripts/plugins/zsh   
+z blapp|/home/gustav/scripts/plugins/zsh   
+gsb|/home/gustav/code/blapp-front   
+gcam|/home/gustav/code/blapp-front   
+gcam "extended bg/pg with bank account"|/home/gustav/code/blapp-front   
+git status|/home/gustav/code/blapp-front   
+libreoffice --version|/home/gustav/code/blapp-front   
+sudo apt purge libreoffice|/home/gustav/code/blapp-front   
+sudo apt autoremove|/home/gustav/code/blapp-front   
+apt search libreoffice|/home/gustav/code/blapp-front   
+z dow|/home/gustav/code/blapp-front   
+deb/|/home/gustav/Downloads   
+ls|/home/gustav/Downloads/deb   
+LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS/|/home/gustav/Downloads/deb   
+sudo dpkg -i *.deb|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+cat /proc/cpuinfo  | grep 'name'| uniq|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+cat /proc/cpuinfo  | grep process| wc -l|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+acpi --battery --details|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+apt search acpi|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+sudo apt install acpi|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+acpi --battery --details|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+jog|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+dpkg --help|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+sudo dpkg -r *.deb|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+sudo dpkg -P *.deb|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+sudo apt purge ./*.deb|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+libreoffice --version|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+..|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/DEBS   
+ls|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb   
+readmes/|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb   
+ls|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+nvim README_en-US|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+nvim README_en-US|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo apt update|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+apt search forticlient|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+apt search forti|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo apt install upenfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo apt install openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+cat "host = vpn.blinfo.se
+port = 443
+username = gurra
+trusted-cert = da3b3cd5d36bbf0b34e46f9ac792f04bcb4f57e2141557a4fff28872af760022" > /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo cat "host = vpn.blinfo.se
+port = 443
+username = gurra
+trusted-cert = da3b3cd5d36bbf0b34e46f9ac792f04bcb4f57e2141557a4fff28872af760022" > /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo cat "host = vpn.blinfo.se
+port = 443
+username = gurra
+trusted-cert = da3b3cd5d36bbf0b34e46f9ac792f04bcb4f57e2141557a4fff28872af760022" > /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo nvim /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo nvim /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo nvim /etc/openfortivpn/config|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+i3conf|/home/gustav   
+zconf|/home/gustav   
+zconf|/home/gustav   
+xprop|/home/gustav   
+xprop|/home/gustav   
+wmctrl -lG|/home/gustav   
+sudo apt install wmctrl|/home/gustav   
+wmctrl -lG|/home/gustav   
+xprop|/home/gustav   
+reload|/home/gustav   
+fh|/home/gustav   
+reload|/home/gustav   
+fh|/home/gustav   
+reload|/home/gustav   
+i3conf|/home/gustav   
+sudo openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo openfortivpn|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+locate i3status|/home/gustav   
+i3conf|/home/gustav   
+sudo apt install i3status|/home/gustav   
+cd .config|/home/gustav   
+ls|/home/gustav/.config   
+mkdir i3status|/home/gustav/.config   
+locate i3status|/home/gustav/.config   
+cd i3status|/home/gustav/.config   
+nvim config|/home/gustav/.config/i3status   
+z regol|/home/gustav/.config/i3status   
+..|/home/gustav/.config/i3status   
+regolith/|/home/gustav/.config   
+ls|/home/gustav/.config/regolith   
+i3xrocks/|/home/gustav/.config/regolith   
+ls|/home/gustav/.config/regolith/i3xrocks   
+cd conf.d|/home/gustav/.config/regolith/i3xrocks   
+ls|/home/gustav/.config/regolith/i3xrocks/conf.d   
+..|/home/gustav/.config/regolith/i3xrocks/conf.d   
+nvim config|/home/gustav/.config/regolith/i3xrocks   
+v|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+~|/home/gustav/Downloads/deb/LibreOffice_7.1.0.3_Linux_x86-64_deb/readmes   
+sudo apt update && sudo apt installl tmyx|/home/gustav   
+sudo apt update && sudo apt installl tmux|/home/gustav   
+sudo apt update && sudo apt install tmux|/home/gustav   
+tmux|/home/gustav   
+v .Xdefaults|/home/gustav   
+locate .Xresources|/home/gustav   
+v .Xrecources|/home/gustav   
+urxvt|/home/gustav   
+sudo apt install urxvt|/home/gustav   
+apt search rxvt|/home/gustav   
+sudo apt purge rxvt-unicode|/home/gustav   
+sudo apt install rxvt-unicode|/home/gustav   
+urxvt|/home/gustav   
+apt search rxvt|/home/gustav   
+apt search perl|/home/gustav   
+apt search perl | grep perl|/home/gustav   
+apt search perl | grep installed | grep perl|/home/gustav   
+sudo apt install perl|/home/gustav   
+urxvt|/home/gustav   
+alacritty|/home/gustav   
+tmux|/home/gustav   
+apt search perl | grep installed | grep perl|/home/gustav   
+apt search perl | grep installed | grep perl|/home/gustav   
+apt search rxvt-perl|/home/gustav   
+locate perl|/home/gustav   
+tmux kill-ses -t 0|/home/gustav   
+locate perl|/home/gustav   
+theme|/home/gustav   
+theme -i|/home/gustav   
+exa|/home/gustav   
+locate perl | grep /home/gustav/local|/home/gustav   
+locate perl | grep /home/gustav|/home/gustav   
+z code|/home/gustav   
+..|/home/gustav/code/blapp-front   
+ls|/home/gustav/code   
+cd urxvt-perls|/home/gustav/code   
+ls|/home/gustav/code/urxvt-perls   
+v README.md|/home/gustav/code/urxvt-perls   
+lsa|/home/gustav/code/urxvt-perls   
+v README.md|/home/gustav/code/urxvt-perls   
+~|/home/gustav/code/urxvt-perls   
+lsa|/home/gustav   
+zconf|/home/gustav   
+reload|/home/gustav   
+lsa|/home/gustav   
+z .conf|/home/gustav   
+lsa|/home/gustav/.config   
+sudo apt remove webstorm|/home/gustav/.config   
+snap remove webstorm|/home/gustav/.config   
+webstorm --version|/home/gustav/.config   
+ls|/home/gustav/.config   
+sudo apt remove rxvt-unicode|/home/gustav/.config   
+sudo apt autoremove|/home/gustav/.config   
+ranger|/home/gustav/.config   
+z applications|/home/gustav/.config   
+z apps|/home/gustav/.local/share/applications   
+ls|/home/gustav/apps   
+cd etcher|/home/gustav/apps   
+ls|/home/gustav/apps/etcher   
+./balenaEtcher-1.5.109-x64.AppImage|/home/gustav/apps/etcher   
+
+relosd|/home/gustav   
+reload|/home/gustav   
+apt search forti|/home/gustav   
+sudo openfortivpn|/home/gustav   
+sudo openfortivpn|/home/gustav   
+sudo openfortivpn|/home/gustav   
+sudo openfortivpn|/home/gustav   
+sudo openfortivpn|/home/gustav   
+i3 --version|/home/gustav   
+zconf|/home/gustav/apps/etcher   
+zconf|/home/gustav/apps/etcher   
+exec zsh|/home/gustav/apps/etcher   
+zconf|/home/gustav/apps/etcher   
+exec zsh|/home/gustav/apps/etcher   
+xrdb -merge ~/.Xresources|/home/gustav/apps/etcher   
+sudo apt install rxvt-unicode|/home/gustav/apps/etcher   
+urxvt|/home/gustav/apps/etcher   
+xrdb -merge ~/.Xresources|/home/gustav/apps/etcher   
+urxvt|/home/gustav/apps/etcher   
+sudo apt install urxvt-perl|/home/gustav/apps/etcher   
+ranger|/home/gustav/apps/etcher   
+xrdb -merge ~/.Xresources|/home/gustav   
+urxvt|/home/gustav   
+fc-list -v|/home/gustav   
+fc-list -v | grep hack|/home/gustav   
+fc-list -v | grep family|/home/gustav   
+xrdb -merge ~/.Xresources|/home/gustav   
+urxvt|/home/gustav   
+xrdb -merge ~/.Xresources|/home/gustav   
+urxvt|/home/gustav   
+fc-list -v|/home/gustav   
+fc-list -v | grep -A10 Hack|/home/gustav   
+xrdb -merge ~/.Xresources|/home/gustav   
+urxvt|/home/gustav   
+/usr/share/fonts/misc/fonts.alias|/home/gustav   
+/usr/share/fonts/misc/|/home/gustav   
+cd /usr/share/fonts/misc/|/home/gustav   
+cd /usr/share/fonts/|/home/gustav   
+lsa|/usr/share/fonts   
+urxvt -fn xft:hack:pixelsize=10|/usr/share/fonts   
+urxvt -fn xft:hack:pixelsize=14|/usr/share/fonts   
+theme -i|/usr/share/fonts   
+~|/usr/share/fonts   
+scripts/|/home/gustav   
+ls|/home/gustav/scripts   
+v theme.sh|/home/gustav/scripts   
+theme -i|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/usr/share/fonts   
+urxvt|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/usr/share/fonts   
+urxvt|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/usr/share/fonts   
+xrdb -merge ~/.Xresources|/home/gustav   
+xrdb -merge ~/.Xresources|/home/gustav   
+xrdb -merge ~/.Xresources|/home/gustav   
+ls|/home/gustav   
+theme -i|/home/gustav   
+:w|/home/gustav   
+wtfutil|/home/gustav   
+vtop|/home/gustav   
+z blapp|/home/gustav   
+npm start|/home/gustav/code/blapp-front   
+z dow|/usr/share/fonts   
+./butler-burton|/home/gustav/Downloads   
+./butler-burton ci|/home/gustav/Downloads   
+locate doom-one|/home/gustav/Downloads   
+z scripts|/home/gustav/Downloads   
+v theme.sh|/home/gustav/scripts   
+theme -i|/home/gustav/scripts   
+v theme.sh|/home/gustav/scripts   
+lsa|/home/gustav/scripts   
+v theme.sh|/home/gustav/scripts   
+theme -i|/home/gustav/scripts   
+v theme.sh|/home/gustav/scripts   
+theme -i|/home/gustav/scripts   
+~|/home/gustav/scripts   
+.config/|/home/gustav   
+i3status/|/home/gustav/.config   
+ls|/home/gustav/.config/i3status   
+v config|/home/gustav/.config/i3status   
+sudo apt update|/home/gustav/.config/i3status   
+apt search dmenu|/home/gustav/.config/i3status   
+apt show suckless-tools|/home/gustav/.config/i3status   
+sudo apt install suckless-tools|/home/gustav/.config/i3status   
+apt search font-awesome|/home/gustav/.config/i3status   
+cat /sys/class/power_supply/CMB1/uevent|/home/gustav/.config/i3status   
+cat /sys/class/power_supply/CMB0/uevent|/home/gustav/.config/i3status   
+/sys/class/power_supply|/home/gustav/.config/i3status   
+ls|/sys/class/power_supply   
+cd BAT0|/sys/class/power_supply   
+ls|/sys/class/power_supply/BAT0   
+cat uevent|/sys/class/power_supply/BAT0   
+..|/sys/class/power_supply/BAT0   
+ls|/sys/class/power_supply   
+AC/|/sys/class/power_supply   
+ls|/sys/class/power_supply/AC   
+cat uevetn|/sys/class/power_supply/AC   
+cat uevent|/sys/class/power_supply/AC   
+../BAT0/|/sys/class/power_supply/AC   
+ls|/sys/class/power_supply/BAT0   
+cat cycle_count|/sys/class/power_supply/BAT0   
+cat /proc/uptime|/sys/class/power_supply/BAT0   
+tail /proc/uptime|/sys/class/power_supply/BAT0   
+tldr tail|/sys/class/power_supply/BAT0   
+tail -f /proc/uptime|/sys/class/power_supply/BAT0   
+rofi -show drun|/sys/class/power_supply/BAT0   
+rofi -show run|/sys/class/power_supply/BAT0   
+rofi -show dmenu|/sys/class/power_supply/BAT0   
+sudo apt-get install j4-dmenu-desktop|/sys/class/power_supply/BAT0   
+j4-dmenu-desktop --term=kitty --dmenu="dmenu -i -nf "#98be65""|/sys/class/power_supply/BAT0   
+j4-dmenu-desktop --term=kitty --dmenu="dmenu -i -nf #98be65"|/sys/class/power_supply/BAT0   
+j4-dmenu-desktop --term=kitty --dmenu=dmenu -i -nf "#98be65"|/sys/class/power_supply/BAT0   
+j4-dmenu-desktop --term=kitty --dmenu=dmenu -nf "#98be65"|/sys/class/power_supply/BAT0   
+j4-dmenu-desktop --term=kitty --dmenu="dmenu -nf #98be65"|/sys/class/power_supply/BAT0   
+apt show suckless-tools|/sys/class/power_supply/BAT0   
+sudo apt remove suckless-tools|/sys/class/power_supply/BAT0   
+echo $TERM|/home/gustav/apps/dmenu-5.0   
+export TERM=xterm-kitty|/home/gustav/apps/dmenu-5.0   
+z apps|/sys/class/power_supply/BAT0   
+cd dmenu-5.0|/home/gustav/apps   
+ls|/home/gustav/apps/dmenu-5.0   
+v README|/home/gustav/apps/dmenu-5.0   
+make clean install|/home/gustav/apps/dmenu-5.0   
+sudo make clean install|/home/gustav/apps/dmenu-5.0   
+sudo make clean install|/home/gustav/apps/dmenu-5.0   
+ls|/home/gustav/apps/dmenu-5.0   
+v config.h|/home/gustav/apps/dmenu-5.0   
+sudo make clean install|/home/gustav/apps/dmenu-5.0   
+awk '{printf("%d:%02d:%02d:%02d
+",($1/60/60/24),($1/60/60%24),($1/60%60),($1%60))}' /proc/uptime|/home/gustav/apps/dmenu-5.0   
+z scripts|/home/gustav/apps/dmenu-5.0   
+ls|/home/gustav/scripts   
+chmod +x uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+./uptime.sh|/home/gustav/scripts   
+npm i|/home/gustav/code/blapp-front   
+npm start|/home/gustav/code/blapp-front   
+npm start|/home/gustav/code/blapp-front   
+~|/home/gustav/scripts   
+.cfg/|/home/gustav   
+ls|/home/gustav/.cfg   
+..|/home/gustav/.cfg   
+lsa|/home/gustav   
+z conf|/home/gustav   
+touch .projectile|/home/gustav/.config   
+locate projectile|/home/gustav/.config   
+locate projectile | grep project*|/home/gustav/.config   
+locate projectile | grep project|/home/gustav/.config   
+locate projectile | grep projects|/home/gustav/.config   
+v ~/.emacs.d/.local/straight/repos/projectile/doc/modules/ROOT/pages/projects.adoc|/home/gustav/.config   
+locate projectile | grep bookmarks|/home/gustav/.config   
+locate projectile | grep *bookmarks*|/home/gustav/.config   
+locate projectile | grep cache|/home/gustav/.config   
+v ~/.emacs.d/.local/cache/projectile.projects|/home/gustav/.config   
+v ~/.emacs.d/.local/cache/projectile.cache|/home/gustav/.config   
+z scrip|/home/gustav/.config   
+./uptime.sh|/home/gustav/scripts   
+/etc/|/home/gustav/scripts   
+ls|/etc   
+cron./|/etc   
+cd cron.d|/etc   
+|/etc/cron.d   
+ls|/etc/cron.d   
+..|/etc/cron.d   
+lsa|/etc   
+v crontab|/etc   
+sudo v crontab|/etc   
+sudo v crontab|/etc   
+sudo nvim crontab|/etc   
+cd cron.d|/etc   
+ls|/etc/cron.d   
+nvim popularity-contest|/etc/cron.d   
+..|/etc/cron.d   
+sudo nvim crontab|/etc   
+z code|/etc   
+..|/home/gustav/code/blapp-front   
+cd magisknyckel|/home/gustav/code   
+ls|/home/gustav/code/magisknyckel   
+v index.js|/home/gustav/code/magisknyckel   
+node index.js|/home/gustav/code/magisknyckel   
+theme|/home/gustav/code/magisknyckel   
+apt search | grep manual|/home/gustav/code/magisknyckel   
+comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)|/home/gustav/code/magisknyckel   
+|/home/gustav/code/magisknyckel   
+~|/home/gustav/code/magisknyckel   
+l|/home/gustav   
+lsa|/home/gustav   
+grep .zsh_history "sudo apt install"|/home/gustav   
+cat ./.zsh_history | grep sudo apt install|/home/gustav   
+cat ./.zsh_history | grep sudo|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *"|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c " " -f 4|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c " " -f4|/home/gustav   
+cut --help|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c=" " -f=4|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c=" "|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c" "|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -c"\ "|/home/gustav   
+cut --help|/home/gustav   
+espanso config|/home/gustav   
+espanso --help|/home/gustav   
+espanso edit|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -d ' ' -f4|/home/gustav   
+cat ./.zsh_history | grep "sudo apt install *" | cut -d ' ' -f5|/home/gustav   
+comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u) > manually_installed|/home/gustav   
+v manually_installed|/home/gustav   
+sudo apt install rofi|/home/gustav   
+locate rofi.rasi|/home/gustav   
+sudo v /etc/regolith/styles/lascaille/rofi.rasi|/home/gustav   
+sudo nvim /etc/regolith/styles/lascaille/rofi.rasi|/home/gustav   
+z .con|/home/gustav   
+lsa|/home/gustav/.config   
+mkdir|/home/gustav/.config   
+mkdir rofi|/home/gustav/.config   
+man rofi|/home/gustav/.config   
+man rofi|/home/gustav/.config   
+cd rofi|/home/gustav/.config   
+rofi -dump-config > config.rasi|/home/gustav/.config/rofi   
+ls|/home/gustav/.config/rofi   
+v config.rasi|/home/gustav/.config/rofi   
+sudo nvim /etc/regolith/styles/lascaille/rofi.rasi|/home/gustav   
+locate doom-one.el|/home/gustav   
+locate doom-one-theme|/home/gustav   
+npm i|/home/gustav/code/blapp-front   
+npm start|/home/gustav/code/blapp-front   
+sudo openfortivpn|/home/gustav/.config/rofi   
+npm start|/home/gustav/code/blapp-front   
+npm start|/home/gustav/code/blapp-front   
+z blapp|/home/gustav/.config/rofi   
+git status|/home/gustav/code/blapp-front   
+git reset --hard eded832|/home/gustav/code/blapp-front   
+git push -F origin/master|/home/gustav/code/blapp-front   
+git push -f origin/master|/home/gustav/code/blapp-front   
+git push -f|/home/gustav/code/blapp-front   
+sudo openfortivpn|/home/gustav/code/blapp-front   
+sudo openfortivpn|/home/gustav/code/blapp-front   
+config status|/home/gustav/code/blapp-front   
+~|/home/gustav/code/blapp-front   
+config commit -a -m "lots of changes"|/home/gustav   

@@ -21,8 +21,8 @@
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
 ;; test
-(setq doom-font (font-spec :family "Hack" :size 14)
-      doom-variable-pitch-font (font-spec :family "Hack"))
+(setq doom-font (font-spec :family "Hack Nerd Font" :size 14)
+      doom-variable-pitch-font (font-spec :family "Hack Nerd Font"))
 
 ;; Make sure to use exec-path-from-shell when run as daemon
 (when (daemonp)
@@ -41,16 +41,11 @@
 ;; `load-theme' function. These are the defaults.
 (setq doom-theme 'doom-one)
 
-;; If you intend to use org, it is recommended you change this!
-;; (setq org-directory "~/Documents")
-;; (require 'org)
-;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
-
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
 (setq display-line-numbers-type 'relative)
 
-;; To avoid using fundamental mode in textfiles, which is about the only undefined files i use.
+;; To avoid using fundamental mode in textfiles.
 (setq default-major-mode 'text-mode
       initial-major-mode 'text-mode)
 
@@ -67,20 +62,15 @@
 (setq company-idle-delay 0.2
       company-minimum-prefix-length 3)
 
-;; To get typescript syntax higilightin
+;; To get syntax higilighting
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
 (add-to-list 'auto-mode-alist '("\\.keymap\\'" . c-mode))
 (add-to-list 'auto-mode-alist '("\\.overlay\\'" . c-mode))
-(add-to-list 'auto-mode-alist '("\\.conf\\'" . c-mode))
+(add-to-list 'auto-mode-alist '("\\.conf\\'" . conf-mode))
 (add-to-list 'load-path (expand-file-name "~/.doom.d/lisp"))
 (add-to-list 'custom-theme-load-path "~/.doom.d/themes")
 
-;; (add-to-list 'lsp-disabled-clients '(web-mode . angular-ls))
-
-;; (add-hook 'js2-mode-hook 'prettier-js-mode)
-;; (add-hook 'tide-mode-hook 'prettier-js-mode)
-;; (add-hook 'before-save-hook 'prettier-js-mode)
 (add-hook 'markdown-mode-hook 'grip-mode)
 (add-hook 'org-mode-hook 'grip-mode)
 (add-hook 'c-mode-hook 'irony-mode)
@@ -99,23 +89,11 @@
 (add-hook 'ediff-keymap-setup-hook 'add-d-to-ediff-mode-map)
 
 ;; LSP configuration
-
-;; (mapc (lambda (f) (set-face-foreground f "dim gray"))
-;;    '(lsp-ui-sideline-current-symbol lsp-ui-sideline-symbol lsp-ui-sideline-symbol-info))
 (setq lsp-ui-doc nil)
 (setq lsp-ui-doc-position 'at-point
       lsp-ui-doc-max-height 150
       lsp-ui-doc-max-width 100)
 
-;;; Angular
-;; (setq lsp-clients-angular-language-server-command
-;;   '("node"
-;;     "/home/gustav/code/vscode-ng-language-service/dist/server.js"
-;;     "--ngProbeLocations"
-;;     "/home/gustav/code/vscode-ng-language-service/node_modules"
-;;     "--tsProbeLocations"
-;;     "/home/gustav/code/vscode-ng-language-service/node_modules"
-;;     "--stdio"))
 (setq lsp-clients-angular-language-server-command
   '("node"
     "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules/@angular/language-server"
@@ -124,33 +102,6 @@
     "--tsProbeLocations"
     "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules"
     "--stdio"))
-
-;; (defcustom lsp-angular-language-server-command
-;;   '("node"
-;;     "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules/@angular/language-server"
-;;     "--ngProbeLocations"
-;;     "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules"
-;;     "--tsProbeLocations"
-;;     "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules"
-;;     "--stdio")
-;; ;;   '("node" "/home/gustav/code/vscode-ng-language-service/dist/server.js" "--stdio")
-;; ;;   ;; "The command that starts the docker language server."
-;;   :group 'lsp-angular
-;;   :type '(choice
-;;           (string :tag "Single string value")
-;;           (repeat :tag "List of string values"
-;;                   string)))
-
-;; (lsp-register-client
-;;  (make-lsp-client :new-connection (lsp-stdio-connection
-;;                                    '(-const lsp-clients-angular-language-server-command))
-;;                   :activation-fn (lambda (&rest _args)
-;;                                    (string-match-p ".*\.html$" (buffer-file-name)) )
-;;                   :add-on? t
-;;                   :priority -1
-;;                   :server-id 'angular-ls))
-
-
 
 ;; Keymaps
 (map! :leader
@@ -169,6 +120,7 @@
         :nv "s d" #'lsp-ui-doc-show
         :nv "s r" #'lsp-rename)
       (:prefix "ö"
+       :nv "b f" #'bool-flip-do-flip
         :nv "p s" #'persp-switch
         :nv "f f" #'counsel-fzf
         :nv "f w" #'+ivy/project-search

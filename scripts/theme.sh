@@ -2442,6 +2442,27 @@ background: #1E2127
 foreground: #5C6370
 cursorColor: #5C6370
 
+doom-one
+0: #282c34
+1: #ff6c6b
+2: #98be65
+3: #da8548
+4: #51afef
+5: #c678dd
+6: #4db5bd
+7: #bbc2cf
+8: #282c34
+9: #ff6c6b
+10: #98bd65
+11: #e5be7b
+12: #61afef
+13: #c678dd
+14: #46d9ff
+15: #dcdfe4
+background: #282c34
+foreground: #dfdfdf
+cursorColor: #dfdfdf
+
 one-half-black
 0: #282c34
 1: #e06c75

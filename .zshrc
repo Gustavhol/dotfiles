@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH theme
-~/scripts/theme.sh one-half-black
+~/scripts/theme.sh doom-one
 
 # Display red dots whilst waiting for completion.
  COMPLETION_WAITING_DOTS="true"
@@ -130,6 +130,11 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
+# fh - repeat history
+fh() {
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac --height "50%" | sed -r 's/ *[0-9]*\*? *//' | sed -r 's/\\/\\\\/g')
+}
+bindkey -s '^f' 'fh\n'
 
 #################
 ###  ALIASES  ###
@@ -158,12 +163,12 @@ alias i3conf="nvim ~/.config/regolith/i3/config"
 alias i3config="nvim ~/.config/regolith/i3/config"
 alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias nvimconfig="nvim ~/.config/nvim/init.vim"
-alias reload='source ~/.zshrc'
+alias reload='exec $SHELL'
 alias restart='exec $SHELL'
 
 # Nav and listing
-alias la='exa -alh --sort=.name --color=auto --group-directories-first'
-alias ls='exa -lh --sort=.name --color=auto --group-directories-first'
+alias la='exa -alh --color=auto --group-directories-first'
+alias ls='exa -lh --color=auto --group-directories-first'
 alias lt='exa -alhT --sort=.name --color=auto --group-directories-first'
 
 # Scripts to make life easier
