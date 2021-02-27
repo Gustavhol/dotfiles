@@ -1,0 +1,83 @@
+general {
+  output_format = "i3bar"
+  colors = true
+  color_good = "#98BE65"
+  color_degraded = "#ECBE7B"
+  color_bad = "#FF6C6B"
+  interval = 1
+}
+
+order += "disk /"
+order += "battery 0"
+order += "memory"
+order += "load"
+order += "read_file uptime"
+order += "tztime local"
+order += "tztime stockholm"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "volume master"
+
+wireless _first_ {
+        format_up = " 直 (%quality at %essid, %bitrate) %ip "
+        format_down = "睊 "
+}
+
+ethernet _first_ {
+        format_up = "  "
+        format_down = "  "
+}
+
+battery 0 {
+        format = " %status %percentage %remaining @ %consumption "
+        format_down = "No battery"
+        status_chr = ""
+        status_bat = ""
+        status_unk = ""
+        status_full = ""
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        last_full_capacity = true
+        integer_battery_capacity = true
+        low_threshold = 10
+}
+
+path_exists VPN {
+        # path exists when a VPN tunnel launched by nmcli/nm-applet is active
+        path = "/proc/sys/net/ipv4/conf/tun0"
+}
+
+tztime local {
+        format = "  %d/%m "
+}
+
+tztime stockholm {
+        format = "  %H:%M:%S "
+}
+
+load {
+        format = "  %1min"
+}
+
+memory {
+        format = "  %free/%used "
+        threshold_degraded = "10%"
+        format_degraded = "  %free "
+}
+
+disk "/" {
+        format = " 﫭 %free/%total"
+        prefix_type = "custom"
+        
+}
+
+read_file uptime {
+        path = "/tmp/uptime"
+}
+
+volume master {
+        format = "  %volume "
+        format_muted = "  0%% "
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}

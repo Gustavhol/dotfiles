@@ -435,3 +435,22 @@ sudo openfortivpn|/home/gustav/code/blapp-front
 config status|/home/gustav/code/blapp-front   
 ~|/home/gustav/code/blapp-front   
 config commit -a -m "lots of changes"|/home/gustav   
+z  .config|/home/gustav   
+ls|/home/gustav/.config   
+config push|/home/gustav/.config   
+cd regolith|/home/gustav/.config   
+ls|/home/gustav/.config/regolith   
+cd styles|/home/gustav/.config/regolith   
+ls|/home/gustav/.config/regolith/styles   
+one-dark/|/home/gustav/.config/regolith/styles   
+ls|/home/gustav/.config/regolith/styles/one-dark   
+z .config|/home/gustav/.config/regolith/styles/one-dark   
+ls|/home/gustav/.config   
+config add ./rofi|/home/gustav/.config   
+config status|/home/gustav/.config   
+config add ./i3status|/home/gustav/.config   
+config add ./kitty|/home/gustav/.config   
+config status|/home/gustav/.config   
+..|/home/gustav/.config   
+nvim .Xresources|/home/gustav   
+config commit -a -m "added rofi and i3status conf"|/home/gustav   
