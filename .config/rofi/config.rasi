@@ -34,6 +34,7 @@
 
   font: "Hack Nerd Font 14";
   text-color: @text;
+  modi: "window,drun,run,cmd,ssh,combi";
 }
 
 window {
