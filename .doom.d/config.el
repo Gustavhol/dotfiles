@@ -96,11 +96,11 @@
 
 (setq lsp-clients-angular-language-server-command
   '("node"
-    "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules/@angular/language-server"
+    "/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules/@angular/language-server"
     "--ngProbeLocations"
-    "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules"
+    "/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules"
     "--tsProbeLocations"
-    "/home/gustav/.nvm/versions/node/v14.5.0/lib/node_modules"
+    "/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules"
     "--stdio"))
 
 ;; Keymaps

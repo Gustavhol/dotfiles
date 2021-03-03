@@ -8,7 +8,7 @@ Plug 'sbdchd/neoformat'
 Plug 'neomake/neomake'
 Plug 'machakann/vim-highlightedyank'
 Plug 'tmhedberg/SimpylFold'
-Plug 'morhetz/gruvbox'
+Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'elixir-editors/vim-elixir'
@@ -35,7 +35,7 @@ Plug 'vimwiki/vimwiki'
 
 call plug#end()
 
-colorscheme gruvbox
+colorscheme onedark
 
 " Misc settings
 set number relativenumber " Show line numbers

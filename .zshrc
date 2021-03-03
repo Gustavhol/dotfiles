@@ -43,6 +43,10 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='nvim'
  fi
 
+ # ZSH-autosuggestions overrides
+ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#5b6268,bg=#272c34"
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
  # Adds every command per working directory in ./zsh_history_ext for later referencing
 function zshaddhistory() {
 	echo "${1%%$'\n'}|${PWD}   " >> ~/scripts/logs/.zsh_history_ext
@@ -119,16 +123,27 @@ bindkey '^e' edit-command-line
 ####################
 
 # Use lf to switch directories and bind it to ctrl-o
-lfcd () {
+#lfcd () {
+#    tmp="$(mktemp)"
+#    lf -last-dir-path="$tmp" "$@"
+#    if [ -f "$tmp" ]; then
+#        dir="$(cat "$tmp")"
+#        rm -f "$tmp"
+#        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+#    fi
+#}
+
+#Use ranger to switch directories and bind it to ctrl-o
+rangercd () {
     tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
+    ranger --choosedir="$tmp" "$@"
     if [ -f "$tmp" ]; then
         dir="$(cat "$tmp")"
         rm -f "$tmp"
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"                                               
     fi
 }
-bindkey -s '^o' 'lfcd\n'
+bindkey -s '^o' 'rangercd\n'
 
 # fh - repeat history
 fh() {
@@ -179,6 +194,7 @@ alias wr='wormhole recieve'
 alias ifconfig='ip address' # For those that live in the past
 alias theme='~/scripts/theme.sh -i' # Interactive script to change the theme in the terminal
 alias jog='~/scripts/jog.sh'
+alias vpn='sudo openfortivpn'
 
 # Git
 alias addup='git add -u'
@@ -221,3 +237,4 @@ path+=(
 )
 export PATH
 
+# source /usr/share/nvm/init-nvm.sh
