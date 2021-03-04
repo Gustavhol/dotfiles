@@ -1,0 +1,70 @@
+
+
+  ((bg         '("#282c34" nil       nil            ))
+   (bg-alt     '("#21242b" nil       nil            ))
+   (base0      '("#1B2229" "black"   "black"        ))
+   (base1      '("#1c1f24" "#1e1e1e" "brightblack"  ))
+   (base2      '("#202328" "#2e2e2e" "brightblack"  ))
+   (base3      '("#23272e" "#262626" "brightblack"  ))
+   (base4      '("#3f444a" "#3f3f3f" "brightblack"  ))
+   (base5      '("#5B6268" "#525252" "brightblack"  ))
+   (base6      '("#73797e" "#6b6b6b" "brightblack"  ))
+   (base7      '("#9ca0a4" "#979797" "brightblack"  ))
+   (base8      '("#DFDFDF" "#dfdfdf" "white"        ))
+   (fg         '("#bbc2cf" "#bfbfbf" "brightwhite"  ))
+   (fg-alt     '("#5B6268" "#2d2d2d" "white"        ))
+
+   (grey       base4)
+   (red        '("#ff6c6b" "#ff6655" "red"          ))
+   (orange     '("#da8548" "#dd8844" "brightred"    ))
+   (green      '("#98be65" "#99bb66" "green"        ))
+   (teal       '("#4db5bd" "#44b9b1" "brightgreen"  ))
+   (yellow     '("#ECBE7B" "#ECBE7B" "yellow"       ))
+   (blue       '("#51afef" "#51afef" "brightblue"   ))
+   (dark-blue  '("#2257A0" "#2257A0" "blue"         ))
+   (magenta    '("#c678dd" "#c678dd" "brightmagenta"))
+   (violet     '("#a9a1e1" "#a9a1e1" "magenta"      ))
+   (cyan       '("#46D9FF" "#46D9FF" "brightcyan"   ))
+   (dark-cyan  '("#5699AF" "#5699AF" "cyan"         ))
+
+doom-one
+0: "#21242b"
+1: "#ff6c6b"
+2: "#98be65"
+3: "#da8548"
+4: "#51afef"
+5: "#c678dd"
+6: "#4db5bd"
+7: "#bbc2cf"
+8: "#282c34"
+9: "#ff6c6b"
+10: "#98bd65"
+11: "#e5be7b"
+12: "#61afef"
+13: "#c678dd"
+14: "#46d9ff"
+15: "#dcdfe4"
+background: "#282c34"
+foreground: "#dfdfdf"
+cursorColor: "#dfdfdf"
+
+one-dark
+0: "#000000"
+1: "#e06c75"
+2: "#98C379"
+3: "#D19A66"
+4: "#61AFEF"
+5: "#C678DD"
+6: "#56B6C2"
+7: "#ABB2BF"
+8: "#5C6370"
+9: "#E06C75"
+10: "#98C379"
+11: "#D19A66"
+12: "#61AFEF"
+13: "#C678DD"
+14: "#56B6C2"
+15: "#FFFEFE"
+background: "#1E2127"
+foreground: "#5C6370"
+cursorColor:"#5C6370"

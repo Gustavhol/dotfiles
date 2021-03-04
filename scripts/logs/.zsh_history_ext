@@ -837,3 +837,93 @@ npm start|/home/gustav/code/blapp-front
 zconf|/home/gustav   
 config status|/home/gustav   
 config commit -a -m "lots of changes"|/home/gustav   
+z .config|/home/gustav   
+ls|/home/gustav/.config   
+config add betterlockscreenrc|/home/gustav/.config   
+config add rofi|/home/gustav/.config   
+config status|/home/gustav/.config   
+config add rofi/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config add morc_menu/|/home/gustav/.config   
+config status|/home/gustav/.config   
+ls|/home/gustav/.config   
+lsa|/home/gustav/.config   
+config add dunst/|/home/gustav/.config   
+..|/home/gustav/.config   
+lsa|/home/gustav   
+config add .Xresources|/home/gustav   
+nvim README.md|/home/gustav   
+config add .nvmrc|/home/gustav   
+config status|/home/gustav   
+config add scripts/|/home/gustav   
+config status|/home/gustav   
+lsa|/home/gustav   
+cd .i3/|/home/gustav   
+ls|/home/gustav/.i3   
+..|/home/gustav/.i3   
+config add .i3/|/home/gustav   
+config status|/home/gustav   
+lsa|/home/gustav   
+cd .nvm|/home/gustav   
+ls|/home/gustav/.nvm   
+cd versions/|/home/gustav/.nvm   
+ls|/home/gustav/.nvm/versions   
+lsa|/home/gustav/.nvm/versions   
+node/|/home/gustav/.nvm/versions   
+ls|/home/gustav/.nvm/versions/node   
+cd v14.16.0|/home/gustav/.nvm/versions/node   
+ls|/home/gustav/.nvm/versions/node/v14.16.0   
+lib/|/home/gustav/.nvm/versions/node/v14.16.0   
+ls|/home/gustav/.nvm/versions/node/v14.16.0/lib   
+node_modules|/home/gustav/.nvm/versions/node/v14.16.0/lib   
+ls|/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules   
+@angular/|/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules   
+ls|/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules/@angular   
+~|/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules/@angular   
+npm i -g typescript @angular/language-service@next @angular/language-server|/home/gustav   
+xprop|/home/gustav   
+xprop|/home/gustav   
+xprop|/home/gustav   
+z .config|/home/gustav   
+lsa|/home/gustav/.config   
+cd nitrogen/|/home/gustav/.config   
+ls|/home/gustav/.config/nitrogen   
+nvim nitrogen.cfg|/home/gustav/.config/nitrogen   
+rangercd|/home/gustav/.config/nitrogen   
+sudo nvim picom.conf|/etc/xdg   
+cp picom.conf ~/.config/picom/picom.conf|/etc/xdg   
+mkdir ~/.config/picom && cp picom.conf ~/.config/picom/picom.conf|/etc/xdg   
+mkdir ~/.config/picom && cp picom.conf ~/.config/picom/picom.conf|/etc/xdg   
+z .config|/etc/xdg   
+cd picom/|/home/gustav/.config   
+v picom.conf|/home/gustav/.config/picom   
+xprop|/home/gustav/.config/picom   
+man ff-theme-util|/home/gustav/.config/picom   
+rm picom.conf|/home/gustav/.config/picom   
+mv ../picom.conf picom.conf|/home/gustav/.config/picom   
+yay -S wtfutil|/home/gustav   
+z blapp|/home/gustav   
+npm start|/home/gustav/code/blapp-front   
+npm start --port 4201|/home/gustav/code/blapp-front   
+wtfutil|/home/gustav   
+udisksctl mount -b /dev/nvme0n1p4|/home/gustav/.config/picom   
+cd /dev/nvme0n1p4 at /run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5|/home/gustav/.config/picom   
+cd /run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5|/home/gustav/.config/picom   
+ls|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5   
+cd gustav/.config/wtf/|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5   
+ls|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+cp config.yml ~/.config/wtf/config.yml|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+emacs --version|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+ranger|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+yay -S chrome|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+yay -S brave|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+..|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config/wtf   
+~|/run/media/gustav/5f6c25b6-4dc4-4d23-9391-1fd28d4c9ad5/gustav/.config   
+z .config|/home/gustav   
+config add wtf/|/home/gustav/.config   
+config status|/home/gustav/.config   
+lsa|/home/gustav/.config   
+config add nitrogen/|/home/gustav/.config   
+config add picom/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "added new files"|/home/gustav/.config   
