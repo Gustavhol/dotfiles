@@ -1166,3 +1166,46 @@ config status|/home/gustav/.config/butlerburton
 ~|/home/gustav/.config/butlerburton   
 config status|/home/gustav   
 config commit -a -m "added new files and updated vim and zshrc"|/home/gustav   
+config push|/home/gustav   
+butlerburton/|/home/gustav/.config   
+ls|/home/gustav/.config/butlerburton   
+z Dow|/home/gustav/.config/butlerburton   
+z Doc|/home/gustav/Downloads   
+butlerburton/|/home/gustav/Downloads   
+butler-burton/|/home/gustav/Downloads   
+ls|/home/gustav/Downloads   
+.config/butlerburton/|/home/gustav   
+et config.yml|/home/gustav/.config/butlerburton   
+mkdir .butlerburton|/home/gustav/Downloads   
+cd .butlerburton|/home/gustav/Downloads   
+ls|/home/gustav/Downloads/.butlerburton   
+ls|/home/gustav/Downloads/.butlerburton   
+...|/home/gustav/Downloads/.butlerburton   
+ls|/home/gustav   
+z Documents|/home/gustav   
+ls|/home/gustav   
+cd Documents|/home/gustav   
+ls|/home/gustav/Documents   
+ls|/home/gustav/Documents   
+lsa|/home/gustav/Documents   
+cd .butler-burton|/home/gustav/Documents   
+ls|/home/gustav/Documents/.butler-burton   
+z blapp|/home/gustav/code/bl-map-front   
+npm start|/home/gustav/code/blapp-front   
+npm start|/home/gustav/code/blapp-front   
+reload|/home/gustav/code/blapp-front   
+echo $PATH|/home/gustav/code/blapp-front   
+echo $PATH | grep go|/home/gustav/code/blapp-front   
+butler-burton -v|/home/gustav/code/blapp-front   
+butler-burton --version|/home/gustav/code/blapp-front   
+z code|/home/gustav/code/blapp-front   
+apps/|/home/gustav/code   
+butler-burton/|/home/gustav/code/apps   
+ls|/home/gustav/code/apps/butler-burton   
+git pull|/home/gustav/code/apps/butler-burton   
+go install|/home/gustav/code/apps/butler-burton   
+butler-burton -v|/home/gustav/code/apps/butler-burton   
+butler-burton r s TIRP_Gustav_Holmsten_Mars-21.xlsx|/home/gustav/code/apps/butler-burton   
+ranger|/home/gustav/code/apps/butler-burton   
+config status|/home/gustav/code/apps/butler-burton   
+config commit -a -m "updated butlerburton config"|/home/gustav/code/apps/butler-burton   
