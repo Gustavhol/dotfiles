@@ -1,0 +1,7 @@
+ 
+#!/usr/bin/bash
+                                                                                                                                      
+killall -q lemonbar
+killall -q lemonconfig
+
+/home/gustav/scripts/lemonconfig | lemonbar -p -g 1920x32+1048+0 -F "#FFFFFFFF" -B "#1B2229" -U "#c678dd" -u 3 -f "Hack"-10 | $SHELL

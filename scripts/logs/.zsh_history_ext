@@ -927,3 +927,242 @@ config add nitrogen/|/home/gustav/.config
 config add picom/|/home/gustav/.config   
 config status|/home/gustav/.config   
 config commit -a -m "added new files"|/home/gustav/.config   
+config status|/home/gustav/.config   
+config push|/home/gustav/.config   
+config push --set-upstream origin master|/home/gustav/.config   
+..|/home/gustav/.config   
+cd .cfg|/home/gustav   
+lsa|/home/gustav/.cfg   
+z blapp|/home/gustav/.cfg   
+git remote -v|/home/gustav/code/blapp-front   
+~|/home/gustav/code/blapp-front   
+cd .cfg|/home/gustav   
+git remote -v|/home/gustav/.cfg   
+config remote set-url origin git@github.com:Gustavhol/dotfiles.git|/home/gustav/.cfg   
+config remote -v|/home/gustav/.cfg   
+config push|/home/gustav/.cfg   
+config push --set-upstream origin master|/home/gustav/.cfg   
+vpn|/home/gustav/.cfg   
+..|/home/gustav/.cfg   
+cd code|/home/gustav   
+mkdir apps|/home/gustav/code   
+cd apps|/home/gustav/code   
+git clone git@github.com:PatrikOlin/butler-burton.git|/home/gustav/code/apps   
+cd butler-burton/|/home/gustav/code/apps   
+ls|/home/gustav/code/apps/butler-burton   
+go install|/home/gustav/code/apps/butler-burton   
+z config|/home/gustav/code/apps/butler-burton   
+butlerburton|/home/gustav/.config   
+butlerburton/|/home/gustav/.config   
+ls|/home/gustav/.config   
+z apps|/home/gustav/code/blapp-front   
+cd butler-burton/|/home/gustav/code/apps   
+ls|/home/gustav/code/apps/butler-burton   
+go install|/home/gustav/code/apps/butler-burton   
+nvim main.go|/home/gustav/code/apps/butler-burton   
+yay -S go|/home/gustav/code/apps/butler-burton   
+echo $PATH|/home/gustav/code/apps/butler-burton   
+locate go|/home/gustav/code/apps/butler-burton   
+cd /usr/bin/|/home/gustav/code/apps/butler-burton   
+ls|/usr/bin   
+ls | grep go|/usr/bin   
+echo $GOPATH|/usr/bin   
+~/go/|/usr/bin   
+ls|/home/gustav/go   
+bin|/home/gustav/go   
+ls|/home/gustav/go/bin   
+./butler-burton|/home/gustav/go/bin   
+zconf|/home/gustav/go/bin   
+reload|/home/gustav/go/bin   
+~|/home/gustav/go/bin   
+z .config|/home/gustav   
+ls|/home/gustav/.config   
+butlerburton/|/home/gustav/.config   
+ls|/home/gustav/.config/butlerburton   
+nvim config|/home/gustav/.config/butlerburton   
+nvim config.yml|/home/gustav/.config/butlerburton   
+reload|/home/gustav/.config/butlerburton   
+~/go/bin/|/home/gustav/.config/butlerburton   
+ls|/home/gustav/go/bin   
+|/home/gustav/go/bin   
+butler-burton|/home/gustav/go/bin   
+./butler-burton|/home/gustav/go/bin   
+./butler-burton ci|/home/gustav/go/bin   
+z .config|/home/gustav/go/bin   
+butlerburton/|/home/gustav/.config   
+nvim config.yml|/home/gustav/.config/butlerburton   
+echo $PATH|/home/gustav/.config/butlerburton   
+which butlerburton|/home/gustav/.config/butlerburton   
+which go|/home/gustav/.config/butlerburton   
+export PATH=/home/gustav/go/bin/|/home/gustav/.config/butlerburton   
+echo $PATH|/home/gustav/.config/butlerburton   
+cd /home/gustav/go/bin|/home/gustav/.config/butlerburton   
+ls|/home/gustav/go/bin   
+ls -a|/home/gustav/go/bin   
+reload|/home/gustav/go/bin   
+exec zsh|/home/gustav/go/bin   
+ls|/home/gustav/go/bin   
+butler-burton|/home/gustav/go/bin   
+~|/home/gustav/go/bin   
+rangercd|/home/gustav   
+ranger|/home/gustav/.config   
+xinput|/home   
+xinput -h|/home   
+xinput get-button-map 20|/home   
+xinput|/home   
+xinput get-button-map MX\ Ergo\ Mouse|/home   
+xinput hep|/home   
+xinput list-props 20|/home   
+~|/home   
+vpn|/home/gustav   
+npm i -g @vue/cli|/home/gustav/.config   
+z code|/home/gustav   
+ls|/home/gustav/code   
+git clone git@github.com:mCayn/bl-map-front.git|/home/gustav/code   
+cd bl-map-front|/home/gustav/code   
+ls|/home/gustav/code/bl-map-front   
+npm i|/home/gustav/code/bl-map-front   
+ls|/home/gustav/code/bl-map-front   
+rm -r package-lock.json|/home/gustav/code/bl-map-front   
+rm -r node_modules/|/home/gustav/code/bl-map-front   
+nvm use lts/erbium|/home/gustav/code/bl-map-front   
+npm i|/home/gustav/code/bl-map-front   
+npm i -g @vue/cli|/home/gustav/code/bl-map-front   
+npm serve|/home/gustav/code/bl-map-front   
+npm i|/home/gustav/code/bl-map-front   
+npm serve|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+vue --version|/home/gustav   
+npm run serve --fix|/home/gustav/code/bl-map-front   
+sudo update-alternatives -config x-www-browser|/home/gustav   
+echo $BROWSER|/home/gustav   
+pacman -R palemoon-bin|/home/gustav   
+sudo ##|/home/gustav   
+pacman -R palemoon-bin|/home/gustav   
+sudo pacman -R palemoon-bin|/home/gustav   
+sudo pacman -R palemoon-bin|/home/gustav   
+xdg-mime query defaut x-scheme-handler/https|/home/gustav   
+xdg-mime query default x-scheme-handler/https|/home/gustav   
+xdg-mime default firefox.desktop x-scheme-handler/https|/home/gustav   
+xdg-mime default firefox.desktop x-scheme-handler/http|/home/gustav   
+xdg-mime query default x-scheme-handler/https|/home/gustav   
+locate mimeapps.list|/home/gustav   
+z .config|/home/gustav   
+nvim mimeapps.list|/home/gustav/.config   
+npm run serve|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+ping 10.212.134.172|/home/gustav   
+ping 10.212.134.174|/home/gustav   
+sudo ufw status|/home/gustav   
+ping 10.212.134.192|/home/gustav   
+ping 10.212.134.174|/home/gustav   
+ping 10.212.134.172|/home/gustav   
+ping 10.212.134.172:8080|/home/gustav   
+yay -S espanso|/home/gustav   
+npm run serve|/home/gustav/code/bl-map-front   
+z .config|/home/gustav   
+ranger/|/home/gustav/.config   
+ls|/home/gustav/.config/ranger   
+git clone git@github.com:ranger/colorschemes.git|/home/gustav/.config/ranger   
+ls|/home/gustav/.config/ranger   
+rangercd|/home/gustav/.config/ranger   
+rangercd|/home/gustav   
+ranger|/home/gustav/.config/ranger   
+config status|/home/gustav/.config/ranger   
+ranger set colorschemes/|/home/gustav/.config/ranger   
+|/home/gustav/.config/ranger   
+ls|/home/gustav/.config/ranger   
+ranger |/home/gustav/.config/ranger   
+nvim rc.conf|/home/gustav/.config/ranger   
+cd colorschemes/|/home/gustav/.config/ranger   
+ls|/home/gustav/.config/ranger/colorschemes   
+v zenburn.py|/home/gustav/.config/ranger/colorschemes   
+..|/home/gustav/.config/ranger/colorschemes   
+rm -r colorschemes/|/home/gustav/.config/ranger   
+ls|/home/gustav/.config/ranger   
+cd plugins/|/home/gustav/.config/ranger   
+ls|/home/gustav/.config/ranger/plugins   
+..|/home/gustav/.config/ranger/plugins   
+ls|/home/gustav/.config/ranger   
+nvim commands.py|/home/gustav/.config/ranger   
+..|/home/gustav/.config/ranger   
+nvim/|/home/gustav/.config   
+ls|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+:|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+nvim init.vim|/home/gustav/.config/nvim   
+zconfig|/home/gustav/.config/nvim   
+reload|/home/gustav/.config/nvim   
+et init.vim|/home/gustav/.config/nvim   
+et|/home/gustav/.config/nvim   
+et init.vim|/home/gustav/.config/nvim   
+et init.vim|/home/gustav/.config/nvim   
+zconf|/home/gustav/.config/nvim   
+zconf|/home/gustav/.config/nvim   
+reload|/home/gustav/.config/nvim   
+zconf|/home/gustav/.config/nvim   
+zconf|/home/gustav/.config/nvim   
+npm i sass-loader -D|/home/gustav/code/bl-map-front   
+npm i node-sass -D|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm i vuex|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm i|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+z go|/home/gustav/.config/nvim   
+bin/|/home/gustav/go   
+ls|/home/gustav/go/bin   
+butler-burton co|/home/gustav/go/bin   
+./butler-burton co|/home/gustav/go/bin   
+./butler-burton ci|/home/gustav/go/bin   
+which butler-burton|/home/gustav/go/bin   
+which butlerburton|/home/gustav/go/bin   
+which butler-burton|/home/gustav/go/bin   
+echo $PATH|/home/gustav/go/bin   
+zconf|/home/gustav/go/bin   
+reload|/home/gustav/go/bin   
+which butler-burton|/home/gustav/go/bin   
+...|/home/gustav/go/bin   
+code/|/home/gustav   
+ls|/home/gustav/code   
+cd apps/butler-burton/|/home/gustav/code   
+git fetch|/home/gustav/code/apps/butler-burton   
+git pull|/home/gustav/code/apps/butler-burton   
+git pull.ff only|/home/gustav/code/apps/butler-burton   
+zconf|/home/gustav/code/apps/butler-burton   
+jog|/home/gustav/code/apps/butler-burton   
+reload|/home/gustav/code/apps/butler-burton   
+jog|/home/gustav/code/apps/butler-burton   
+z scripts|/home/gustav/code/apps/butler-burton   
+ls|/home/gustav/scripts   
+rangercd|/home/gustav/scripts   
+z scripts|/home/gustav/.config   
+ls|/home/gustav/scripts   
+chmod +x rofi_pa_sinss|/home/gustav/scripts   
+chmod +x rofi_pa_sinks|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+z apps|/home/gustav/scripts   
+butler-burton/|/home/gustav/code/apps   
+ls|/home/gustav/code/apps/butler-burton   
+jog|/home/gustav/code/apps/butler-burton   
+go install|/home/gustav/code/apps/butler-burton   
+z .config|/home/gustav/code/apps/butler-burton   
+ls|/home/gustav/.config   
+butlerburton/|/home/gustav/.config   
+ls|/home/gustav/.config/butlerburton   
+et config.yml|/home/gustav/.config/butlerburton   
+config add mimeapps.list|/home/gustav/.config   
+config add .|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config add .|/home/gustav/.config/butlerburton   
+config status|/home/gustav/.config/butlerburton   
+~|/home/gustav/.config/butlerburton   
+config status|/home/gustav   
+config commit -a -m "added new files and updated vim and zshrc"|/home/gustav   
