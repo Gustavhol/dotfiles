@@ -1209,3 +1209,52 @@ butler-burton r s TIRP_Gustav_Holmsten_Mars-21.xlsx|/home/gustav/code/apps/butle
 ranger|/home/gustav/code/apps/butler-burton   
 config status|/home/gustav/code/apps/butler-burton   
 config commit -a -m "updated butlerburton config"|/home/gustav/code/apps/butler-burton   
+config push|/home/gustav/code/apps/butler-burton   
+...|/home/gustav/code/apps/butler-burton   
+ls|/home/gustav/code   
+..|/home/gustav/code   
+lsa|/home/gustav   
+lsa|/home/gustav   
+mv ./.i3/ .config/i3/|/home/gustav   
+lsa|/home/gustav   
+cd .config|/home/gustav   
+ls|/home/gustav/.config   
+cd i3|/home/gustav/.config   
+ls|/home/gustav/.config/i3   
+z scripts|/home/gustav/.config/i3   
+ls|/home/gustav/scripts   
+./rofi_pa_sinks|/home/gustav/scripts   
+./rofi_pa_sinks|/home/gustav/scripts   
+z scripts|/home/gustav   
+ls|/home/gustav/scripts   
+et rofi_pa_sinks|/home/gustav/scripts   
+pactl list short sinks|/home/gustav   
+pactl list sinks|/home/gustav   
+pactl list sink-inputs|/home/gustav   
+betterlockscreen -l blur -t "här var det låst"|/home/gustav   
+betterlockscreen -w|/home/gustav   
+betterlockscreen -u ~/Pictures/triangles-download.png|/home/gustav   
+betterlockscreen -w|/home/gustav   
+killall feh|/home/gustav   
+xkill|/home/gustav   
+z .config|/home/gustav   
+ls|/home/gustav/.config   
+et betterlockscreenrc|/home/gustav/.config   
+betterlockscreen -u ~/Pictures/triangles-download.png|/home/gustav/.config   
+et betterlockscreenrc|/home/gustav/.config   
+betterlockscreen -u ~/Pictures/triangles-download.png|/home/gustav/.config   
+et betterlockscreenrc|/home/gustav/.config   
+betterlockscreen -u ~/Pictures/triangles-download.png|/home/gustav/.config   
+betterlockscreen -w|/home/gustav/.config   
+espanso start|/home/gustav/.config   
+yay -S espanso|/home/gustav/.config   
+espanso -h|/home/gustav/.config   
+espanso register|/home/gustav/.config   
+espanso enable|/home/gustav/.config   
+espanso restart|/home/gustav/.config   
+espanso restart|/home/gustav/.config   
+espanso status|/home/gustav/.config   
+uptime|/home/gustav/.config   
+uptime | cut -d 'min' -f1|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "updated espanso and betterlockscreen"|/home/gustav/.config   
