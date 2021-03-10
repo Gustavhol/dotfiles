@@ -927,3 +927,89 @@ config add nitrogen/|/home/gustav/.config
 config add picom/|/home/gustav/.config   
 config status|/home/gustav/.config   
 config commit -a -m "added new files"|/home/gustav/.config   
+systemctl enable --user emacs|/home/gustav   
+systemctl status emacs|/home/gustav   
+systemctl -- user enable emacs|/home/gustav   
+systemctl --user enable emacs|/home/gustav   
+systemctl status emacs|/home/gustav   
+config config --local status.showUntrackedFiles no|/home/gustav   
+systemctl enable --user emacs|/home/gustav   
+systemctl start --user emacs|/home/gustav   
+systemctl status --user emacs|/home/gustav   
+./.emacs.d/bin|/home/gustav   
+./.emacs.d/bin/|/home/gustav   
+/.emacs.d/bin/|/home/gustav   
+ls|/home/gustav   
+lsa|/home/gustav   
+exec zsh|/home/gustav   
+lsa|/home/gustav   
+exa|/home/gustav   
+exa -a|/home/gustav   
+cd .emacs.d|/home/gustav   
+ls|/home/gustav/.emacs.d   
+cd bin|/home/gustav/.emacs.d   
+ls|/home/gustav/.emacs.d/bin   
+./doom install|/home/gustav/.emacs.d/bin   
+./doom install|/home/gustav/.emacs.d/bin   
+~|/home/gustav   
+
+
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+|/home/gustav   
+
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+|/home/gustav   
+~|/home/gustav/.emacs.d/bin   
+..|/home/gustav/.emacs.d/bin   
+..|/home/gustav/.emacs.d/bin   
+exec zsh|/home/gustav/.emacs.d/bin   
+git clone git@github.com:zsh-users/zsh-autosuggestions.git|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+git clone git@github.com:zsh-users/zsh-syntax-highlighting.git|/home/gustav/.oh-my-zsh/custom/plugins   
+git clone git@github.com:agkozak/zsh-z.git|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+code/|/home/gustav   
+bl-map-front|/home/gustav/code   
+npm i rxjs|/home/gustav/code/bl-map-front   
+npm i @vue/cli|/home/gustav/code/bl-map-front   
+npm i -g @vue/cli|/home/gustav/code/bl-map-front   
+yay -S i3status|/home/gustav/code/bl-map-front   
+i3status|/home/gustav/code/bl-map-front   
+rangercd|/home/gustav/.oh-my-zsh/custom/plugins   
+rangercd|/home/gustav/.local/share   
+npm i rxjs --save|/home/gustav/code/bl-map-front   
+npm i|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm run serve|/home/gustav/code/bl-map-front   
+npm run serve --fix|/home/gustav/code/bl-map-front   
+npm run serve --fix|/home/gustav/code/bl-map-front   
+npm run serve --fix|/home/gustav/code/bl-map-front   
+npm run serve --fix|/home/gustav/code/bl-map-front   
+pavucontrol|/home/gustav/code/bl-map-front   
+yay -S pavucontrol|/home/gustav/code/bl-map-front   
+pavucontrol|/home/gustav/code/bl-map-front   
+pulseaudio|/home/gustav/code/bl-map-front   
+pavucontrol|/home/gustav/code/bl-map-front   
+pulseaudio -h|/home/gustav/code/bl-map-front   
+pulseaudio --dump-conf|/home/gustav/code/bl-map-front   
+pulseaudio -h|/home/gustav/code/bl-map-front   
+pulseaudio --kill|/home/gustav/code/bl-map-front   
+pulseaudio --start|/home/gustav/code/bl-map-front   
+pulseaudio|/home/gustav/code/bl-map-front   
+pavucontrol|/home/gustav/code/bl-map-front   
+pavucontrol|/home/gustav/code/bl-map-front   
+alsamixer|/home/gustav/code/bl-map-front   
+~/scripts/|/home/gustav/code/bl-map-front   
+ls|/home/gustav/scripts   
+./rofi_pa_sinks|/home/gustav/scripts   
+~/Pictures/|/home/gustav/scripts   
+betterlockscreen -u ./triangles-download.png|/home/gustav/Pictures   
+betterlockscreen -u ./triangles-download.png|/home/gustav/Pictures   
+config status|/home/gustav/Pictures   
+betterlockscreen -u ./triangles-download.png|/home/gustav/Pictures   
+betterlockscreen -u ./triangles-download.png|/home/gustav/Pictures   
+betterlockscreen -w|/home/gustav/Pictures   
+config fetch|/home/gustav/Pictures   
+config status|/home/gustav/Pictures   
+config commit -a -m "small changes"|/home/gustav/Pictures   

@@ -25,16 +25,16 @@ wireless _first_ {
 
 ethernet _first_ {
         format_up = "  "
-        format_down = "  "
+        format_down = "   "
 }
 
 battery 0 {
         format = " %status %percentage %remaining @ %consumption "
         format_down = "No battery"
-        status_chr = ""
-        status_bat = ""
-        status_unk = ""
-        status_full = ""
+        status_chr = " "
+        status_bat = " "
+        status_unk = " "
+        status_full = " "
         path = "/sys/class/power_supply/BAT%d/uevent"
         last_full_capacity = true
         integer_battery_capacity = true
