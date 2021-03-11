@@ -1258,3 +1258,39 @@ uptime|/home/gustav/.config
 uptime | cut -d 'min' -f1|/home/gustav/.config   
 config status|/home/gustav/.config   
 config commit -a -m "updated espanso and betterlockscreen"|/home/gustav/.config   
+config push|/home/gustav/.config   
+ssh pi@192.168.1.199|/home/gustav/.config   
+uptime -p|/home/gustav   
+wtfutil|/home/gustav   
+vtop|/home/gustav   
+z blapp|/home/gustav   
+npm start|/home/gustav/code/blapp-front   
+espanso status|/home/gustav   
+espanso reload|/home/gustav   
+espanso help|/home/gustav   
+espanso restart|/home/gustav   
+espanso status|/home/gustav   
+espanso edit|/home/gustav   
+yay -s libreoffice|/home/gustav   
+yay -s libreoffice-calc|/home/gustav   
+yay -s libreoffice | grep calc|/home/gustav   
+yay -S libreoffice|/home/gustav   
+yay -S libreoffice|/home/gustav   
+blueberry|/home/gustav   
+reload|/home/gustav   
+reload|/home/gustav   
+reload|/home/gustav   
+reload|/home/gustav   
+theme holmsten-one|/home/gustav   
+la|/home/gustav   
+ls|/home/gustav   
+lsa|/home/gustav   
+reload|/home/gustav   
+butler-burton co|/home/gustav   
+ranger|/home/gustav   
+config status|/home/gustav/code/blapp-front   
+z .config|/home/gustav/code/blapp-front   
+ls|/home/gustav/.config   
+config add i3/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "moved i3 config to .config"|/home/gustav/.config   

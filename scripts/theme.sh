@@ -2442,6 +2442,26 @@ background: #1E2127
 foreground: #5C6370
 cursorColor: #5C6370
 
+holmsten-one
+0: #282c34
+1: #69ffaa
+2: #6a8dff
+3: #ff55e2
+4: #ffa049
+5: #fdff60
+6: #69ffaa
+7: #6a8dff
+8: #ff55e2
+9: #ffa049
+10: #fdff60
+12: #69ffaa
+13: #6a8dff
+14: #ff55e2
+15: #ffa049
+background: #151515
+foreground: #dfdfdf
+cursorColor: #dfdfdf
+
 doom-one
 0: #282c34
 1: #ff6c6b
@@ -2459,7 +2479,7 @@ doom-one
 13: #c678dd
 14: #46d9ff
 15: #dcdfe4
-background: #282c34
+background: #151515
 foreground: #dfdfdf
 cursorColor: #dfdfdf
 

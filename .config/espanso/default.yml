@@ -62,6 +62,7 @@ matches:
         type: shell
         params:
           cmd: "uptime | cut -d ',' -f1 | cut -d ' ' -f3-"
+          # cmd: "uptime -p"
 
   - trigger: ":scr"
     replace: "{{ipa}}"
