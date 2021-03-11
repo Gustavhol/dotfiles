@@ -211,6 +211,7 @@ for_window [class="Xfburn"] floating enable
 
 # launch scripts
 bindsym $mod+control+x exec sh ~/.screenlayout/multimonitor.sh
+bindsym $mod+control+z exec sh ~/.screenlayout/fullhd.sh
 bindsym $mod+control+s exec flameshot gui&
 
 # switch to workspace with urgent window automatically
@@ -285,9 +286,10 @@ exec --no-startup-id blueman-applet
 # exec --no-startup-id start_conky_maia
 exec --no-startup-id betterlockscreen -w
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 60 -locker "betterlockscreen -l dim -t 'Här var det låst' --off 300"
+exec --no-startup-id xautolock -resetsaver -time 20 -locker "betterlockscreen -l dim -t 'Här var det låst' --off 300"
 # exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -341,30 +343,30 @@ set_from_resource $cyan_light      i3wm.color14
 set_from_resource $white_light     i3wm.color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
-bar {
-	i3bar_command i3bar
-	status_command i3status
-	position bottom
-    separator_symbol |
-    tray_output primary
-    binding_mode_indicator yes
-	bindsym button4 nop
-	bindsym button5 nop
-    font xft:Hack Nerd Font 11
-	strip_workspace_numbers yes
+# bar {
+# 	i3bar_command i3bar
+# 	status_command i3status
+# 	position bottom
+#     separator_symbol |
+#     tray_output primary
+#     binding_mode_indicator yes
+# 	bindsym button4 nop
+# 	bindsym button5 nop
+#     font xft:Hack Nerd Font 11
+# 	strip_workspace_numbers yes
 
-    colors {
-    background "#282C34"
-    statusline "#DFDFDF"
-    separator  "#DA8548"
+#     colors {
+#     background "#282C34"
+#     statusline "#DFDFDF"
+#     separator  "#DA8548"
 
-    focused_workspace  "#98BE65" "#282C34" "#98BE65"
-    active_workspace   "#A9A1E1" "#282C34" "#A9A1E1"
-    inactive_workspace "#BBC2CF" "#282C34" "#BBC2CF"
-    urgent_workspace   "#FF6C6B" "#282C34" "#FF6C6B"
-    binding_mode       "#282C34" "#282C34" "#BBC2CF"
-    }
-}
+#     focused_workspace  "#98BE65" "#282C34" "#98BE65"
+#     active_workspace   "#A9A1E1" "#282C34" "#A9A1E1"
+#     inactive_workspace "#BBC2CF" "#282C34" "#BBC2CF"
+#     urgent_workspace   "#FF6C6B" "#282C34" "#FF6C6B"
+#     binding_mode       "#282C34" "#282C34" "#BBC2CF"
+#     }
+# }
 
 # hide/unhide i3status bar
 bindsym $mod+i bar mode toggle
