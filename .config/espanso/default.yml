@@ -54,7 +54,16 @@ matches:
         type: shell
         params:
           cmd: "echo $PATH"
-          
+
+  - trigger: ":uptime"
+    replace: "{{uptime}}"
+    vars:
+      - name: uptime
+        type: shell
+        params:
+          cmd: "uptime | cut -d ',' -f1 | cut -d ' ' -f3-"
+          # cmd: "uptime -p"
+
   - trigger: ":scr"
     replace: "{{ipa}}"
     vars:

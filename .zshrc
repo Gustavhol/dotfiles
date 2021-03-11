@@ -162,6 +162,7 @@ alias doomdoctor='~/.emacs.d/bin/doom doctor'
 alias doomsync='~/.emacs.d/bin/doom sync'
 alias doomupgrade='~/.emacs.d/bin/doom upgrade'
 alias doombuild='~/.emacs.d/bin/doom build'
+alias et='emacsclient -t'
  
 # Common apps with flags
 alias reddit="tuir --enable-media"
@@ -172,11 +173,11 @@ alias vtop='vtop --theme gruvbox'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Easy config of common dotfiles
-alias zconf="nvim ~/.zshrc"
+alias zconf="emacsclient -t ~/.zshrc"
 alias zconfig="nvim ~/.zshrc"
-alias i3conf="nvim ~/.config/regolith/i3/config"
+alias i3conf="emacsclient -t ~/.config/regolith/i3/config"
 alias i3config="nvim ~/.config/regolith/i3/config"
-alias nvimconf="nvim ~/.config/nvim/init.vim"
+alias nvimconf="emacsclient -t ~/.config/nvim/init.vim"
 alias nvimconfig="nvim ~/.config/nvim/init.vim"
 alias reload='exec $SHELL'
 alias restart='exec $SHELL'
@@ -227,6 +228,7 @@ alias grep="grep --color=auto"
 eval "$(starship init zsh)"
 path+=(
     '/home/gustav/.emacs.d/'
+    '/home/gustav/go/bin'
     '/usr/local/sbin'
     '/usr/local/bin'
     '/usr/sbin'

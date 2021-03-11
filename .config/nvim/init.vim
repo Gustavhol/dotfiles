@@ -3,29 +3,15 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdcommenter'
 Plug 'sbdchd/neoformat'
-Plug 'neomake/neomake'
 Plug 'machakann/vim-highlightedyank'
-Plug 'tmhedberg/SimpylFold'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'elixir-editors/vim-elixir'
-Plug 'mattn/emmet-vim'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'posva/vim-vue'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'npm install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-repeat'
-Plug 'airblade/vim-gitgutter'
 Plug 'HerringtonDarkholme/yats.vim'
-" Plug 'Quramy/tsuquyomi'
-Plug 'easymotion/vim-easymotion'
-Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'andymass/vim-matchup'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -49,8 +35,10 @@ set autoindent
 set smartindent
 set smartcase
 set nocompatible
+set nofoldenable
 syntax on
 filetype plugin on
+let g:airline_theme = 'onedark'
 
 " leader key
 let mapleader="\<space>"

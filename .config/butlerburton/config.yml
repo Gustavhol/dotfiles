@@ -1,0 +1,13 @@
+name: Gustav Holmsten
+color: '#C678DD'
+webhook_url: "https://bjornlunden.webhook.office.com/webhookb2/7886760a-086c-46dd-94a8-2b9f7c06a323@37a49a16-b27c-4909-9891-338b46379b9d/IncomingWebhook/c62a94464d0a41449e81c1532de783b6/6ed56d09-f5ec-436d-bb8f-3eab70628abf"
+report:
+    path: "/home/gustav/Documents/.butlerburton/"
+    update: true
+    starting_row: 12
+    starting_day_of_month: 16
+    checkin_col: "C"
+    checkout_col: "D"
+    lunch_col: "F"
+    bl_lunch_col: "I"
+     
