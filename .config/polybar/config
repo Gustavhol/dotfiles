@@ -70,7 +70,7 @@ font-2 = Siji:pixelsize=10;1
 
 modules-left = i3
 modules-center = xwindow date
-modules-right = pulseaudio memory cpu wlan eth battery  
+modules-right = alsa pulseaudio memory cpu wlan eth battery  
 
 tray-position = right
 tray-padding = 2
@@ -230,7 +230,7 @@ format = <ramp-coreload>
 ; format-prefix-foreground = ${colors.foreground}
 ; format-underline = ${colors.magenta_dark}
 label = %percentage:2%%
-ramp-coreload-spacing = 1
+ramp-coreload-spacing = 0
 ramp-coreload-0 = ▁
 ramp-coreload-1 = ▂
 ramp-coreload-2 = ▃
@@ -344,7 +344,7 @@ label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
-label-muted-foreground = #666
+label-muted-foreground = ${colors.red_dark}
 
 bar-volume-width = 10
 bar-volume-foreground-0 = ${colors.blue_dark}
@@ -354,8 +354,9 @@ bar-volume-foreground-3 = ${colors.green_dark}
 bar-volume-foreground-4 = ${colors.green_dark}
 bar-volume-foreground-5 = ${colors.orange_dark}
 bar-volume-foreground-6 = ${colors.red_dark}
-bar-volume-gradient = false
+bar-volume-gradient = true
 bar-volume-indicator = |
+bar-volume-indicator-foreground = ${colors.blue_dark}
 bar-volume-indicator-font = 0
 bar-volume-fill = ─
 bar-volume-fill-font = 0
@@ -363,8 +364,32 @@ bar-volume-empty = ─
 bar-volume-empty-font = 0
 bar-volume-empty-foreground = ${colors.foreground}
 
-; [module/alsa]
-; type = internal/alsa
+[module/alsa]
+type = internal/alsa
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL %percentage%%
+label-volume-foreground = ${colors.foreground}
+
+label-muted = 🔇 muted
+label-muted-foreground = ${colors.red_dark}
+
+bar-volume-width = 10
+bar-volume-foreground-0 = ${colors.blue_dark}
+bar-volume-foreground-1 = ${colors.green_dark}
+bar-volume-foreground-2 = ${colors.green_dark}
+bar-volume-foreground-3 = ${colors.green_dark}
+bar-volume-foreground-4 = ${colors.green_dark}
+bar-volume-foreground-5 = ${colors.orange_dark}
+bar-volume-foreground-6 = ${colors.red_dark}
+bar-volume-gradient = true
+bar-volume-indicator = |
+bar-volume-indicator-foreground = ${colors.blue_dark}
+bar-volume-indicator-font = 0
+bar-volume-fill = ─
+bar-volume-fill-font = 0
+bar-volume-empty = ─
+bar-volume-empty-font = 0
+bar-volume-empty-foreground = ${colors.foreground}
 
 ; format-volume = <label-volume> <bar-volume>
 ; label-volume = VOL
@@ -419,20 +444,41 @@ ramp-capacity-4 = 
 bar-capacity-width = 10
 
 ; Only applies if <animation-charging> is used
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+; animation-charging-0 = 
+; animation-charging-1 = 
+; animation-charging-2 = 
+; animation-charging-3 = 
+; animation-charging-4 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-5 = 
+animation-charging-6 = 
+animation-charging-7 = 
+animation-charging-8 = 
+animation-charging-9 = 
 ; Framerate in milliseconds
 animation-charging-framerate = 750
 
 ; Only applies if <animation-discharging> is used
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-3 = 
-animation-discharging-4 = 
+; animation-discharging-0 = 
+; animation-discharging-1 = 
+; animation-discharging-2 = 
+; animation-discharging-3 = 
+; animation-discharging-4 = 
+animation-discharging-9 = 
+animation-discharging-8 = 
+animation-discharging-7 = 
+animation-discharging-6 = 
+animation-discharging-5 = 
+animation-discharging-4 = 
+animation-discharging-3 = 
+animation-discharging-2 = 
+animation-discharging-1 = 
+animation-discharging-0 = 
+
 ; Framerate in milliseconds
 animation-discharging-framerate = 500
 
