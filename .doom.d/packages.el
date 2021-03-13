@@ -22,15 +22,20 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
- (package! evil-commentary)
- (package! prettier-js)
+(package! evil-commentary)
+(package! prettier-js)
 (package! json-mode)
-;; (package! tide)
 (package! org-super-agenda)
 (package! add-node-modules-path)
 (package! deadgrep)
-(package! restclient)
+(package! i3wm-config-mode)
 (package! exec-path-from-shell)
+(package! company)
+(package! json-reformat)
+(package! lsp-mode)
+(package! restclient)
+(package! ivy)
+(package! vimrc-mode)
 
 ;; To install a package directly from a particular repo, you'll need to specify
 ;; a `:recipe'. You'll find documentation on what `:recipe' accepts here:

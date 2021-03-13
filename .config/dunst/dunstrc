@@ -102,9 +102,9 @@
     # will be ignored.
     follow = none
 
-    mouse_left_click = do_action, close_current
-    mouse_middle_click = close_current
-    mouse_right_click = close_all
+    mouse_left_click = do_action
+    mouse_middle_click = close_all
+    mouse_right_click = close_current
     
     # Should a notification popped up from history be sticky or timeout
     # as if it would normally do.
@@ -144,13 +144,13 @@
     # Print a notification on startup.
     # This is mainly for error detection, since dbus (re-)starts dunst
     # automatically after a crash.
-    startup_notification = false
+    startup_notification = true
     
     # dmenu path.
     dmenu = /usr/bin/dmenu -p dunst:
     
     # Browser for opening urls in context menu.
-    browser = firefox
+    browser = firefox -new-tab
 
     # Align icons left/right/off
     icon_position = left
