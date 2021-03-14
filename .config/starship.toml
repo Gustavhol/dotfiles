@@ -1,6 +1,7 @@
 format = """
- [](bold fg:#51afef) $cmd_duration $python $golang $nodejs $java $openstack $git_branch $git_status
- [└───>](bold fg:#51afef) $character$directory """
+ [](bold fg:#51afef)$cmd_duration$python$golang$nodejs$java$git_branch$git_status
+ [└─>](bold fg:#51afef) $directory$character"""
+
 
 add_newline = false
 
@@ -26,17 +27,18 @@ read_only = "🔒"
 disabled = false
 
 [character]
-error_symbol = "[✗](fg:#ff6c6b) "
-success_symbol = ""
+error_symbol = "[ ✗](fg:#ff6c6b) "
+success_symbol = "[ ](fg:#98be65) "
+vicmd_symbol = "[ ](fg:#c678dd) "
 disabled = false
 
 [cmd_duration]
 min_time = 300
-format = "[$duration](fg:#da8548)"
+format = "[$duration ](fg:#da8548)"
 
 [git_branch]
-format = "[$symbol$branch]($style) "
-symbol = "  "
+format = "[$symbol$branch ]($style) "
+symbol = " "
 style = "bold fg:#ECBE7B"
 truncation_length = 10
 truncation_symbol = ".."
@@ -54,7 +56,7 @@ modified = "! "
 staged = '[++\($count\)](green)'
 renamed = "👅 "
 deleted = " "
-style = "bold dim fg:#c678dd"
+style = "bold fg:#c678dd"
 disabled = false
 
 [python]
@@ -67,29 +69,23 @@ disabled = false
 
 [nodejs]
 format = "[${symbol} ${version}]($style) "
-symbol = " "
+symbol = ""
 style = "bold dimmed fg:#da8548"
 text = "fg:#da8548"
-not_capable_style = "bold fg:1"
+not_capable_style = "bold fg:#ff6c6b"
 disabled = false
 
 [java]
 format = " [${symbol}${version}]($style) "
 symbol = "☕ "
-style = "bold dimmed fg:3"
+style = "bold dimmed fg:#da8548"
 disabled = false
 
 [golang]
 format = " [$symbol$version]($style) "
 symbol = "🐹 "
-style = "bold dimmed fg:3"
+style = "bold dimmed fg:#da8548"
 disabled = false 
-
-[openstack]
-format = " [$symbol$cloud(\\($project\\))]($style) "
-style = "bold dimmed fg:3"
-symbol = "☁️  "
-disabled = false
 
 
 
