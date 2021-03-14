@@ -63,7 +63,7 @@ disabled = false
 format =  	' [${symbol}${pyenv_prefix}${version}( \($virtualenv\))]($style) '
 symbol = "🐍 "
 pyenv_version_name = true
-style = "bold dimmed fg:3"
+style = "bold dimmed fg:#da8548"
 python_binary = "python3"
 disabled = false
 
