@@ -291,7 +291,7 @@ exec --no-startup-id blueman-applet
 # exec --no-startup-id start_conky_maia
 exec --no-startup-id betterlockscreen -w
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -resetsaver -time 20 -locker "betterlockscreen -l dim -t 'Här var det låst' --off 300"
+exec --no-startup-id xautolock -resetsaver -time 30 -locker "betterlockscreen -l dimblur -t 'Här var det låst' --off 300"
 # exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
