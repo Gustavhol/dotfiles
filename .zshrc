@@ -173,12 +173,9 @@ alias vtop='vtop --theme gruvbox'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Easy config of common dotfiles
-alias zconf="emacsclient -t ~/.zshrc"
-alias zconfig="nvim ~/.zshrc"
-alias i3conf="emacsclient -t ~/.config/regolith/i3/config"
-alias i3config="nvim ~/.config/regolith/i3/config"
-alias nvimconf="emacsclient -t ~/.config/nvim/init.vim"
-alias nvimconfig="nvim ~/.config/nvim/init.vim"
+alias zconf="nvim ~/.zshrc"
+alias i3conf="nvim ~/.config/regolith/i3/config"
+alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias reload='exec $SHELL'
 alias restart='exec $SHELL'
 
@@ -196,6 +193,12 @@ alias ifconfig='ip address' # For those that live in the past
 alias theme='~/scripts/theme.sh -i' # Interactive script to change the theme in the terminal
 alias jog='~/scripts/jog.sh'
 alias vpn='sudo openfortivpn'
+
+#butler-burton
+alias bb='butler-burton'
+alias bbi='butler-burton ci'
+alias bbo='butler-burton co'
+alias bboc='butler-burton co -c'
 
 # Git
 alias addup='git add -u'
