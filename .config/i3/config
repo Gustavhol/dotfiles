@@ -42,7 +42,53 @@ bindsym $mod+Shift+space exec --no-startup-id rofi -show run
 bindsym $mod+Ctrl+space exec --no-startup-id rofi -show window
 
 # start file search
-bindsym $mod+alt+space exec --no-startup-id rofi -show find -modi find:home/gustav/scripts/finder.sh
+bindsym $mod+Mod1+space exec --no-startup-id rofi -show find -modi find:~/.local/share/rofi/finder.sh
+
+##########################
+## Macropad keybindings ##
+##########################
+    
+    # PlaidPad                     
+    # ,-----------------------,   
+    # |  1  |  2  |  3  | Enc |  Encoder for system volume and play/pause
+    # |-----+-----+-----+-----| 
+    # |  4  |  5  |  6  |  7  | 
+    # |-----+-----+-----+-----| 
+    # |  8  |  9  | 10  |  11 | 
+    # |-----+-----+-----+-----| 
+    # |  12 |  13 | 14  |  15 |  
+    # `-----------------------' 
+    #
+# 1
+bindsym $mod+Mod1+0 exec --no-startup-id ~/scripts/bb/check-in
+# 2
+bindsym $mod+Mod1+1 exec --no-startup-id ~/scripts/bb/check-out
+# 3
+bindsym $mod+Mod1+2 exec --no-startup-id ~/scripts/bb/check-out-lunch
+# 4
+bindsym $mod+Mod1+3 exec --no-startup-id ~/scripts/bb/check-time
+# 5
+bindsym $mod+Mod1+4 exec --no-startup-id ~/scripts/pa_set_a2dp.sh
+# 6
+bindsym $mod+Mod1+5 exec --no-startup-id 
+# # 7
+bindsym $mod+Mod1+6 exec --no-startup-id
+# # 8
+bindsym $mod+Mod1+7 exec --no-startup-id
+# # 9
+bindsym $mod+Mod1+8 exec --no-startup-id
+# # 10
+bindsym $mod+Mod1+9 exec --no-startup-id
+# # 11
+bindsym $mod+Mod1+y exec --no-startup-id
+# # 12
+bindsym $mod+Mod1+u exec --no-startup-id ~/scripts/toggle_mute
+# # 13
+bindsym $mod+Mod1+i exec --no-startup-id ~/scripts/toggle_dunst
+# # 14
+bindsym $mod+Mod1+o exec --no-startup-id
+# # 15
+bindsym $mod+Mod1+p exec --no-startup-id
 
 
 # launch categorized menu

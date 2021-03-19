@@ -230,7 +230,7 @@ alias grep="grep --color=auto"
 
 eval "$(starship init zsh)"
 path+=(
-    '/home/gustav/.emacs.d/'
+    '/home/gustav/.emacs.d/bin/'
     '/home/gustav/go/bin'
     '/usr/local/sbin'
     '/usr/local/bin'

@@ -33,9 +33,13 @@
 (package! company)
 (package! json-reformat)
 (package! lsp-mode)
+(package! grip-mode)
 (package! restclient)
 (package! ivy)
+(package! ranger)
 (package! vimrc-mode)
+(package! go-mode)
+(package! exec-path-from-shell)
 
 ;; To install a package directly from a particular repo, you'll need to specify
 ;; a `:recipe'. You'll find documentation on what `:recipe' accepts here:

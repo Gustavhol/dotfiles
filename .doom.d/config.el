@@ -41,6 +41,9 @@
 ;; `load-theme' function. These are the defaults.
 (setq doom-theme 'doom-one)
 
+(setq ranger-override-dired-mode t)
+(add-hook 'daemonp 'exec-path-from-shell-initialize)
+
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
 (setq display-line-numbers-type 'relative)
