@@ -68,7 +68,7 @@ bindsym $mod+Mod1+2 exec --no-startup-id ~/scripts/bb/check-out-lunch
 # 4
 bindsym $mod+Mod1+3 exec --no-startup-id ~/scripts/bb/check-time
 # 5
-bindsym $mod+Mod1+4 exec --no-startup-id ~/scripts/pa_set_a2dp.sh
+bindsym $mod+Mod1+4 exec --no-startup-id 
 # 6
 bindsym $mod+Mod1+5 exec --no-startup-id 
 # # 7
@@ -88,7 +88,7 @@ bindsym $mod+Mod1+i exec --no-startup-id ~/scripts/toggle_dunst
 # # 14
 bindsym $mod+Mod1+o exec --no-startup-id
 # # 15
-bindsym $mod+Mod1+p exec --no-startup-id
+bindsym $mod+Mod1+p exec --no-startup-id ~/scripts/pa_set_a2dp.sh
 
 
 # launch categorized menu

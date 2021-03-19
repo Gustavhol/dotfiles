@@ -4,9 +4,6 @@ export ZSH=$HOME/.oh-my-zsh
 # ZSH theme
 ~/scripts/theme.sh doom-one
 
-# Display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
-
     # Set fzf installation directory path
 # export FZF_BASE=/path/to/fzf/install/dir
 export FZF_CTRL_T_COMMAND='rg --files --hidden --follow'
@@ -34,7 +31,9 @@ zsh-syntax-highlighting
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+########################
+## USER CONFIGURATION ##
+########################
 # 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
@@ -43,9 +42,12 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='nvim'
  fi
 
+# Display red dots whilst waiting for completion.
+ COMPLETION_WAITING_DOTS="true"
+
  # ZSH-autosuggestions overrides
  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#5b6268,bg=#272c34"
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
  # Adds every command per working directory in ./zsh_history_ext for later referencing
 function zshaddhistory() {
@@ -59,6 +61,24 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
+
+#######################
+## TEMPORARY BUG FIX ##
+#######################
+
+# This speeds up pasting w/ autosuggest
+# https://github.com/zsh-users/zsh-autosuggestions/issues/238
+pasteinit() {
+  OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+  zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+}
+
+pastefinish() {
+  zle -N self-insert $OLD_SELF_INSERT
+}
+
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
 
 #################
 ###  VI MODE  ###
@@ -191,7 +211,7 @@ alias ws='wormhole send' # Requires Magic Wormhole
 alias wr='wormhole recieve'
 alias ifconfig='ip address' # For those that live in the past
 alias theme='~/scripts/theme.sh -i' # Interactive script to change the theme in the terminal
-alias jog='~/scripts/jog.sh'
+alias jog='~/scripts/jog.sh' # To list the last 10 commands in working directory
 alias vpn='sudo openfortivpn'
 
 #butler-burton
