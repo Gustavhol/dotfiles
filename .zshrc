@@ -50,15 +50,5 @@ done
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(starship init zsh)"
-# path+=(
-#     '/home/gustav/.emacs.d/bin/'
-#     '/home/gustav/go/bin'
-#     '/usr/local/sbin'
-#     '/usr/local/bin'
-#     '/usr/sbin'
-#     '/usr/bin'
-#     '/sbin'
-#     '/bin'
-# )
 export PATH
 
