@@ -47,6 +47,7 @@
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
 (setq display-line-numbers-type 'relative)
+(setq scroll-margin 8)
 
 ;; To avoid using fundamental mode in textfiles.
 (setq default-major-mode 'text-mode
@@ -127,8 +128,10 @@
         :nv "p s" #'persp-switch
         :nv "f f" #'counsel-fzf
         :nv "f w" #'+ivy/project-search
-        :nv "w s" #'evil-window-decrease-height
-        :nv "w e" #'evil-window-increase-height)
+        :nv "w h" #'evil-window-move-far-right
+        :nv "w v" #'evil-window-move-very-top
+        :nv "w j" #'evil-window-decrease-height
+        :nv "w k" #'evil-window-increase-height)
 
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle

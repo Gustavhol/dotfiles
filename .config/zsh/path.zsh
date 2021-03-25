@@ -1,4 +1,10 @@
-# paths
+#           ____  ___  ________  __
+#          / __ \/   |/_  __/ / / /
+#         / /_/ / /| | / / / /_/ / 
+#        / ____/ ___ |/ / / __  /  
+#       /_/   /_/  |_/_/ /_/ /_/   
+#                                  
+
 
 # Prepend to path if entry does not exist.
 # This version from: https://superuser.com/questions/39751/add-directory-to-path-if-its-not-already-there
