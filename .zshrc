@@ -1,10 +1,15 @@
-# Path to your oh-my-zsh installation.
+#           _____  _____ __  __   ______            _____      
+#          /__  / / ___// / / /  / ____/___  ____  / __(_)___ _
+#            / /  \__ \/ /_/ /  / /   / __ \/ __ \/ /_/ / __ `/
+#           / /_____/ / __  /  / /___/ /_/ / / / / __/ / /_/ / 
+#          /____/____/_/ /_/   \____/\____/_/ /_/_/ /_/\__, /  
+#                                                     /____/   
+
+
+# Path to oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# ZSH theme
-~/scripts/theme.sh doom-one
-
-# Dotfiles directory
+# Path to dotfiles directory
 DOTFILES=$HOME/.config
 
 # Would you like to use another custom folder than $ZSH/custom?
@@ -22,14 +27,13 @@ npm
 sudo
 nvm
 git
-# fzf
 zsh-autosuggestions
 # syntax highlighting must be sourced last
 zsh-syntax-highlighting
 )
 
-
 source $ZSH/oh-my-zsh.sh
+
 ###########################
 ## LOAD ZSH CONFIG FILES ##
 ###########################
@@ -47,8 +51,14 @@ done
 ###  HOUSEKEEPING  ###
 ######################
 
+
+# ZSH theme
+~/scripts/theme.sh doom-one
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Source starship proppt
 eval "$(starship init zsh)"
+
 export PATH
 
