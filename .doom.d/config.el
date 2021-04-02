@@ -132,6 +132,10 @@
         :nv "w v" #'evil-window-move-very-top
         :nv "w j" #'evil-window-decrease-height
         :nv "w k" #'evil-window-increase-height)
+      (:prefix "z"
+       :nv "n" #'neuron-insert-new-zettel
+       :nv "i l" #'neuron-insert-zettel-link
+       :nv "c" #'neuron-create-zettel-from-selected-title)
 
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle

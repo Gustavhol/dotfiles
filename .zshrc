@@ -62,3 +62,4 @@ eval "$(starship init zsh)"
 
 export PATH
 
+if [ -e /home/gustav/.nix-profile/etc/profile.d/nix.sh ]; then . /home/gustav/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
