@@ -17,6 +17,7 @@ Plug 'andymass/vim-matchup'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'luochen1990/rainbow'
 Plug 'vimwiki/vimwiki' 
+Plug 'lambdalisue/suda.vim'
 
 
 call plug#end()
@@ -205,7 +206,7 @@ nmap <silent> <leader>/ :nohlsearch<CR>
 map <leader>w <Plug>(easymotion-bd-w)
 
 " Allows you to save files you opened without write permissions via sudo
-cmap w!! w !sudo tee %
+cmap w!! SudaWrite
 
 " === vim-jsdoc shortcuts ==="
 " Generate jsdoc for function under cursor

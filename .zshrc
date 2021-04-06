@@ -28,6 +28,7 @@ sudo
 nvm
 git
 zsh-autosuggestions
+# zsh-vi-mode
 # syntax highlighting must be sourced last
 zsh-syntax-highlighting
 )

@@ -27,9 +27,10 @@ read_only = "🔒"
 disabled = false
 
 [character]
-error_symbol = "[ ✗](fg:#ff6c6b) "
-success_symbol = "[ ](fg:#98be65) "
-vicmd_symbol = "[ ](fg:#c678dd) "
+error_symbol = "[ ](fg:#ff6c6b) "
+# success_symbol = "[ ](fg:#98be65) "
+success_symbol = "[  ﬦ](fg:#98be65) "
+vicmd_symbol = "[  ](fg:#da8548) "
 disabled = false
 
 [cmd_duration]
