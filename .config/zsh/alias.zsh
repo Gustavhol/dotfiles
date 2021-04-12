@@ -32,7 +32,7 @@ alias restart='exec $SHELL'
 # Nav and listing
 alias la='exa -alh --color=auto --group-directories-first'
 alias ls='exa -lh --color=auto --group-directories-first'
-alias lt='exa -alhT --sort=.name --color=auto --group-directories-first'
+# alias lt='exa -alhT --sort=.name --color=auto --group-directories-first'
 
 # Scripts to make life easier
 alias mm="~/.screenlayout/multimonitor.sh" # My xrandr script to set my docked view

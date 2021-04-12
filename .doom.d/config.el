@@ -79,10 +79,6 @@
 (add-hook 'org-mode-hook 'grip-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 
-(eval-after-load
-	  'typescript-mode
-	  '(add-hook 'typescript-mode-hook #'add-node-modules-path))
-
 (defun ediff-copy-both-to-C ()
   (interactive)
   (ediff-copy-diff ediff-current-difference nil 'C nil
@@ -96,7 +92,9 @@
 (setq lsp-ui-doc nil)
 (setq lsp-ui-doc-position 'at-point
       lsp-ui-doc-max-height 150
-      lsp-ui-doc-max-width 100)
+      lsp-ui-sideline-diagnostic-max-line-length 140
+      lsp-ui-sideline-diagnostic-max-lines 5
+      lsp-ui-doc-max-width 150)
 
 (setq lsp-clients-angular-language-server-command
   '("node"

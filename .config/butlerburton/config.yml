@@ -6,8 +6,6 @@ vab_msg: "Hela eller en delmängd min avkomma har vissnat i okänd omfattning, s
 report:
   path: /home/gustav/.butlerburton/
   update: true
-  starting_row: 12
-  starting_day_of_month: 16
   checkin_col: "C"
   checkout_col: "D"
   lunch_col: "F"
