@@ -23,33 +23,17 @@ hc keyunbind --all
 Mod=Mod4   # Use the super key as the main modifier
 
 hc keybind $Mod-q close
+hc keybind $Mod-p spawn pavucontrol
+hc keybind $Mod-Shift-q spawn xkill
 hc keybind $Mod-Shift-r reload
-# hc keybind $Mod-Shift-c close
-#hc keybind $Mod-Return spawn ${TERMINAL:-gnome-terminal} # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-BackSpace   spawn $HOME/scripts/rofi_exit.sh 
 hc keybind $Mod-Return spawn "${TERMINAL:-alacritty}" # use your $TERMINAL with xterm as fallback
 
-#hc keybind $Mod-l spawn betterlockscreen -l dim
-#hc keybind $Mod-e spawn i3lock-fancy
 hc keybind $Mod-e spawn emacsclient -c
-#hc keybind $Mod-Shift-p spawn dmenu_run_hlwm
 hc keybind $Mod-space spawn rofi -show drun
-hc keybind $Mod-Shift-p spawn rofi -show run
-hc keybind $Mod-Shift-o spawn rofi -show window
-# hc keybind $Mod-Shift-u spawn rofi -show ssh
 hc keybind $Mod-Control-s spawn flameshot gui
 hc keybind $Mod-Control-z spawn ~/.screenlayout/fullhd.sh 
-hc keybind $Mod-Shift-f spawn firefox
-hc keybind $Mod-F1 spawn amixer -q -D pulse sset Master toggle
-hc keybind $Mod-F2 spawn amixer -q -D pulse sset Master 2%-
-hc keybind $Mod-F3 spawn amixer -q -D pulse sset Master 2%+
-hc keybind $Mod-F4 spawn brightnessctl s 5%-
-hc keybind $Mod-F5 spawn brightnessctl s 5%+
-
-#Spotify control
-hc keybind $Mod-F7 spawn dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
-hc keybind $Mod-F9 spawn dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
-hc keybind $Mod-F8 spawn dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
-
+hc keybind $Mod-Control-x spawn ~/.screenlayout/multimonitor.sh 
 
 # basic movement
 # focusing clients
@@ -113,7 +97,6 @@ hc keybind $Mod-comma  use_index -1 --skip-visible
 hc keybind $Mod-r remove
 hc keybind $Mod-t floating toggle
 hc keybind $Mod-f fullscreen toggle
-hc keybind $Mod-p pseudotile toggle
 # The following cycles through the available layouts within a frame, but skips
 # layouts, if the layout change wouldn't affect the actual window positions.
 # I.e. if there are two windows within a frame, the grid layout is skipped.
@@ -129,19 +112,65 @@ hc mousebind $Mod-Button2 zoom
 hc mousebind $Mod-Button3 resize
 
 # focus
-hc keybind $Mod-BackSpace   cycle_monitor
 hc keybind $Mod-Tab         cycle_all +1
 hc keybind $Mod-Shift-Tab   cycle_all -1
 hc keybind $Mod-c cycle
 hc keybind $Mod-i jumpto urgent
 
+
+##########################
+## Macropad keybindings ##
+##########################
+    
+    # PlaidPad                     
+    # ,-----------------------,   
+    # |  1  |  2  |  3  | Enc |  Encoder for system volume and play/pause
+    # |-----+-----+-----+-----| 
+    # |  4  |  5  |  6  |  7  | 
+    # |-----+-----+-----+-----| 
+    # |  8  |  9  | 10  |  11 | 
+    # |-----+-----+-----+-----| 
+    # |  12 |  13 | 14  |  15 |  
+    # `-----------------------' 
+    #
+# 1
+hc keybind $Mod+Mod1+0 ~/scripts/bb/check-in
+# 2
+hc keybind $Mod+Mod1+1 ~/scripts/bb/check-out
+# 3
+hc keybind $Mod+Mod1+2 ~/scripts/bb/check-out-lunch
+# 4
+hc keybind $Mod+Mod1+3 ~/scripts/bb/check-time
+# 5
+hc keybind $Mod+Mod1+4
+# 6
+hc keybind $Mod+Mod1+5
+# # 7
+hc keybind $Mod+Mod1+6
+# # 8
+hc keybind $Mod+Mod1+7
+# # 9
+hc keybind $Mod+Mod1+8
+# # 10
+hc keybind $Mod+Mod1+9
+# # 11
+hc keybind $Mod+Mod1+y
+# # 12
+hc keybind $Mod+Mod1+u ~/scripts/toggle_mute
+# # 13
+hc keybind $Mod+Mod1+i spawn $HOME/scripts/toggle_dunst
+# # 14
+hc keybind $Mod+Mod1+o
+# # 15
+hc keybind $Mod+Mod1+p ~/scripts/pa_set_a2dp.sh
+
 # theme
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
-hc set frame_border_active_color '#ffb200'      #orange
-hc set frame_border_normal_color '#222222'      #black
-hc set frame_bg_normal_color '#916500'          #grey
-hc set frame_bg_active_color '#ffb200'          #orange
+hc set frame_border_active_color '#98be65'      #green
+hc set frame_border_normal_color '#282c34'      #black
+hc set frame_bg_normal_color '#9ca0a4'          #grey
+hc set frame_bg_active_color '#98be65'          #green
 
 hc set always_show_frame 1
 hc set frame_bg_transparent 1
@@ -152,22 +181,22 @@ hc set frame_normal_opacity 50
 hc set frame_border_width 0
 hc set frame_border_inner_width 0
 
-hc attr theme.active.color '#ffb200' #orange
-hc attr theme.normal.color '#704b0b' #darkdarkorange
-hc attr theme.urgent.color '#ff0000' #red
+hc attr theme.active.color '#98be65' #green
+hc attr theme.normal.color '#51afef' #blue
+hc attr theme.urgent.color '#ff6c6b' #red
 hc attr theme.inner_width 3
-hc attr theme.inner_color '#000000' #black
-hc attr theme.border_width 4
-hc attr theme.floating.border_width 4
+hc attr theme.inner_color '#282c34' #black
+hc attr theme.border_width 3
+hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 0
 hc attr theme.floating.outer_color '#000000' #black
-hc attr theme.active.inner_color '#996b00' #darkorange
-hc attr theme.active.outer_color '#996b00' #darkorange
-hc attr theme.background_color '#996b00' #darkorange
+hc attr theme.active.inner_color '#98be65' #darkorange
+hc attr theme.active.outer_color '#98be65' #darkorange
+hc attr theme.background_color '#98be65' #darkorange
 
 
 hc set window_gap 8
-hc set frame_padding 2
+hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
 hc set mouse_recenter_gap 0
@@ -182,7 +211,7 @@ update_dragged_clients 1
 hc unrule -F
 #hc rule class=XTerm tag=3 # move all xterms to tag 3
 hc rule focus=on # normally focus new clients
-hc rule class=firefox tag=3
+# hc rule class=firefox tag=2
 #hc rule focus=off # normally do not focus new clients
 # give focus to most common terminals
 #hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
@@ -204,34 +233,26 @@ hc detect_monitors
 #herbstclient set auto_detect_monitors 1
 
 # find the panel
+killall -q polybar
 panel=~/.config/herbstluftwm/panel.sh
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor
     "$panel" $monitor &
-done
+done;sleep 1 && $HOME/.config/polybar/launch.sh 
 
 #Autostart
 
-# Polybar panel
-# killall -q polybar
-# while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
-
-# for m in $(polybar --list-monitors | cut -d":" -f1); do
-#     MONITOR=$m polybar --reload main -c ~/.config/polybar/config.ini &
-# done
-
-#for b in $(polybar --list-monitors | cut -d":" -f1); do
-#    MONITOR=$b polybar --reload bottom -c ~/.config/polybar/config-bottom.ini &
-#done
-
-# add "monitor = ${env:MONITOR:}" in polybar config.ini file under bar/main.
-
-#pkill polybar
-#polybar main -c ~/.config/polybar/config.ini &
-#exec $HOME/.config/polybar/launch.sh
-
-
+blueman-applet
+fix_xcursor
+nm-applet
+pa-applet
+pamac-tray
+picom -b
+pulseaudio
+volumeicon
+xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
+xfce4-power-manager
 source ~/.fehbg
-# feh --bg-fill ~/dotfiles/wall/wall2.png
+# sleep 5 && $HOME/.config/polybar/launch.sh
 

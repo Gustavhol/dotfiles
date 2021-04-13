@@ -24,7 +24,7 @@ font xft:Nerd Font Hack 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+q kill
@@ -337,7 +337,7 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id firefox
 exec --no-startup-id blueman-applet
-exec --no-startup-id $HOME/.fehbg
+exec --no-startup-id source $HOME/.fehbg
 exec --no-startup-id xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
