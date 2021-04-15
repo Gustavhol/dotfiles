@@ -606,23 +606,23 @@ enable-scroll = true
 ; NOTE: The desktop name needs to match the name configured by the WM
 ; You can get a list of the defined desktops using:
 ; $ xprop -root _NET_DESKTOP_NAMES
-icon-0 = 1;
-icon-1 = 2;
-icon-2 = 3;
-icon-3 = 4;
-icon-4 = 5;
-icon-5 = 6;
-icon-6 = 7;
-icon-7 = 8;
-icon-8 = 9;
-icon-default = 
+icon-0 = 1;
+icon-1 = 2;
+icon-2 = 3;
+icon-3 = 4;
+icon-4 = 5;
+icon-5 = 6;
+icon-6 = 7;
+icon-7 = 8;
+icon-8 = 9;
+icon-default = 
 
 ; Available tags:
 ;   <label-monitor>
 ;   <label-state> - gets replaced with <label-(active|urgent|occupied|empty)>
 ; Default: <label-state>
 format = <label-state>
-format-padding = 0
+format-padding = 1
 
 ; Available tokens:
 ;   %name%
@@ -634,9 +634,10 @@ label-monitor = %name%
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-active = " "
+label-active = " "
+
 label-active-foreground = ${colors.green_dark}
-label-active-background = ${colors.background}
+; label-active-background = ${colors.background}
 ;;label-active-underline = ${color.ac}
 ;;label-active-overline = ${color.ac}
 
@@ -645,9 +646,9 @@ label-active-background = ${colors.background}
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-occupied = "%icon%"
-label-occupied-foreground = ${colors.orange}
-label-occupied-background = ${colors.background}
+label-occupied = "%icon% "
+label-occupied-foreground = ${colors.blue_light}
+; label-occupied-background = ${colors.background}
 ;;label-occupied-underline = ${color.ac}
 ;;label-occupied-overline = ${color.ac}
 
@@ -658,7 +659,7 @@ label-occupied-background = ${colors.background}
 ; Default: %icon%  %name%
 label-urgent = "%icon% "
 label-urgent-foreground = ${colors.red_dark}
-label-urgent-background = ${colors.background}
+; label-urgent-background = ${colors.background}
 ;;label-urgent-underline = ${color.ac}
 ;;label-urgent-overline = ${color.ac}
 
@@ -668,8 +669,8 @@ label-urgent-background = ${colors.background}
 ;   %index%
 ; Default: %icon%  %name%
 label-empty = "%icon% "
-label-empty-foreground = ${colors.foreground}
-label-empty-background = ${colors.background}
+label-empty-foreground = ${colors.orange}
+; label-empty-background = ${colors.background}
 ;;label-empty-underline = ${color.ac}
 ;;label-empty-overline = ${color.ac}
 
