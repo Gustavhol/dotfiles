@@ -1,0 +1,12 @@
+#!/bin/sh
+IS_PAUSED=$(dunstctl is-paused)
+if $IS_PAUSED;
+    then dunstctl set-paused false
+         sleep 1
+         dunstify "Dunst enabled"
+    else dunstify "Dunst disabled"
+         sleep 5
+         dunstctl close-all
+         dunstctl set-paused true
+fi
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+pacmd list-sources | \
+        grep -oP 'index: \d+' | \
+        awk '{ print $2 }' | \
+        xargs -I{} pactl set-source-mute {} toggle
+
+muted=$(pacmd list-sources | \
+        grep -m 1 -e 'muted:' | \
+        cut -d ' ' -f 2)
+ye="yes"
+
+if [ $muted == yes ]
+then
+        dunstify "Microphone muted"
+else
+        dunstify "Micropone listening"
+fi

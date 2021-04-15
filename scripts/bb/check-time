@@ -1,3 +1,6 @@
 #!/bin/sh
-PATH=~/go/bin:$PATH
+PATH=~/.go/bin:$PATH
 butler-burton ct 
+# dunstify 'notify'
+# notify-send "$(go env)"
+

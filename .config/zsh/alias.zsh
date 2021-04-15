@@ -24,7 +24,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Easy config of common dotfiles
 alias zconf="nvim ~/.zshrc"
-alias i3conf="nvim ~/.config/regolith/i3/config"
+alias i3conf="nvim ~/.config/i3/config"
 alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias reload='exec $SHELL'
 alias restart='exec $SHELL'

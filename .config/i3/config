@@ -86,7 +86,7 @@ bindsym $mod+Mod1+u exec --no-startup-id ~/scripts/toggle_mute
 # # 13
 bindsym $mod+Mod1+i exec --no-startup-id ~/scripts/toggle_dunst
 # # 14
-bindsym $mod+Mod1+o exec --no-startup-id
+bindsym $mod+Mod1+o exec --no-startup-id ~/scripts/rofi-burton.sh
 # # 15
 bindsym $mod+Mod1+p exec --no-startup-id ~/scripts/pa_set_a2dp.sh
 
