@@ -237,12 +237,13 @@ hc detect_monitors
 
 # find the panel
 killall -q polybar
-panel=~/.config/herbstluftwm/panel.sh
-[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
+# panel=~/.config/herbstluftwm/panel.sh
+# [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor
-    "$panel" $monitor &
-done;sleep 1 && $HOME/.config/polybar/launch.sh 
+    # "$panel" $monitor &
+    hc pad $monitor 20 &
+done;$HOME/.config/polybar/launch.sh 
 
 #Autostart
 
