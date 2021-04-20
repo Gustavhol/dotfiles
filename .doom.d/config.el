@@ -94,7 +94,8 @@
       lsp-ui-doc-max-height 150
       lsp-ui-sideline-diagnostic-max-line-length 140
       lsp-ui-sideline-diagnostic-max-lines 5
-      lsp-ui-doc-max-width 150)
+      lsp-ui-doc-max-width 150
+      lsp-headerline-breadcrumb-enable t)
 
 (setq lsp-clients-angular-language-server-command
   '("node"

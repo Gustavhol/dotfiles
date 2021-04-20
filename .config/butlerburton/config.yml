@@ -12,3 +12,4 @@ report:
   bl_lunch_col: "I"
   overtime_col: "R"
   vab_col: "L"
+  afk_col: "G"

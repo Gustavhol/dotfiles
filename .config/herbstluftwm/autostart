@@ -160,7 +160,7 @@ hc keybind $Mod+Mod1+u ~/scripts/toggle_mute
 # # 13
 hc keybind $Mod+Mod1+i spawn $HOME/scripts/toggle_dunst
 # # 14
-hc keybind $Mod+Mod1+o
+hc keybind $Mod+Mod1+o ~/scripts/rofi_burton.sh
 # # 15
 hc keybind $Mod+Mod1+p ~/scripts/pa_set_a2dp.sh
 
