@@ -18,7 +18,8 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'luochen1990/rainbow'
 Plug 'vimwiki/vimwiki' 
 Plug 'lambdalisue/suda.vim'
-
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
@@ -102,9 +103,6 @@ let g:ranger_replace_netrw = 1 " open ranger when vim open a directory
 let g:ranger_map_keys = 0
 nnoremap <silent><Leader>n :RangerCurrentDirectory<CR>
 nnoremap <silent><Leader>N :RangerWorkingDirectory<CR>
-
-" Add space before nerdcommenter comments
-let g:NERDSpaceDelims=1
 
 "=== indent guides === "
 

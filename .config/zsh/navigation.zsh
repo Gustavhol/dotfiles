@@ -17,9 +17,12 @@ rangercd () {
     fi
 }
 
+bindkey -s '^o' 'rangercd\n'  # Navigate with ranger
+
 # fh - repeat history
 fh() {
   print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac --height "50%" | sed -r 's/ *[0-9]*\*? *//' | sed -r 's/\\/\\\\/g')
 }
 
-bindkey -s '^o' 'rangercd\n'  # Navigate with ranger
+# make a dir and cd into it
+mkcd() { mkdir -vp "$1" && cd "$1"; }
