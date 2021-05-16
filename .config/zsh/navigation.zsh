@@ -26,3 +26,6 @@ fh() {
 
 # make a dir and cd into it
 mkcd() { mkdir -vp "$1" && cd "$1"; }
+
+# ssh and export xterm
+ssht() { ssh -t "$1" "export TERM=xterm;/bin/bash"}
