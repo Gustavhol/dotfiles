@@ -1,0 +1,8 @@
+#!/bin/bash
+
+dunstify 'goenv'
+
+BURTON=${which butler-burton}
+GO=${go env}
+dunstify "which bb: ${BURTON}"
+dunstify "goenv: ${GO}"

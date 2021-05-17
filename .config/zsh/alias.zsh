@@ -24,6 +24,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Easy config of common dotfiles
 alias zconf="~/scripts/zsh_conf.sh"
+alias herbstconf="nvim ~/.config/herbstluftwm/autostart"
+alias hc="herbstclient"
 alias i3conf="nvim ~/.config/i3/config"
 alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias reload='exec $SHELL'
@@ -47,6 +49,7 @@ alias mcs='$HOME/scripts/mc_server_start.sh'
 
 #butler-burton
 alias bb='butler-burton'
+alias bbr='~/scripts/rofi_burton.sh'
 alias bbi='butler-burton ci'
 alias bbo='butler-burton co'
 alias bboc='butler-burton co -c'

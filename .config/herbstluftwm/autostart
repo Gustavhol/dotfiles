@@ -134,13 +134,13 @@ hc keybind $Mod-i jumpto urgent
     # `-----------------------' 
     #
 # 1
-hc keybind $Mod+Mod1+0 ~/scripts/bb/check-in
+hc keybind $Mod+Mod1+0 spawn $HOME/scripts/multimonitor_incremental_increase.sh
 # 2
-hc keybind $Mod+Mod1+1 ~/scripts/bb/check-out
+hc keybind $Mod+Mod1+1 spawn $HOME/scripts/bb/check-out
 # 3
-hc keybind $Mod+Mod1+2 ~/scripts/bb/check-out-lunch
+hc keybind $Mod+Mod1+2 spawn $HOME/scripts/bb/check-out-lunch
 # 4
-hc keybind $Mod+Mod1+3 ~/scripts/bb/check-time
+hc keybind $Mod+Mod1+3 spawn $HOME/scripts/bb/check-time
 # 5
 hc keybind $Mod+Mod1+4
 # 6
@@ -150,27 +150,27 @@ hc keybind $Mod+Mod1+6
 # # 8
 hc keybind $Mod+Mod1+7
 # # 9
-hc keybind $Mod+Mod1+8
+hc keybind $Mod+Mod1+8 spawn screenkey
 # # 10
-hc keybind $Mod+Mod1+9
+hc keybind $Mod+Mod1+9 killall -q screenkey
 # # 11
-hc keybind $Mod+Mod1+y
+hc keybind $Mod+Mod1+y spawn $HOME/scripts/restart_teams.sh
 # # 12
-hc keybind $Mod+Mod1+u ~/scripts/toggle_mute
+hc keybind $Mod+Mod1+u spawn $HOME/scripts/toggle_mute
 # # 13
 hc keybind $Mod+Mod1+i spawn $HOME/scripts/toggle_dunst
 # # 14
-hc keybind $Mod+Mod1+o ~/scripts/rofi_burton.sh
+hc keybind $Mod+Mod1+o spawn $HOME/scripts/rofi_burton.sh
 # # 15
-hc keybind $Mod+Mod1+p ~/scripts/pa_set_a2dp.sh
+hc keybind $Mod+Mod1+p spawn $HOME/scripts/pa_set_a2dp.sh
 
 # theme
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 hc set always_show_frame 1
 hc set frame_border_active_color '#98be65'      #green
-hc set frame_border_normal_color '#282c34'      #black
-hc set frame_bg_normal_color '#282c34'          #grey
+hc set frame_border_normal_color '#1e2127'      #black
+hc set frame_bg_normal_color '#1e2127'          #grey
 hc set frame_bg_active_color '#98be65'          #green
 
 # hc set frame_bg_transparent 85
@@ -187,7 +187,7 @@ hc attr theme.active.color '#98be65' #green
 hc attr theme.normal.color '#51afef' #blue
 hc attr theme.urgent.color '#ff6c6b' #red
 hc attr theme.inner_width 3
-hc attr theme.inner_color '#282c34' #black
+hc attr theme.inner_color '#1e2127' #black
 hc attr theme.border_width 3
 hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 0
@@ -237,12 +237,11 @@ hc detect_monitors
 
 # find the panel
 panel=~/.config/herbstluftwm/panel.sh
-~/.config/herbstluftwm/panel.sh
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
 for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
     # start it on each monitor
     dunstify "$monitor"
-    "$panel" $monitor &
+    # "$panel" $monitor &
     # hc pad $monitor 20 &
 done;
 $HOME/.config/polybar/launch.sh 
@@ -254,11 +253,9 @@ fix_xcursor
 nm-applet
 pa-applet
 pamac-tray
-picom -b
 pulseaudio
-killall volumeicon && volumeicon
+killall volumeicon && hc volumeicon
 xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
 xfce4-power-manager
-source ~/.fehbg
-# sleep 5 && $HOME/.config/polybar/launch.sh
+spawn $HOME/scripts/multimonitor_incremental_increase.sh
 
