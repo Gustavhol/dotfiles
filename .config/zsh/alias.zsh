@@ -32,6 +32,7 @@ alias reload='exec $SHELL'
 alias restart='exec $SHELL'
 
 # Nav and listing
+alias lsa='exa -alh --color=auto --group-directories-first'
 alias la='exa -alh --color=auto --group-directories-first'
 alias ls='exa -lh --color=auto --group-directories-first'
 # alias lt='exa -alhT --sort=.name --color=auto --group-directories-first'

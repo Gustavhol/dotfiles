@@ -37,5 +37,5 @@ path_prepend /usr/sbin
 path_prepend /usr/local/bin
 path_prepend /usr/local/sbin
 
-# export PATH
+export PATH
 
