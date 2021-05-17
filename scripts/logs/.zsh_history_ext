@@ -1,5 +1,0 @@
-~|/home/gustav/scripts/logs   
-lsa|/home/gustav   
-config pull|/home/gustav   
-config status|/home/gustav   
-config commit -a -m "removed hostory file"|/home/gustav   
