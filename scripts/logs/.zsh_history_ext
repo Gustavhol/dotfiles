@@ -1,0 +1,1057 @@
+lsa|/home/gustav/scripts/logs   
+rm -f ./.zsh_history-ext|/home/gustav/scripts/logs   
+lsa|/home/gustav/scripts/logs   
+config status|/home/gustav/scripts/logs   
+yay -Ss awesome|/home/gustav/scripts/logs   
+yay -Ss awesome | grep font|/home/gustav/scripts/logs   
+yay -Ss font-awesomt|/home/gustav/scripts/logs   
+yay -Ss font-awesome|/home/gustav/scripts/logs   
+yay -S ttf-font-awesome|/home/gustav/scripts/logs   
+locate siji.bdf|/home/gustav/scripts/logs   
+fc-cache|/home/gustav/scripts/logs   
+...|/home/gustav/scripts/logs   
+lsa|/home/gustav   
+cd Documents/|/home/gustav   
+git clone git@github.com:stark/siji.git|/home/gustav/Documents   
+ls|/home/gustav/Documents   
+cd siji|/home/gustav/Documents   
+ls|/home/gustav/Documents/siji   
+./install.sh -d ~/.local/share/fonts/|/home/gustav/Documents/siji   
+xset +fp ~/.local/share/fonts/|/home/gustav/Documents/siji   
+xset fp rehash|/home/gustav/Documents/siji   
+|/home/gustav/Documents/siji   
+killall polybar|/home/gustav/Documents/siji   
+fc-list | grep -i siji|/home/gustav/Documents/siji   
+fc-cache|/home/gustav/Documents/siji   
+fc-list | grep -i siji|/home/gustav/Documents/siji   
+fc-cache -fv|/home/gustav/Documents/siji   
+fc-list | grep -i siji|/home/gustav/Documents/siji   
+fc-list | grep -i hack|/home/gustav/Documents/siji   
+fc-list | grep -i awesome|/home/gustav/Documents/siji   
+~/.local/share/fonts/|/home/gustav/Documents/siji   
+ls|/home/gustav/.local/share/fonts   
+rm siji.pcf|/home/gustav/.local/share/fonts   
+ls|/home/gustav/.local/share/fonts   
+fc-cache -fv|/home/gustav/.local/share/fonts   
+fc-list | grep -i siji|/home/gustav/.local/share/fonts   
+fc-list | grep -i hack|/home/gustav/.local/share/fonts   
+pactl list |/home/gustav/.local/share/fonts   
+pactl -h|/home/gustav/.local/share/fonts   
+pactl output list|/home/gustav/.local/share/fonts   
+pactl short list|/home/gustav/.local/share/fonts   
+pactl list|/home/gustav/.local/share/fonts   
+pactl -h|/home/gustav/.local/share/fonts   
+pactl info|/home/gustav/.local/share/fonts   
+pactl exit|/home/gustav/.local/share/fonts   
+killall pactl|/home/gustav/.local/share/fonts   
+pactl -s list|/home/gustav/.local/share/fonts   
+pactl -s|/home/gustav/.local/share/fonts   
+config status|/home/gustav/.local/share/fonts   
+config status|/home/gustav/.local/share/fonts   
+config commit -a -m "basic polybar config"|/home/gustav/.local/share/fonts   
+config push|/home/gustav/.local/share/fonts   
+~|/home/gustav/.local/share/fonts   
+ranger|/home/gustav   
+ls|/etc/lightdm   
+sudo v slick-greeter.conf|/etc/lightdm   
+sudo nvim slick-greeter.conf|/etc/lightdm   
+rangercd|/home/gustav   
+signal-desktop|/home/gustav   
+yay -S lightdm-settings|/home/gustav   
+lightdm-settings &|/home/gustav   
+~|/etc/lightdm   
+lsa|/home/gustav   
+rangercd|/home/gustav   
+sudo nvim lightdm.conf|/etc/lightdm   
+theme -i|/etc/lightdm   
+lsa|/home/gustav   
+theme -i|/home/gustav   
+lsa|/etc/lightdm   
+theme -i|/home/gustav   
+config status|/home/gustav   
+config commit -a -m "more polybar config"|/home/gustav   
+config push|/home/gustav   
+config fetch|/home/gustav   
+config status|/home/gustav   
+config pull|/home/gustav   
+reload|/home/gustav   
+betterlockscreen -u -r 1920x1080 ./triangles-download.png|/home/gustav   
+betterlockscreen -u ./triangles-download.png -r 1920x1080|/home/gustav   
+betterlockscreen -u ~/Pictures/triangles-download.png -r 1920x1080|/home/gustav   
+betterlockscreen -w|/home/gustav   
+systemctl status betterlockscreen@gustav|/home/gustav   
+systemctl enable  betterlockscreen@gustav|/home/gustav   
+systemctl status betterlockscreen@gustav|/home/gustav   
+systemctl start betterlockscreen@gustav|/home/gustav   
+systemctl status betterlockscreen@gustav|/home/gustav   
+v|/home/gustav   
+echo - | awk "{printf \"%.1f\",                     
+$((                                                                                                                 
+  $(cat /sys/class/power_supply/BAT0/current_now) * 
+  $(cat /sys/class/power_supply/BAT0/voltage_now) 
+)) / 1000000000000 }" ; echo " W"|/home/gustav   
+echo - | awk "{printf \"%.1f\",                     
+$((                                                                                                                 
+  $(cat /sys/class/power_supply/BAT0/current_now) * 
+  $(cat /sys/class/power_supply/BAT0/voltage_now) 
+)) / 1000000000000 }" ; echo " W"|/home/gustav   
+echo - | awk "{printf \"%.1f\",                     
+$((                                                                                                                 
+  $(cat /sys/class/power_supply/BAT0/current_now) * 
+  $(cat /sys/class/power_supply/BAT0/voltage_now) 
+)) / 1000000000000 }" ; echo " W"|/home/gustav   
+echo - | awk "{printf \"%.1f\",                     
+$((                                                                                                                 
+  $(cat /sys/class/power_supply/BAT0/current_now) * 
+  $(cat /sys/class/power_supply/BAT0/voltage_now) 
+)) / 1000000000000 }" ; echo " W"|/home/gustav   
+xrandr --query | grep " connected" | cut -d" " -f1|/home/gustav   
+reload|/home/gustav   
+z bl-map|/home/gustav   
+reload|/home/gustav/code/bl-map-front   
+lsa|/home/gustav/code/bl-map-front   
+theme -i|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+ssh pi@192.168.1.199|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+..|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code   
+bl-map-front/|/home/gustav/code   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+ls|/home/gustav/code/bl-map-front   
+lsa|/home/gustav/code/bl-map-front   
+v|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+v|/home/gustav/code/bl-map-front   
+..|/home/gustav/code/bl-map-front   
+..|/home/gustav/code   
+z .config|/home/gustav   
+ls|/home/gustav/.config   
+..|/home/gustav/.config   
+cd .local/|/home/gustav   
+ls|/home/gustav/.local   
+share/|/home/gustav/.local   
+ls|/home/gustav/.local/share   
+applications/|/home/gustav/.local/share   
+ls|/home/gustav/.local/share/applications   
+..|/home/gustav/.local/share/applications   
+ls|/home/gustav/.local/share   
+fonts/|/home/gustav/.local/share   
+ls|/home/gustav/.local/share/fonts   
+..|/home/gustav/.local/share/fonts   
+config add fonts/|/home/gustav/.local/share   
+..|/home/gustav/.local/share   
+ls|/home/gustav/.local   
+share/|/home/gustav/.local   
+ls|/home/gustav/.local/share   
+nvim/|/home/gustav/.local/share   
+ls|/home/gustav/.local/share/nvim   
+~|/home/gustav/.local/share/nvim   
+ls|/home/gustav   
+cd Applications/|/home/gustav   
+ls|/home/gustav/Applications   
+..|/home/gustav/Applications   
+cd programs/|/home/gustav   
+ls|/home/gustav/programs   
+cd spotify/|/home/gustav/programs   
+ls|/home/gustav/programs/spotify   
+z code|/home/gustav/programs/spotify   
+ls|/home/gustav/code   
+z .con|/home/gustav/code   
+ls|/home/gustav/.config   
+config add ./starship.toml|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "refined polybar and added fonts"|/home/gustav/.config   
+reload|/home/gustav/.config   
+reload|/home/gustav/.config   
+reload|/home/gustav/.config   
+reload|/home/gustav/.config   
+z bl-map|/home/gustav/.config   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+config commit -a -m "changed starship config"|/home/gustav/code/bl-map-front   
+config status|/home/gustav/code/bl-map-front   
+config push|/home/gustav/code/bl-map-front   
+config commit -a -m "changed starship config"|/home/gustav/code/bl-map-front   
+config push|/home/gustav/code/bl-map-front   
+config fetch|/home/gustav/code/bl-map-front   
+config status|/home/gustav/code/bl-map-front   
+config pull|/home/gustav/code/bl-map-front   
+xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"|/home/gustav/code/bl-map-front   
+killall xautolock|/home/gustav/code/bl-map-front   
+reload|/home/gustav/code/bl-map-front   
+xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"|/home/gustav/code/bl-map-front   
+xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'" &|/home/gustav/code/bl-map-front   
+zconf|/home/gustav/code/bl-map-front   
+ls-1 | wc -l|/home/gustav   
+ls-1 | wc -1|/home/gustav   
+ls-1 | wc-l|/home/gustav   
+ls -1 | wc -l|/home/gustav   
+ls -1 | wc|/home/gustav   
+sudo ls -1 | wc -l|/home/gustav   
+ls|/home/gustav   
+lsa|/home/gustav   
+fh|/home/gustav/code/bl-map-front   
+fh|/home/gustav/code/bl-map-front   
+fh|/home/gustav/code/bl-map-front   
+yay -S ripgrep|/home/gustav/code/bl-map-front   
+v ./.fzf.zsh|/home/gustav   
+~|/etc/lightdm   
+ls|/home/gustav   
+lsa|/home/gustav   
+cd ./.fzf|/home/gustav   
+lsa|/home/gustav/.fzf   
+shell/|/home/gustav/.fzf   
+lsa|/home/gustav/.fzf/shell   
+v ./key-bindings.zsh|/home/gustav/.fzf/shell   
+cd .oh-my-zsh/plugins|/home/gustav/.fzf/shell   
+cd .oh-my-zsh/|/home/gustav/.fzf/shell   
+cd ~/.oh-my-zsh/plugins|/home/gustav/.fzf/shell   
+ls|/home/gustav/.oh-my-zsh/plugins   
+reload|/home/gustav/.oh-my-zsh/plugins   
+ls|/home/gustav/.oh-my-zsh/plugins   
+ls | grep z|/home/gustav/.oh-my-zsh/plugins   
+reload|/home/gustav/.oh-my-zsh/plugins   
+~|/home/gustav/.oh-my-zsh/plugins   
+lsa|/home/gustav   
+z .config|/home/gustav   
+reload|/home/gustav   
+zconf|/home/gustav   
+reload|/home/gustav   
+z .config|/home/gustav   
+reload|/home/gustav/.config   
+~|/home/gustav/.config   
+ls|/home/gustav   
+programs/|/home/gustav   
+ls|/home/gustav/programs   
+z plugins|/home/gustav/programs   
+..|/home/gustav/.oh-my-zsh/plugins   
+custom/|/home/gustav/.oh-my-zsh   
+ls|/home/gustav/.oh-my-zsh/custom   
+plugins/|/home/gustav/.oh-my-zsh/custom   
+ls|/home/gustav/.oh-my-zsh/custom/plugins   
+zsh-autocomplete/|/home/gustav/.oh-my-zsh/custom/plugins   
+ls|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete   
+..|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete   
+zsh-autocomplete/|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete   
+completion/|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete   
+ls|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+echo $SHELL|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+echo $SHELL|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+echo $PATH|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+reload|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+echo $PATH|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+echo $SHELL|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+z .config|/home/gustav/.oh-my-zsh/custom/plugins/zsh-autocomplete/completion   
+ls|/home/gustav/.config   
+cd zsh|/home/gustav/.config   
+ls|/home/gustav/.config/zsh   
+..|/home/gustav/.config/zsh   
+config add ./zsh/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config diff-files ../.i3/config|/home/gustav/.config   
+config commit -a -m "Broke down .zshrc into multiple files"|/home/gustav/.config   
+config push|/home/gustav/.config   
+reload|/home/gustav/.config   
+reload|/home/gustav/.config   
+reload|/home/gustav/.config   
+z custom|/home/gustav/.config   
+plugins/|/home/gustav/.oh-my-zsh/custom   
+ls|/home/gustav/.oh-my-zsh/custom/plugins   
+rm -rf zsh-autosuggestions/|/home/gustav/.oh-my-zsh/custom/plugins   
+ls|/home/gustav/.oh-my-zsh/custom/plugins   
+git clone https://github.com/zsh-users/zsh-autosuggestions|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+reload|/home/gustav/.oh-my-zsh/custom/plugins   
+config commit -a -m "disabled completion in zsh-autosuggest until i find a way to speed it up"|/home/gustav/.oh-my-zsh/custom/plugins   
+config push|/home/gustav/.oh-my-zsh/custom/plugins   
+config commit -a -m "removed duplicate fzf from .zshrc"|/home/gustav/.oh-my-zsh/custom/plugins   
+config push|/home/gustav/.oh-my-zsh/custom/plugins   
+z code|/home/gustav/.oh-my-zsh/custom/plugins   
+git clone git@github.com:gustavhol/qmk-firmware.git|/home/gustav/code   
+git clone git@github.com:gustavhol/qmk_firmware.git|/home/gustav/code   
+cd qmk_firmware|/home/gustav/code   
+v readme.md|/home/gustav/code/qmk_firmware   
+la|/home/gustav/code/qmk_firmware   
+python3 -m pip install --user qmk|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl-mnuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+make git-submodules|/home/gustav/code/qmk_firmware   
+make git-submodule|/home/gustav/code/qmk_firmware   
+sudo nvim /etc/udev/rules.d/50-qmk.rules|/home/gustav/code/qmk_firmware   
+sudo udevadm control --reload-rules|/home/gustav/code/qmk_firmware   
+sudo udevadm trigger|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl-mnuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl-manuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl_manuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+yay -S avr-gcc|/home/gustav/code/qmk_firmware   
+yay -Syy|/home/gustav/code/qmk_firmware   
+yay -S avr-gcc|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl_manuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+yay -S avr-libc|/home/gustav/code/qmk_firmware   
+qmk compile -kb handwired/dactyl_manuform/4x6 -km gustavhol|/home/gustav/code/qmk_firmware   
+qmk compile -kb kyria -km gustavhol|/home/gustav/code/qmk_firmware   
+yay -S neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+echo $TERM|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav   
+echo $SHELL|/home/gustav/code/qmk_firmware   
+yay -S alacritty|/home/gustav/code/qmk_firmware   
+neofetch|/home/gustav   
+z conf|/home/gustav   
+zconf|/home/gustav/.config   
+reload|/home/gustav/.config   
+rangercd|/home/gustav/.config   
+neofetch|/home/gustav/.config/balena-etcher-electron   
+neofetch|/home/gustav/.config/balena-etcher-electron   
+ranger|/home/gustav/.config/balena-etcher-electron   
+neofetch|/home/gustav   
+neofetch|/home/gustav/.config/zsh   
+yay -S flameshot|/home/gustav/code/qmk_firmware   
+theme -i|/home/gustav   
+ls|/home/gustav   
+lsa|/home/gustav   
+neofetch|/home/gustav   
+yay -Syy|/home/gustav/code/qmk_firmware   
+yay -S rpi-imager|/home/gustav/code/qmk_firmware   
+yay -S ipscan|/home/gustav/code/qmk_firmware   
+ssh pi@pihole|/home/gustav   
+ssh pi@raspberrypi|/home/gustav   
+ssh pi@192.168.1.199|/home/gustav/code/qmk_firmware   
+ssh pi@pihole|/home/gustav/code/qmk_firmware   
+ssh pi@pihole|/home/gustav   
+ping 192.168.1.1|/home/gustav/code/bl-map-front   
+ping 192.168.1.2|/home/gustav/code/bl-map-front   
+ping 192.168.1.200|/home/gustav/code/bl-map-front   
+ssh pi@pihole|/home/gustav   
+dig pi-hole.net @127.0.0.1 -p 5335|/home/gustav/code/bl-map-front   
+yay -S dig|/home/gustav/code/bl-map-front   
+config fetch|/home/gustav/code/bl-map-front   
+config status|/home/gustav/code/bl-map-front   
+git diff-files|/home/gustav/code/bl-map-front   
+config diff-files|/home/gustav/code/bl-map-front   
+config diff-files .config/zsh/navigation.zsh|/home/gustav/code/bl-map-front   
+config diff HEAD|/home/gustav/code/bl-map-front   
+config commit -a -m "changed location of keybind"|/home/gustav/code/bl-map-front   
+config pull|/home/gustav/code/bl-map-front   
+config status|/home/gustav/code/bl-map-front   
+config pull|/home/gustav/code/bl-map-front   
+config push|/home/gustav/code/bl-map-front   
+reload|/home/gustav   
+~|/home/gustav   
+lsa|/home/gustav   
+v .gitignore|/home/gustav   
+config rm -f ~/scripts/logs/.zsh_history_ext|/home/gustav   
+config commit -a .config/kitty/kitty.conf -m "changed kitty.conf"|/home/gustav   
+config commit .config/kitty/kitty.conf -m "changed kitty.conf"|/home/gustav   
+config status|/home/gustav   
+comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base -g base-devel | sort | uniq)|/home/gustav/code/bl-map-front   
+mhwd -li|/home/gustav/code/bl-map-front   
+z .con|/home/gustav/code/bl-map-front   
+ls|/home/gustav/.config   
+config add ./neofetch/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "added neofetch"|/home/gustav/.config   
+config push|/home/gustav/.config   
+config pull|/home/gustav/.config   
+config pull|/home/gustav/.config   
+config pull|/home/gustav/.config   
+reload|/home/gustav/.config   
+|/home/gustav/.config   
+export TERM=alacritty|/home/gustav/.config   
+echo $TERM|/home/gustav/.config   
+systemctl status --user emacs|/home/gustav   
+systemctl restart --user emacs|/home/gustav   
+systemctl status --user emacs|/home/gustav   
+doom sync|/home/gustav   
+lkjoiujklö;;;lkjh|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+ls|/home/gustav   
+clear|/home/gustav   
+yay -Syy|/home/gustav   
+yay -S herbstluftwm|/home/gustav   
+yay -S dzen2|/home/gustav   
+:ipw|/home/gustav   
+yay -S espanso|/home/gustav   
+ip|/home/gustav   
+ip address|/home/gustav   
+ping 192.168.0.104|/home/gustav   
+ping 192.168.0.100|/home/gustav   
+ping 192.168.0.254|/home/gustav   
+yay -S minecraft-launcher|/home/gustav   
+yay -S minecraft-server|/home/gustav   
+man minecraft-server|/home/gustav   
+pacman -S jdk8-openjdk-headless|/home/gustav   
+sudo pacman -S jdk8-openjdk-headless|/home/gustav   
+sudo pacman -S jdk8-openjdk-headless|/home/gustav   
+sudo pacman -S jdk8-openjdk|/home/gustav   
+java --version|/home/gustav   
+z Down|/home/gustav   
+cd Downloads/|/home/gustav   
+ls|/home/gustav/Downloads   
+java -Xmx1024M -Xms1024M -jar minecraft_server.1.16.5.jar nogui|/home/gustav/Downloads   
+java -Xmx1024M -Xms1024M -jar server.jar nogui|/home/gustav/Downloads   
+v minecraft.sh|/home/gustav/Downloads   
+chmod +x minecraft.sh|/home/gustav/Downloads   
+ls|/home/gustav/Downloads   
+v eula.txt|/home/gustav/Downloads   
+java -Xmx1024M -Xms1024M -jar server.jar|/home/gustav/Downloads   
+ip address|/home/gustav   
+lsa|/home/gustav/Downloads   
+v server.properties|/home/gustav/Downloads   
+v server.properties|/home/gustav/Downloads   
+java -Xmx1024M -Xms1024M -jar server.jar|/home/gustav/Downloads   
+cd Downloads/|/home/gustav   
+lsa|/home/gustav/Downloads   
+cd Holmsten_creative/|/home/gustav/Downloads   
+lsa|/home/gustav/Downloads/Holmsten_creative   
+ |/home/gustav/Downloads/Holmsten_creative   
+z Down|/home/gustav   
+./minecraft.sh|/home/gustav/Downloads   
+gotop|/home/gustav/Downloads/Holmsten_creative   
+cd mineraft_server/|/home/gustav/Downloads   
+./minecraft.sh|/home/gustav/Downloads/mineraft_server   
+ip address|/home/gustav/Downloads   
+z scrip|/home/gustav/Downloads   
+ls|/home/gustav/scripts   
+v i3exit.sh|/home/gustav/scripts   
+v i3exit.sh|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config stash|/home/gustav/scripts   
+|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config pull|/home/gustav/scripts   
+cd /etc/lightdm/|/home/gustav   
+ls|/etc/lightdm   
+sudo nvim lightdm.conf|/etc/lightdm   
+exit|/home/gustav   
+z herbst|/home/gustav   
+z .con|/home/gustav   
+cd herbstluftwm/|/home/gustav/.config   
+mv autostart.sh autostart|/home/gustav/.config/herbstluftwm   
+echo $TERM|/home/gustav   
+alacritty|/home/gustav   
+emacsclient -c|/home/gustav   
+emacsclient -c|/home/gustav   
+herbstclient source ~/.config/herbstluftwm/autostart|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+|/home/gustav   
+teams|/home/gustav   
+cd .config/herbstluftwm/|/home/gustav   
+chmod +x autostart|/home/gustav/.config/herbstluftwm   
+chmod +x panel.sh|/home/gustav/.config/herbstluftwm   
+herbstclient -h|/home/gustav/.config/herbstluftwm   
+herbstclient reload|/home/gustav/.config/herbstluftwm   
+killall dzen2|/home/gustav   
+z scrip|/home/gustav   
+ls|/home/gustav/scripts   
+z .con|/home/gustav/scripts   
+ls|/home/gustav/.config   
+cd polybar/|/home/gustav/.config   
+ls|/home/gustav/.config/polybar   
+./launch.sh|/home/gustav/.config/polybar   
+..|/home/gustav/.config/polybar   
+ls|/home/gustav/.config   
+config add ./herbstluftwm/|/home/gustav/.config   
+config status|/home/gustav/.config   
+config commit -a -m "added herbsluftwm config"|/home/gustav/.config   
+config push|/home/gustav/.config   
+ssh pi@retropie|/home/gustav   
+ssh pi@retropie|/home/gustav   
+ssh pi@192.168.1.202|/home/gustav   
+z Down|/home/gustav/.config   
+ls|/home/gustav/Downloads   
+cd mineraft_server/|/home/gustav/Downloads   
+lsa|/home/gustav/Downloads/mineraft_server   
+scp -r ~/Downloads/minecraft_server/ :192.168.1.202/home/pi/minecraft-server/holmsten/|/home/gustav/Downloads/mineraft_server   
+scp -r ./ :192.168.1.202/home/pi/minecraft-server/holmsten/|/home/gustav/Downloads/mineraft_server   
+hostname -I|/home/gustav/Downloads/mineraft_server   
+ip address|/home/gustav/Downloads/mineraft_server   
+hostname|/home/gustav/Downloads/mineraft_server   
+scp -r ~/Downloads/minecraft_server/ :pi@192.168.1.202/home/pi/minecraft-server/holmsten/|/home/gustav/Downloads/mineraft_server   
+scp -r ./ pi@192.168.1.202:/home/pi/minecraft-server/holmsten/|/home/gustav/Downloads/mineraft_server   
+scp -r * pi@192.168.1.202:/home/pi/minecraft-server/holmsten/|/home/gustav/Downloads/mineraft_server   
+ls|/home/gustav   
+ssh pi@192.168.1.202|/home/gustav   
+yay -S picom|/home/gustav/Downloads/mineraft_server   
+picom|/home/gustav/Downloads/mineraft_server   
+z .conf|/home/gustav   
+polybar?|/home/gustav/.config   
+polybar/|/home/gustav/.config   
+ls|/home/gustav/.config/polybar   
+exec ./launch.sh|/home/gustav/.config/polybar   
+exec nvim|/home/gustav   
+killall picom|/home/gustav   
+herbstclient spawn picom|/home/gustav   
+killall picom|/home/gustav   
+exec picom|/home/gustav   
+cd .config/polybar/|/home/gustav   
+./launch.sh &|/home/gustav/.config/polybar   
+z scrip|/home/gustav/Downloads/mineraft_server   
+bb/|/home/gustav/scripts   
+ls|/home/gustav/scripts/bb   
+v check-in|/home/gustav/scripts/bb   
+./launch.sh &|/home/gustav/.config/polybar   
+herbstclient spawn sleep 5 && ./launch.sh &|/home/gustav/.config/polybar   
+sleep 5 && herbstclient spawn ./launch.sh &|/home/gustav/.config/polybar   
+sleep 5 && ./launch.sh &|/home/gustav/.config/polybar   
+notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information|/home/gustav/.config/polybar   
+notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information|/home/gustav/.config/polybar   
+yay -S picom-|/home/gustav/.config/polybar   
+yay -Ss picom|/home/gustav/.config/polybar   
+yay -S picom-ibhagwan-git|/home/gustav/.config/polybar   
+z .con|/home/gustav/scripts/bb   
+ls|/home/gustav/.config   
+rm picom.conf|/home/gustav/.config   
+killall picom|/home/gustav/.config/polybar   
+herbstclient spawn xkill|/home/gustav/.config/polybar   
+z scri|/home/gustav   
+ls|/home/gustav/scripts   
+v rofi_exit.sh|/home/gustav/scripts   
+z scrip|/home/gustav   
+v i3exit.sh|/home/gustav/scripts   
+chmod +x rofi_exit.sh|/home/gustav/scripts   
+./rofi_exit.sh|/home/gustav/scripts   
+cd polybar/|/home/gustav/.config   
+v launch.sh|/home/gustav/.config/polybar   
+config add ./rofi_exit.sh|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+killall pa-applet|/home/gustav/scripts   
+killall volumeicon|/home/gustav/scripts   
+lsa|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config commit -a -m "more work on herbsluftwm config"|/home/gustav/scripts   
+config push|/home/gustav/scripts   
+z .con|/home/gustav/scripts   
+cd herbstluftwm/|/home/gustav/.config   
+v scratchpad|/home/gustav/.config/herbstluftwm   
+chmod +x scratchpad|/home/gustav/.config/herbstluftwm   
+ls|/home/gustav/.config/herbstluftwm   
+herbstclient spawn scratchpad|/home/gustav/.config/herbstluftwm   
+herbstclient spawn ./scratchpad|/home/gustav/.config/herbstluftwm   
+v scratchpad|/home/gustav/.config/herbstluftwm   
+herbstclient spawn ./scratchpad|/home/gustav/.config/herbstluftwm   
+config status|/home/gustav/.config/herbstluftwm   
+config status|/home/gustav/.config/herbstluftwm   
+killall volumeicon|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.202|/home/gustav/.config/herbstluftwm   
+gotop|/home/gustav/scripts   
+herbstclient attr theme.active.outer.color '#61afef'|/home/gustav   
+herbstclient attr theme.active.outer_color '#61afef'|/home/gustav   
+herbstclient attr theme.active.inner_color '#61afef'|/home/gustav   
+herbstclient attr theme.normal.inner_color '#da8548'|/home/gustav   
+killall volumeicon|/home/gustav   
+herbstclient toggle always_show_frame|/home/gustav   
+herbstclient toggle always_show_frame|/home/gustav   
+herbstclient toggle always_show_frame|/home/gustav   
+killall volumeicon|/home/gustav   
+killall volumeicon|/home/gustav   
+yay -S espanso|/home/gustav/.config/herbstluftwm   
+espanso enable|/home/gustav/.config/herbstluftwm   
+espanso -h|/home/gustav/.config/herbstluftwm   
+espanso start|/home/gustav/.config/herbstluftwm   
+config status|/home/gustav   
+config commit -a -m "added transparent bg to empty frames"|/home/gustav   
+config pull|/home/gustav   
+config push|/home/gustav   
+killall volumeicon|/home/gustav   
+config pull|/home/gustav/.config/herbstluftwm   
+v|/home/gustav   
+v|/home/gustav   
+v|/home/gustav   
+v|/home/gustav   
+v|/home/gustav   
+herbstclient set frame_gap 20|/home/gustav   
+herbstclient set frame_gap 0|/home/gustav   
+herbstclient set window_gap 8|/home/gustav   
+herbstclient set window_gap 5|/home/gustav   
+herbstclient set window_padding 0|/home/gustav   
+herbstclient set frame_padding 0|/home/gustav   
+herbstclient set frame_padding 10|/home/gustav   
+herbstclient set frame_padding 0|/home/gustav   
+herbstclient attr theme.normal.inner_width 0|/home/gustav   
+herbstclient attr theme.normal.inner_width 20|/home/gustav   
+herbstclient attr theme.normal.inner_width 3|/home/gustav   
+herbstclient set frame_border_width 8|/home/gustav   
+herbstclient set frame_border_width 0|/home/gustav   
+herbstclient set window_border_width 0|/home/gustav   
+herbstclient set window_border_width 3|/home/gustav   
+herbstclient set window_border_width 1|/home/gustav   
+herbstclient set window_border_width 3|/home/gustav   
+herbstclient set window_normal_opacity 70|/home/gustav   
+herbstclient set always_show_frame 0|/home/gustav   
+herbstclient set always_show_frame 1|/home/gustav   
+emacsclient -t|/home/gustav   
+ranger|/home/gustav   
+vim|/home/gustav   
+nvim|/home/gustav   
+config status|/home/gustav   
+config commit -a -m "playing with herbst"|/home/gustav   
+config push|/home/gustav   
+config status|/home/gustav   
+config commit -a -m "removed dzen from herbst"|/home/gustav   
+config push|/home/gustav   
+betterlockscreen -u ~/Pictures/wallpaper-candidates/moon_half.jpg -r 1920x1080|/home/gustav   
+config commit -a -m "removed unused code"|/home/gustav   
+config push|/home/gustav   
+config status'
+|/home/gustav   
+config status|/home/gustav   
+config pull|/home/gustav   
+config fetch|/home/gustav   
+config pull|/home/gustav   
+yay -Syy|/home/gustav/.config/polybar   
+yay -Syyu|/home/gustav/.config/polybar   
+betterlockscreen -u ~/Pictures/wallpaper-candidates/cabin.png -r 1920x1080|/home/gustav/.config/herbstluftwm   
+source ~/.fehbg|/home/gustav/.config/herbstluftwm   
+herbstclient reload|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.202|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.202|/home/gustav   
+fc-cache -f -v|/home/gustav/.config/polybar   
+ssh pi@192.168.1.202 expect "assword:" send "wm305jmo/r" ./mc|/home/gustav   
+yay -S expect|/home/gustav   
+ssh pi@192.168.1.202 expect "assword:" send "wm305jmo/r" ./mc|/home/gustav   
+ssh-keygen|/home/gustav   
+ssh-copy-id pi@192.168.1.202|/home/gustav   
+ssh pi@192.168.1.202|/home/gustav   
+z scripts|/home/gustav   
+v mc_server_start.sh|/home/gustav/scripts   
+chmod +x mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+yay -S spawn|/home/gustav/scripts   
+v mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+v mc_server_start.sh|/home/gustav/scripts   
+z scrip|/home/gustav   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+zconf|/home/gustav/scripts   
+< .con|/home/gustav/scripts   
+z .con|/home/gustav/scripts   
+zsh/|/home/gustav/.config   
+ls|/home/gustav/.config/zsh   
+v alias.zsh|/home/gustav/.config/zsh   
+z scripts|/home/gustav/.config/zsh   
+v zsh_conf.sh|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+chmod +x zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+v zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+bash -v|/home/gustav/scripts   
+bash -v|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+2|/home/gustav/scripts   
+2|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+config add ./zsh_conf.sh|/home/gustav/scripts   
+ln -s ~/.zshrc ~/.config/zsh/zshrc.zsh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+reload|/home/gustav/scripts   
+reload|/home/gustav   
+exec zsh|/home/gustav   
+echo $USER|/home/gustav/scripts   
+exec bash|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+z .con|/home/gustav/scripts   
+cd zsh|/home/gustav/.config   
+mv zshrc.zsh zshrc|/home/gustav/.config/zsh   
+reload|/home/gustav/scripts   
+v zsh_conf.sh|/home/gustav/scripts   
+zconf|/home/gustav/scripts   
+v zsh_conf.sh|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+reload|/home/gustav/scripts   
+xconf|/home/gustav/scripts   
+zconf|/home/gustav/scripts   
+config commit -a -m "added script to config zsh modules"|/home/gustav/.config/zsh   
+config push|/home/gustav/.config/zsh   
+ls|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+config pull|/home/gustav/.config/zsh   
+..|/home/gustav/.config/zsh   
+polybar/|/home/gustav/.config   
+killall -q polybar|/home/gustav/.config/polybar   
+./launch.sh &|/home/gustav/.config/polybar   
+killall -q dzen2|/home/gustav/.config/polybar   
+killall -q dzen2|/home/gustav/.config/polybar   
+echo "This should be a smooth gradient"
+echo ""
+awk 'BEGIN{
+    s="/\/\/\/\/\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<77; colnum++) {
+        r = 255-(colnum*255/76);
+        g = (colnum*510/76);
+        b = (colnum*255/76);
+        if (g>255) g = 510-g;
+        printf "[48;2;%d;%d;%dm", r,g,b;
+        printf "[38;2;%d;%d;%dm", 255-r,255-g,255-b;
+        printf "%s[0m", substr(s,colnum+1,1);
+    }
+    printf "
+";
+}'
+|/home/gustav   
+printf "[0m
+    [49;35m|[49;31m|[101;31m|[41;97m|[49;91m|[49;93m|[0m
+  [105;35m|[45;97m|[49;97m||[100;97m||[49;37m||[103;33m|[43;97m|[0m
+  [49;95m|[49;94m|[100;37m||[40;97m||[40;37m||[49;33m|[49;32m|[0m
+  [104;34m|[44;97m|[49;90m||[40;39m||[49;39m||[102;32m|[42;97m|[0m
+    [49;34m|[49;36m|[106;36m|[46;97m|[49;96m|[49;92m|[0m
+
+"
+|/home/gustav   
+f=3 b=4
+for j in f b; do
+  for i in {0..7}; do
+    printf -v $j$i %b "[${java -Xmx1024M -Xms1024M -jar server.jar}${i}m"
+  done
+done
+bld=$'[1m'
+rst=$'[0m'
+inv=$'[7m'
+
+cat << EOF
+
+ $f1█-----$bld█  $rst$f2█-----$bld█$rst  $f3█-----$bld█$rst  $f4█-----$bld█$rst  $f5█-----$bld█$rst  $f6█-----$bld█$rst
+  $f1█---$bld█$rst    $f2█---$bld█$rst    $f3█---$bld█$rst    $f4█---$bld█$rst    $f5█---$bld█$rst    $f6█---$bld█$rst
+  $f1 █-$bld█$rst     $f2 █-$bld█$rst     $f3 █-$bld█$rst     $f4 █-$bld█$rst     $f5 █-$bld█$rst     $f6 █-$bld█$rst
+    $f1█$rst        $f2█$rst        $f3█$rst        $f4█$rst        $f5█$rst        $f6█$rst
+   $f1$bld█-$rst$f1█$rst      $f2$bld█_$rst$f2█$rst      $f3$bld█-$rst$f3█$rst      $f4$bld█-$rst$f4█$rst      $f5$bld█-$rst$f5█$rst      $f6$bld█-$rst$f6█$rst
+  $f1$bld█---$rst$f1█$rst    $f2$bld█---$rst$f2█$rst    $f3$bld█---$rst$f3█$rst    $f4$bld█---$rst$f4█$rst    $f5$bld█---$rst$f5█$rst    $f6$bld█---$rst$f6█$rst 
+ $f1$bld█-----$rst$f1█$rst  $f2$bld█-----$rst$f2█$rst  $f3$bld█-----$rst$f3█$rst  $f4$bld█-----$rst$f4█$rst  $f5$bld█-----$rst$f5█$rst  $f6$bld█-----$rst$f6█$rst
+  $f1$bld█---$rst$f1█$rst    $f2$bld█---$rst$f2█$rst    $f3$bld█---$rst$f3█$rst    $f4$bld█---$rst$f4█$rst    $f5$bld█---$rst$f5█$rst    $f6$bld█---$rst$f6█$rst
+   $f1$bld█-$rst$f1█$rst      $f2$bld█-$rst$f2█$rst      $f3$bld█-$rst$f3█$rst      $f4$bld█-$rst$f4█$rst      $f5$bld█-$rst$f5█$rst      $f6$bld█-$rst$f6█$rst
+    $f1$bld█$rst        $f2$bld█$rst        $f3$bld█$rst        $f4$bld█$rst        $f5$bld█$rst        $f6$bld█$rst
+   $f1█-$bld█$rst      $f2█-$bld█$rst      $f3█-$bld█$rst      $f4█-$bld█$rst      $f5█-$bld█$rst      $f6█-$bld█$rst
+  $f1█---$bld█$rst    $f2█---$bld█$rst    $f3█---$bld█$rst    $f4█---$bld█$rst    $f5█---$bld█$rst    $f6█---$bld█$rst
+ $f1█-----$bld█  $rst$f2█-----$bld█$rst  $f3█-----$bld█$rst  $f4█-----$bld█$rst  $f5█-----$bld█$rst  $f6█-----$bld█$rst
+  $f1█---$bld█$rst    $f2█---$bld█$rst    $f3█---$bld█$rst    $f4█---$bld█$rst    $f5█---$bld█$rst    $f6█---$bld█$rst
+  $f1 █-$bld█$rst     $f2 █-$bld█$rst     $f3 █-$bld█$rst     $f4 █-$bld█$rst     $f5 █-$bld█$rst     $f6 █-$bld█$rst
+    $f1█$rst        $f2█$rst        $f3█$rst        $f4█$rst        $f5█$rst        $f6█$rst
+   $f1$bld█-$rst$f1█$rst      $f2$bld█_$rst$f2█$rst      $f3$bld█-$rst$f3█$rst      $f4$bld█-$rst$f4█$rst      $f5$bld█-$rst$f5█$rst      $f6$bld█-$rst$f6█$rst
+  $f1$bld█---$rst$f1█$rst    $f2$bld█---$rst$f2█$rst    $f3$bld█---$rst$f3█$rst    $f4$bld█---$rst$f4█$rst    $f5$bld█---$rst$f5█$rst    $f6$bld█---$rst$f6█$rst 
+ $f1$bld█-----$rst$f1█$rst  $f2$bld█-----$rst$f2█$rst  $f3$bld█-----$rst$f3█$rst  $f4$bld█-----$rst$f4█$rst  $f5$bld█-----$rst$f5█$rst  $f6$bld█-----$rst$f6█$rst
+  $f1$bld█---$rst$f1█$rst    $f2$bld█---$rst$f2█$rst    $f3$bld█---$rst$f3█$rst    $f4$bld█---$rst$f4█$rst    $f5$bld█---$rst$f5█$rst    $f6$bld█---$rst$f6█$rst
+   $f1$bld█-$rst$f1█$rst      $f2$bld█-$rst$f2█$rst      $f3$bld█-$rst$f3█$rst      $f4$bld█-$rst$f4█$rst      $f5$bld█-$rst$f5█$rst      $f6$bld█-$rst$f6█$rst
+    $f1$bld█$rst        $f2$bld█$rst        $f3$bld█$rst        $f4$bld█$rst        $f5$bld█$rst        $f6$bld█$rst
+   $f1█-$bld█$rst      $f2█-$bld█$rst      $f3█-$bld█$rst      $f4█-$bld█$rst      $f5█-$bld█$rst      $f6█-$bld█$rst
+  $f1█---$bld█$rst    $f2█---$bld█$rst    $f3█---$bld█$rst    $f4█---$bld█$rst    $f5█---$bld█$rst    $f6█---$bld█$rst
+ $f1█-----$bld█  $rst$f2█-----$bld█$rst  $f3█-----$bld█$rst  $f4█-----$bld█$rst  $f5█-----$bld█$rst  $f6█-----$bld█$rst
+  
+EOF
+|/home/gustav   
+cd scripts|/home/gustav   
+ls|/home/gustav/scripts   
+mkdir colorscripts && cd colorscripts|/home/gustav/scripts   
+git clone https://gitlab.com/dwt1/shell-color-scripts.git|/home/gustav/scripts/colorscripts   
+ls|/home/gustav/scripts/colorscripts   
+ranger|/home/gustav/scripts/colorscripts   
+ls|/home/gustav/scripts/colorscripts   
+ranger|/home/gustav/scripts/colorscripts   
+..|/home/gustav/scripts/colorscripts   
+cd ~|/home/gustav/scripts/colorscripts   
+cd scripts|/home/gustav   
+ls|/home/gustav/scripts   
+mkdir colorscripts|/home/gustav/scripts   
+mv -r colorscripts_/* colorscripts|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+ranger|/home/gustav/scripts   
+cd colorscripts|/home/gustav/scripts   
+ls|/home/gustav/scripts/colorscripts   
+./pacman|/home/gustav/scripts/colorscripts   
+./space-invaders|/home/gustav/scripts/colorscripts   
+ls|/home/gustav/scripts/colorscripts   
+./tux|/home/gustav/scripts/colorscripts   
+./zwaves|/home/gustav/scripts/colorscripts   
+./darthvader|/home/gustav/scripts/colorscripts   
+~|/home/gustav/scripts/colorscripts   
+v .Xresources|/home/gustav   
+cd scripts|/home/gustav   
+cd assets/|/home/gustav/scripts   
+v temp.css|/home/gustav/scripts/assets   
+xrdb -merge .Xresources|/home/gustav   
+z scripts|/home/gustav   
+cd sandbox/|/home/gustav/scripts   
+ls|/home/gustav/scripts/sandbox   
+chmod +x dm-pacman|/home/gustav/scripts/sandbox   
+./dm-pacman|/home/gustav/scripts/sandbox   
+ls|/home/gustav/scripts/sandbox   
+zconf|/home/gustav/scripts/sandbox   
+zconf|/home/gustav/scripts/sandbox   
+nvimconf|/home/gustav/scripts/sandbox   
+zconf|/home/gustav/scripts/assets   
+zconf|/home/gustav/scripts/assets   
+echo $CDPATH |/home/gustav/scripts/assets   
+zconf|/home/gustav/scripts/assets   
+fh|/home/gustav   
+fc|/home/gustav   
+fh|/home/gustav   
+zconf|/home/gustav   
+reload|/home/gustav   
+lln|/home/gustav   
+reload|/home/gustav   
+lnn|/home/gustav   
+lln|/home/gustav   
+nvimconf|/home/gustav/scripts/sandbox   
+nvimconf|/home/gustav/scripts/sandbox   
+nvimconf|/home/gustav/scripts/sandbox   
+nvimconf|/home/gustav/scripts/sandbox   
+reload|/home/gustav   
+lln|/home/gustav   
+lf 5|/home/gustav   
+lf|/home/gustav   
+cd lf 1|/home/gustav   
+lln|/home/gustav   
+cd lf 1|/home/gustav   
+cd $(lf 1)|/home/gustav   
+lln|/home/gustav   
+cd $(lf 1)|/home/gustav   
+zconf|/home/gustav   
+reload|/home/gustav   
+la|/home/gustav   
+zconf|/home/gustav   
+alias|/home/gustav/scripts/assets   
+alias | grep la|/home/gustav/scripts/assets   
+la|/home/gustav/scripts/assets   
+lsa|/home/gustav/scripts/assets   
+reload|/home/gustav/scripts/assets   
+la|/home/gustav/scripts/assets   
+alias | grep la|/home/gustav/scripts/assets   
+reload|/home/gustav/scripts/assets   
+alias | grep la|/home/gustav/scripts/assets   
+l|/home/gustav/scripts/assets   
+z code|/home/gustav/scripts/assets   
+go get -u github.com/RH12503/Triangula-CLI/triangula|/home/gustav/code   
+la|/home/gustav/code   
+echo $GOPATH|/home/gustav/code   
+~|/home/gustav/code   
+cd $GOPATH|/home/gustav   
+cd bin|/home/gustav/.go   
+ls|/home/gustav/.go/bin   
+zconf|/home/gustav   
+...|/home/gustav/.go/bin   
+echo $PATH|/home/gustav   
+reload|/home/gustav   
+echo $PATH|/home/gustav   
+config status|/home/gustav   
+config commit -a -m "mostly zsh, added firenvim, changed black bg"|/home/gustav   
+config push|/home/gustav   
+zconf|/home/gustav   
+reload|/home/gustav   
+zconf|/home/gustav   
+z scripts|/home/gustav   
+la|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+yay -Syy|/home/gustav   
+yay -S nmap|/home/gustav   
+sudo nmap -sn 192.168.1.0|/home/gustav   
+sudo nmap -sn 192.168.1.x|/home/gustav   
+sudo nmap -sn 192.168.1|/home/gustav   
+ping 192.168.1.202|/home/gustav   
+v mc_server_start.sh|/home/gustav/scripts   
+./mc_server_start.sh|/home/gustav/scripts   
+ssh pi@192.168.1.95|/home/gustav/scripts/sandbox   
+..|/home/gustav/scripts/sandbox   
+ls|/home/gustav/scripts   
+v mc_server_start.sh|/home/gustav/scripts   
+ssh pi@retropie|/home/gustav/scripts   
+ssh pi@retropie.local|/home/gustav/scripts   
+ssh -t pi@retropie.local "export TERM=xterm;"|/home/gustav/scripts   
+ssh -t pi@retropie.local "export TERM=xterm;/bin/bash"|/home/gustav/scripts   
+zconf|/home/gustav/scripts   
+reload|/home/gustav/scripts   
+reload|/home/gustav/scripts   
+ssht pi@retropie.local|/home/gustav/scripts   
+yay -Ss raspberry|/home/gustav/.config/polybar   
+yay -Ss raspberry | grep imager|/home/gustav/.config/polybar   
+ssh pi@piserver.local|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.95|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.95|/home/gustav/.config/herbstluftwm   
+ssh pi@piserver.local|/home/gustav/.config/herbstluftwm   
+ping 192.168.1.95|/home/gustav/.config/herbstluftwm   
+ping 192.168.1.99|/home/gustav/.config/herbstluftwm   
+ping 192.168.1.137|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.137|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.147|/home/gustav/.config/herbstluftwm   
+ssh pi@192.168.1.227|/home/gustav/.config/herbstluftwm   
+hostname 192.168.1.227|/home/gustav/.config/herbstluftwm   
+hostname|/home/gustav/.config/herbstluftwm   
+ssh pi@piserver.local|/home/gustav/.config/herbstluftwm   
+yay -Syy|/home/gustav/.config/polybar   
+yay -S rpi-imager|/home/gustav/.config/polybar   
+yay -Ss raspberry | grep imager|/home/gustav/.config/polybar   
+fdisk -l|/home/gustav/.config/polybar   
+sudo fdisk -l|/home/gustav/.config/polybar   
+sudo fdisk -l|/home/gustav/.config/polybar   
+mkdir /mnt/SD|/home/gustav   
+sudo mkdir /mnt/SD|/home/gustav   
+sudo mkdir /mnt/SD|/home/gustav   
+sudo fdisk -l|/home/gustav   
+mount /dev/mmcblk0p2 /mnt/SD|/home/gustav   
+sudo mount /dev/mmcblk0p2 /mnt/SD|/home/gustav   
+sudo mount /dev/mmcblk0p2 /mnt/SD|/home/gustav   
+cd /mnt/SD|/home/gustav   
+ls|/mnt/SD   
+cd home|/mnt/SD   
+ls|/mnt/SD/home   
+cd oem|/mnt/SD/home   
+sudo cd oem|/mnt/SD/home   
+sudo cd oem|/mnt/SD/home   
+..|/mnt/SD/home   
+cd boot|/mnt/SD   
+ls|/mnt/SD/boot   
+mount -h|/mnt/SD/boot   
+mount -t ext4|/home/gustav   
+df -x squashfs|/home/gustav   
+sudo umount /mnt/SD|/home/gustav   
+df -x squashfs|/home/gustav   
+ssh pi@piserver.local|/home/gustav/.config/herbstluftwm   
+z scripts|/home/gustav/.config/herbstluftwm   
+ls|/home/gustav/scripts   
+zconf|/home/gustav/scripts   
+./zsh_conf.sh|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+v mc_server_start.sh|/home/gustav/scripts   
+z scripts|/home/gustav   
+v ssht.sh|/home/gustav/scripts   
+chmod +x ssht.sh|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+./ssht.sh pi@piserver.local|/home/gustav/scripts   
+v ssht.sh|/home/gustav/scripts   
+./ssht.sh pi@piserver.local|/home/gustav/scripts   
+v ssht.sh|/home/gustav/scripts   
+./ssht.sh pi@piserver.local|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config commit -a -m "dont know"|/home/gustav/scripts   
+config push|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+ls|/home/gustav/scripts   
+config add ./*|/home/gustav/scripts   
+config status|/home/gustav/scripts   
+config commit -a -m "added scripts"|/home/gustav/scripts   
