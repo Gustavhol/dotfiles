@@ -65,6 +65,22 @@
 ;; Company autocomlpete
 (setq company-idle-delay 0.2
       company-minimum-prefix-length 3)
+(eval-after-load
+    'company
+    '(add-to-list 'company-backends 'company-omnisharp))
+
+(add-hook 'csharp-mode-hook #'company-mode)
+
+;; Wakatime settings
+(use-package wakatime-mode
+  :diminish 'wakatime-mode
+  :init
+  (add-hook 'prog-mode-hook 'wakatime-mode)
+  :config (progn (setq wakatime-cli-path "/usr/sbin/wakatime")
+                 (setq wakatime-python-bin nil)
+                 (setq global-wakatime-mode t)))
+
+(custom-set-variables '(wakatime-api-key "4e468cc9-62d5-4197-9cf6-69b4f0109ee4"))
 
 ;; To get syntax higilighting
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
@@ -94,8 +110,7 @@
       lsp-ui-doc-max-height 150
       lsp-ui-sideline-diagnostic-max-line-length 140
       lsp-ui-sideline-diagnostic-max-lines 5
-      lsp-ui-doc-max-width 150
-      lsp-headerline-breadcrumb-enable t)
+      lsp-ui-doc-max-width 150)
 
 (setq lsp-clients-angular-language-server-command
   '("node"
