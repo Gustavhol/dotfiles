@@ -54,11 +54,11 @@ done
 
 
 # ZSH theme
-~/scripts/theme.sh doom-one
+~/scripts/terminal/theme.sh doom-one
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Source starship proppt
+# Source starship prompt
 eval "$(starship init zsh)"
 
 export PATH

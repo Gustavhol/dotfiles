@@ -73,6 +73,7 @@ hc keybind $Mod-Control-Left    resize left +$resizestep
 hc keybind $Mod-Control-Down    resize down +$resizestep
 hc keybind $Mod-Control-Up      resize up +$resizestep
 hc keybind $Mod-Control-Right   resize right +$resizestep
+hc keybind $Mod-Shift-t floating toggle
 
 # tags
 #tag_names=( {1..9} )
@@ -134,7 +135,7 @@ hc keybind $Mod-i jumpto urgent
     # `-----------------------' 
     #
 # 1
-hc keybind $Mod+Mod1+0 spawn $HOME/scripts/multimonitor_incremental_increase.sh
+hc keybind $Mod+Mod1+0 spawn $HOME/scripts/macropad/multimonitor_incremental_increase.sh
 # 2
 hc keybind $Mod+Mod1+1 spawn $HOME/scripts/bb/check-out
 # 3
@@ -154,15 +155,15 @@ hc keybind $Mod+Mod1+8 spawn screenkey
 # # 10
 hc keybind $Mod+Mod1+9 killall -q screenkey
 # # 11
-hc keybind $Mod+Mod1+y spawn $HOME/scripts/restart_teams.sh
+hc keybind $Mod+Mod1+y spawn $HOME/scripts/macropad/restart_teams.sh
 # # 12
-hc keybind $Mod+Mod1+u spawn $HOME/scripts/toggle_mute
+hc keybind $Mod+Mod1+u spawn $HOME/scripts/macropad/toggle_mute
 # # 13
-hc keybind $Mod+Mod1+i spawn $HOME/scripts/toggle_dunst
+hc keybind $Mod+Mod1+i spawn $HOME/scripts/macropad/toggle_dunst
 # # 14
 hc keybind $Mod+Mod1+o spawn $HOME/scripts/rofi_burton.sh
 # # 15
-hc keybind $Mod+Mod1+p spawn $HOME/scripts/pa_set_a2dp.sh
+hc keybind $Mod+Mod1+p spawn $HOME/scripts/macropad/pa_set_a2dp.sh
 
 # theme
 hc attr theme.tiling.reset 1

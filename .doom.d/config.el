@@ -21,9 +21,11 @@
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
 ;; test
-(setq doom-font (font-spec :family "Hack Nerd Font" :size 14)
-      doom-variable-pitch-font (font-spec :family "Hack Nerd Font"))
+;; (setq doom-font (font-spec :family "Hack Nerd Font" :size 15)
+;;       doom-variable-pitch-font (font-spec :family "Hack Nerd Font"))
 
+(setq doom-font (font-spec :family "Input" :size 16)
+      doom-variable-pitch-font (font-spec :family "Input"))
 ;; Make sure to use exec-path-from-shell when run as daemon
 (when (daemonp)
   (exec-path-from-shell-initialize))
@@ -34,6 +36,13 @@
 (eval-after-load
   'typescript-mode
   '(add-hook 'typescript-mode-hook #'add-node-modules-path))
+;; Tree-sitter
+;;
+(use-package! tree-sitter
+  :config
+  (require 'tree-sitter-langs)
+  (global-tree-sitter-mode)
+  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
 
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
@@ -41,12 +50,12 @@
 ;; `load-theme' function. These are the defaults.
 (setq doom-theme 'doom-one)
 
-(setq ranger-override-dired-mode t)
+(setq ranger-override-dired-mode 'nil)
 (add-hook 'daemonp 'exec-path-from-shell-initialize)
 
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
-(setq display-line-numbers-type 'relative)
+(setq display-line-numbers-type 'nil)
 (setq scroll-margin 8)
 
 ;; To avoid using fundamental mode in textfiles.
@@ -91,8 +100,6 @@
 (add-to-list 'load-path (expand-file-name "~/.doom.d/lisp"))
 (add-to-list 'custom-theme-load-path "~/.doom.d/themes")
 
-(add-hook 'markdown-mode-hook 'grip-mode)
-(add-hook 'org-mode-hook 'grip-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 
 (defun ediff-copy-both-to-C ()
@@ -104,13 +111,24 @@
 (defun add-d-to-ediff-mode-map () (define-key ediff-mode-map "c" 'ediff-copy-both-to-C))
 (add-hook 'ediff-keymap-setup-hook 'add-d-to-ediff-mode-map)
 
+(defun find-private-script ()
+  "Search for a file in `~/scripts/'."
+  (interactive)
+  (doom-project-find-file "~/scripts/"))
+
+(defun find-dotfile ()
+  "Search for a file in `~/.config/'."
+  (interactive)
+  ;; (ido-find-file-in-dir ~/.config))
+  (doom-project-find-file "~/.config"))
+
 ;; LSP configuration
-(setq lsp-ui-doc nil)
+(setq lsp-ui-doc 'nil)
 (setq lsp-ui-doc-position 'at-point
-      lsp-ui-doc-max-height 150
+      lsp-ui-doc-max-height 20
+      lsp-ui-doc-max-width 150
       lsp-ui-sideline-diagnostic-max-line-length 140
-      lsp-ui-sideline-diagnostic-max-lines 5
-      lsp-ui-doc-max-width 150)
+      lsp-ui-sideline-diagnostic-max-lines 5)
 
 (setq lsp-clients-angular-language-server-command
   '("node"
@@ -121,36 +139,40 @@
     "/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules"
     "--stdio"))
 
+(with-eval-after-load 'lsp-mode
+  ;; :global/:workspace/:file
+  (setq lsp-modeline-diagnostics-enable t)
+  (setq lsp-modeline-diagnostics-scope :workspace))
+(use-package! lsp-tailwindcss
+  :init
+  (setq lsp-tailwindcss-auto-install-server t)
+  (setq lsp-tailwindcss-add-on-mode t)
+  (setq lsp-tailwindcss-server-dir "/etc/lsp/tailwindcss/extensions/dist/server/")
+  (setq lsp-tailwindcss-server-file "/etc/lsp/tailwindcss/extensions/dist/server/tailwindServer.js"))
+
 ;; Keymaps
 (map! :leader
       (:prefix "j"
         :nv "j" #'evil-jump-backward
         :nv "b" #'evil-jump-backward
         :nv "f" #'evil-jump-forward
-        :nv "l" #'+ivy/jump-list
-        )
-      (:prefix "t"
+        :nv "l" #'+ivy/jump-list)
+      (:prefix "l"
         :nv "f" #'lsp-ui-sideline-apply-code-actions
-        :nv "r" #'lsp-find-references
+        :nv "r" #'lsp-ui-peek-find-references
+        :nv "g" #'lsp-ui-doc-glance
         :nv "d" #'lsp-ui-peek-find-implementation
         :nv "e" #'tide-goto-error
-        :nv "b" #'evil-jump-backward
         :nv "s d" #'lsp-ui-doc-show
         :nv "s r" #'lsp-rename)
       (:prefix "ö"
-       :nv "b f" #'bool-flip-do-flip
         :nv "p s" #'persp-switch
         :nv "f f" #'counsel-fzf
         :nv "f w" #'+ivy/project-search
         :nv "w h" #'evil-window-move-far-right
         :nv "w v" #'evil-window-move-very-top
-        :nv "w j" #'evil-window-decrease-height
-        :nv "w k" #'evil-window-increase-height)
-      (:prefix "z"
-       :nv "n" #'neuron-insert-new-zettel
-       :nv "i l" #'neuron-insert-zettel-link
-       :nv "c" #'neuron-create-zettel-from-selected-title)
-
+        :nv "w j" (cmd! (evil-window-decrease-height 10))
+        :nv "w k" (cmd! (evil-window-increase-height 10)))
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle
         :nv "c f" #'vimish-fold-avy
@@ -158,8 +180,11 @@
         :nv "t a" #'vimish-fold-toggle-all
         :nv "u a" #'vimish-fold-unfold-all
         :nv "r a" #'vimish-fold-refold-all)
-      (:prefix "j"
-       :nv "l" #'+ivy/jump-list)
+      (:prefix "w"
+       :n "SPC" #'winsize-incremental-resize)
+      (:prefix "f"
+       :n "s" #'find-private-script
+       :n "c" #'find-dotfile)
       (:prefix "a"
         :nv "f" #'avy-goto-char-2
         :nv "m l" #'avy-move-line
