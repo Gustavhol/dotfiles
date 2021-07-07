@@ -83,3 +83,47 @@ matches:
   - trigger: ":flip"
     replace: "(╯°□°）╯︵ ┻━┻ "
 
+# random valid pin
+  - trigger: ":pin"
+    replace: "{{pin}}"
+    vars:
+      - name: pin
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/people | jq '.[] | .pin' | sed 's/"//g'
+
+# random name 
+  - trigger: ":name"
+    replace: "{{name}}"
+    vars:
+      - name: name
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/people | jq '.[] | .name' | sed 's/"//g'
+
+# random email 
+  - trigger: ":email"
+    replace: "{{email}}"
+    vars:
+      - name: email
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/people | jq '.[] | .email' | sed 's/"//g'
+
+# random company name 
+  - trigger: ":company"
+    replace: "{{company}}"
+    vars:
+      - name: company
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/companies | jq '.[] | .companyName' | sed 's/"//g'
+
+# random orgNr 
+  - trigger: ":org"
+    replace: "{{org}}"
+    vars:
+      - name: org
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/companies | jq '.[] | .orgNum' | sed 's/"//g'

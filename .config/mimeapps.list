@@ -19,6 +19,8 @@ application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
+application/x-raw-disk-image=gnome-disk-image-mounter.desktop
+x-scheme-handler/postman=Postman.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -40,3 +42,4 @@ message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;
 application/x-php=firefox.desktop;
+application/x-raw-disk-image=org.gnome.FileRoller.desktop;gnome-disk-image-mounter.desktop;

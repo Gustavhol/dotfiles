@@ -21,7 +21,11 @@ bindkey -s '^o' 'rangercd\n'  # Navigate with ranger
 
 # fh - repeat history
 fh() {
-  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac --height "50%" | sed -r 's/ *[0-9]*\*? *//' | sed -r 's/\\/\\\\/g')
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --preview 'bat --color=always {}' --tac --height "50%" | sed -r 's/ *[0-9]*\*? *//' | sed -r 's/\\/\\\\/g')
+}
+
+ff() {
+    rg -lu $1 | fzf-tmux --preview 'batgrep '$1' bat --color=always {}';
 }
 
 # make a dir and cd into it

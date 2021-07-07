@@ -23,29 +23,26 @@
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
 (package! add-node-modules-path)
-(package! company)
-(package! csharp-mode)
 (package! deadgrep)
 (package! evil-commentary)
 (package! exec-path-from-shell)
 (package! go-mode)
-(package! grip-mode)
-(package! i3wm-config-mode)
-(package! ivy)
 (package! json-mode)
 (package! json-reformat)
 (package! lsp-mode)
-(package! lsp-java)
-(package! lsp-tailwindcss)
+(package! lsp-tailwindcss
+  :recipe (:host github :repo "merrickluo/lsp-tailwindcss"
+           :files ("lsp-tailwindcss.el")))
 (package! lsp-ui)
 (package! neuron-mode)
-(package! omnisharp)
-(package! org-super-agenda)
 (package! prettier-js)
 (package! ranger)
-(package! restclient)
-(package! vimrc-mode)
+(package! tree-sitter)
+(package! tree-sitter-langs)
 (package! wakatime-mode)
+(package! winsize
+  :recipe (:host github :repo "PatrikOlin/winsize"
+  :files ("winsize.el")))
 (package! yaml-mode)
 
 ;; To install a package directly from a particular repo, you'll need to specify

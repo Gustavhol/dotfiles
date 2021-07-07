@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: console.log()
-# key:clg              
+# key:cl
 # --
 console.log('$1: ', $0)

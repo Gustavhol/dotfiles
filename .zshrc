@@ -58,7 +58,7 @@ done
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Source starship proppt
+# Source starship prompt
 eval "$(starship init zsh)"
 
 export PATH
