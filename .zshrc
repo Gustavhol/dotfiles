@@ -54,7 +54,7 @@ done
 
 
 # ZSH theme
-~/scripts/terminal/theme.sh doom-one
+~/scripts/theme.sh doom-one
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

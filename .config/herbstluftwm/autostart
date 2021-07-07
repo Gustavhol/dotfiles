@@ -27,7 +27,7 @@ hc keybind $Mod-e spawn emacsclient -c
 hc keybind $Mod-space spawn rofi -show drun
 hc keybind $Mod-Control-s spawn flameshot gui
 hc keybind $Mod-Control-z spawn ~/.screenlayout/fullhd.sh 
-hc keybind $Mod-Control-x spawn ~/.screenlayout/multimonitor.sh 
+hc keybind $Mod-Control-x spawn ~/scripts/multimonitor_incremental_increase.sh
 
 # basic movement
 # focusing clients
