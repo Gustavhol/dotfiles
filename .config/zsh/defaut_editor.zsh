@@ -11,3 +11,5 @@
  else
    export EDITOR='nvim'
  fi
+
+ export PAGER='most'
