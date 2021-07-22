@@ -152,7 +152,7 @@ hc keybind $Mod+Mod1+7
 # # 9
 hc keybind $Mod+Mod1+8 spawn screenkey
 # # 10
-hc keybind $Mod+Mod1+9 killall -q screenkey
+hc keybind $Mod+Mod1+9 spawn killall -q screenkey
 # # 11
 hc keybind $Mod+Mod1+y spawn $HOME/scripts/restart_teams.sh
 # # 12
