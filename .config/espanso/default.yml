@@ -69,7 +69,7 @@ matches:
       - name: uptime
         type: shell
         params:
-          cmd: "uptime | cut -d ',' -f1-2 | cut -d ' ' -f3-"
+          cmd: "uptime -p"
           #  cmd: "uptime -p"
 
   - trigger: ":scr"

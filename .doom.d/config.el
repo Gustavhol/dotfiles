@@ -45,6 +45,8 @@
   (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
 
 
+(use-package! command-log-mode)
+
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. These are the defaults.
