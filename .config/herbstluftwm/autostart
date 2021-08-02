@@ -29,6 +29,11 @@ hc keybind $Mod-Control-s spawn flameshot gui
 hc keybind $Mod-Control-z spawn ~/.screenlayout/fullhd.sh 
 hc keybind $Mod-Control-x spawn ~/scripts/multimonitor_incremental_increase.sh
 
+# audio
+hc keybind $Mod-F1 spawn amixer -q -D pulse sset Master toggle
+hc keybind XF86AudioRaiseVolume spawn amixer -q -D pulse sset Master 2%-
+hc keybind XF86AudioLowerVolume spawn amixer -q -D pulse sset Master 2%+
+
 # basic movement
 # focusing clients
 hc keybind $Mod-Left  focus left
@@ -131,11 +136,11 @@ hc keybind $Mod-i jumpto urgent
 # 1
 hc keybind $Mod+Mod1+0 spawn $HOME/scripts/multimonitor_incremental_increase.sh
 # 2
-hc keybind $Mod+Mod1+1 spawn $HOME/scripts/bb/check-out
+hc keybind $Mod+Mod1+1 spawn $HOME/scripts/set_bluetooth_audio
 # 3
-hc keybind $Mod+Mod1+2 spawn $HOME/scripts/bb/check-out-lunch
+hc keybind $Mod+Mod1+2 
 # 4
-hc keybind $Mod+Mod1+3 spawn $HOME/scripts/bb/check-time
+hc keybind $Mod+Mod1+3
 # 5
 hc keybind $Mod+Mod1+4
 # 6
@@ -147,7 +152,7 @@ hc keybind $Mod+Mod1+7
 # # 9
 hc keybind $Mod+Mod1+8 spawn screenkey
 # # 10
-hc keybind $Mod+Mod1+9 killall -q screenkey
+hc keybind $Mod+Mod1+9 spawn killall -q screenkey
 # # 11
 hc keybind $Mod+Mod1+y spawn $HOME/scripts/restart_teams.sh
 # # 12
@@ -250,7 +255,7 @@ pa-applet
 pamac-tray
 pulseaudio
 killall volumeicon && hc volumeicon
-xautolock -resetsaver -time 30 -locker "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
+xidlehook --not-when-fullscreen --not-when-audio --timer 1800 "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
 xfce4-power-manager
 spawn $HOME/scripts/multimonitor_incremental_increase.sh
 
