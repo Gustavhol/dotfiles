@@ -55,7 +55,7 @@
 
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
-(setq display-line-numbers-type 'nil)
+(setq display-line-numbers-type 'relative)
 (setq scroll-margin 8)
 
 ;; To avoid using fundamental mode in textfiles.
@@ -116,11 +116,12 @@
   (interactive)
   (doom-project-find-file "~/scripts/"))
 
+
 (defun find-dotfile ()
-  "Search for a file in `~/.config/'."
   (interactive)
-  ;; (ido-find-file-in-dir ~/.config))
-  (doom-project-find-file "~/.config"))
+  (setq current-prefix-arg '(4))
+  (doom-project-find-file "~/.config/"))
+
 
 ;; LSP configuration
 (setq lsp-ui-doc 'nil)
@@ -184,7 +185,10 @@
        :n "SPC" #'winsize-incremental-resize)
       (:prefix "f"
        :n "s" #'find-private-script
-       :n "c" #'find-dotfile)
+       :n "c" (lambda ()
+                     (interactive)
+                     (setq current-prefix-arg '(4))
+                     (find-dotfile)))
       (:prefix "a"
         :nv "f" #'avy-goto-char-2
         :nv "m l" #'avy-move-line
