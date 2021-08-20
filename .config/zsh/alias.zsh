@@ -23,7 +23,7 @@ alias vtop='vtop --theme gruvbox'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Easy config of common dotfiles
-alias zconf="~/scripts/terminal/zsh_conf.sh"
+alias zconf="~/scripts/zsh_conf.sh"
 alias herbstconf="nvim ~/.config/herbstluftwm/autostart"
 alias hc="herbstclient"
 alias i3conf="nvim ~/.config/i3/config"
@@ -44,7 +44,7 @@ alias ws='wormhole send' # Requires Magic Wormhole
 alias wr='wormhole recieve'
 alias ifconfig='ip address' # For those that live in the past
 alias theme='~/scripts/theme.sh -i' # Interactive script to change the theme in the terminal
-alias jog='~/scripts/terminal/jog.sh' # To list the last 15 commands in working directory
+alias jog='~/scripts/jog.sh' # To list the last 15 commands in working directory
 alias vpn='sudo openfortivpn'
 alias mcs='$HOME/scripts/mc_server_start.sh'
 
