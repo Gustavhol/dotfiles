@@ -18,21 +18,21 @@ options="$option0\n$option1\n$option2\n$option3\n$option4\n$option5\n$option6\n$
 chosen="$(echo -e "$options" | rofi -lines 9 -dmenu -p "Butler Burton - select option")"
 case $chosen in
         $option0)
-        butler-burton r d && butler-burton ci && butler-burton r u;;
+        butler-burton ts d && butler-burton ci && butler-burton ts u;;
         $option1)
-        butler-burton r d && butler-burton co && butler-burton r u;;
+        butler-burton ts d && butler-burton co && butler-burton ts u;;
         $option2)
-        butler-burton r d && butler-burton co -o && butler-burton r u;;
+        butler-burton ts d && butler-burton co -o && butler-burton ts u;;
 	$option3)
-        butler-burton r d && butler-burton co -c && butler-burton r u;;
+        butler-burton ts d && butler-burton co -c && butler-burton ts u;;
 	$option4)
-        butler-burton r d && butler-burton co -c -o && butler-burton r u;;
+        butler-burton ts d && butler-burton co -c -o && butler-burton ts u;;
 	$option5)
         butler-burton ct;;
 	$option6)
         butler-burton -v;;
 	$option7)
-        butler-burton rg;;
+        butler-burton ts g;;
         $option8)
-	butler-burton r c && butler-burton r u;;
+	butler-burton ts c && butler-burton ts u;;
 esac

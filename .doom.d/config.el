@@ -45,7 +45,7 @@
   (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
 
 
-(use-package! command-log-mode)
+;; (use-package! command-log-mode)
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -54,7 +54,6 @@
 
 (setq ranger-override-dired-mode 'nil)
 (add-hook 'daemonp 'exec-path-from-shell-initialize)
-
 ;; If you want to change the style of line numbers, change this to `relative' or
 ;; `nil' to disable it:
 (setq display-line-numbers-type 'relative)
@@ -172,10 +171,10 @@
         :nv "p s" #'persp-switch
         :nv "f f" #'counsel-fzf
         :nv "f w" #'+ivy/project-search
-        :nv "w h" #'evil-window-move-far-right
-        :nv "w v" #'evil-window-move-very-top
-        :nv "w j" (cmd! (evil-window-decrease-height 10))
-        :nv "w k" (cmd! (evil-window-increase-height 10)))
+        :nv "w h" #'evil-window-move-far-left
+        :nv "w j" #'evil-window-move-very-bottom
+        :nv "w k" #'evil-window-move-very-top
+        :nv "w l" #'evil-window-move-far-right)
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle
         :nv "c f" #'vimish-fold-avy

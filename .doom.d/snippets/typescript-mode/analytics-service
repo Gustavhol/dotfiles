@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: analytics event emitter
+# key: ms
+# --
+
+
+this.analyticsService.emitNewEvent({
+  category: AnalyticsCategory.$1,
+  action: ${2:action-enum},
+  name: \`\$\{$2\} $0\`,
+});

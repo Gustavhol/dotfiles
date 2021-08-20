@@ -15,15 +15,15 @@ options="$option0\n$option1\n$option2\n$option3\n$option4\n$option5\n$option6"
 chosen="$(echo -e "$options" | rofi -lines 8 -dmenu -p "power")"
 case $chosen in
     $option0)
-        betterlockscreen -l blur -t "Här är det låst" --off 300;;
+        betterlockscreen -l blur --off 5;;
     $option1)
         herbstclient quit;;
     $option2)
-        betterlockscreen -s dimblur -t "Här är det låst" --off 300;;
+        betterlockscreen -s dimblur --off 5;;
 	$option3)
-		sleep 600 && betterlockscreen -s dimblur -t "Här är det låst" --off 300;;
+		sleep 600 && betterlockscreen -s dimblur --off 5;;
 	$option4)
-        betterlockscreen -l dimblur -t "Här är det låst" && systemctl hibernate;;
+        betterlockscreen -l dimblur && systemctl hibernate;;
 	$option5)
         systemctl reboot;;
     $option6)

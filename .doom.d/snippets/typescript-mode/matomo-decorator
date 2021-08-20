@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: analytics decorator
+# key: md
+# --
+
+
+@MatomoTracker({
+  category: AnalyticsCategory.$1,
+  action: ${2:action-enum},
+  name: \`\$\{$2\} $0\`
+})

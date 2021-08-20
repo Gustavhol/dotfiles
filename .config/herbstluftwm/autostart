@@ -136,7 +136,7 @@ hc keybind $Mod-i jumpto urgent
 # 1
 hc keybind $Mod+Mod1+0 spawn $HOME/scripts/multimonitor_incremental_increase.sh
 # 2
-hc keybind $Mod+Mod1+1 spawn $HOME/scripts/set_bluetooth_audio
+hc keybind $Mod+Mod1+1 spawn 
 # 3
 hc keybind $Mod+Mod1+2 
 # 4
@@ -156,13 +156,13 @@ hc keybind $Mod+Mod1+9 spawn killall -q screenkey
 # # 11
 hc keybind $Mod+Mod1+y spawn $HOME/scripts/restart_teams.sh
 # # 12
-hc keybind $Mod+Mod1+u spawn $HOME/scripts/toggle_mute
+hc keybind $Mod+Mod1+u spawn 
 # # 13
 hc keybind $Mod+Mod1+i spawn $HOME/scripts/toggle_dunst
 # # 14
 hc keybind $Mod+Mod1+o spawn $HOME/scripts/rofi_burton.sh
 # # 15
-hc keybind $Mod+Mod1+p spawn $HOME/scripts/pa_set_a2dp.sh
+hc keybind $Mod+Mod1+p spawn $HOME/scripts/toggle_pipewire_sink.sh
 
 # theme
 hc attr theme.tiling.reset 1
@@ -253,9 +253,9 @@ fix_xcursor
 nm-applet
 pa-applet
 pamac-tray
-pulseaudio
+keynav
 killall volumeicon && hc volumeicon
-xidlehook --not-when-fullscreen --not-when-audio --timer 1800 "betterlockscreen --off 300 -l dimblur -t 'Här var det låst'"
+xidlehook --not-when-fullscreen --not-when-audio --timer 1800 "betterlockscreen --off 5 -l dimblur"
 xfce4-power-manager
 spawn $HOME/scripts/multimonitor_incremental_increase.sh
 
