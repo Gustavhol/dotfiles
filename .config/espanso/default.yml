@@ -45,7 +45,7 @@ matches:
       - name: wireless
         type: shell
         params:
-          cmd: "ifconfig | grep -1 wlp | grep inet | awk {'print $2'} | cut -d'/' -f1"
+          cmd: "ip address | grep -1 wlp | grep inet | awk {'print $2'} | cut -d'/' -f1"
           
   - trigger: ":ipc"
     replace: "{{wired}}"
@@ -53,7 +53,7 @@ matches:
       - name: wired
         type: shell
         params:
-          cmd: "ifconfig | grep -1 enx | grep inet | awk {'print $2'} | cut -d'/' -f1"
+          cmd: "ip address | grep -1 enx | grep inet | awk {'print $2'} | cut -d'/' -f1"
           
   - trigger: ":path"
     replace: "{{path}}"
