@@ -72,3 +72,4 @@ alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Log out for changes to take ef
 
 # Other
 alias grep="grep --color=auto"
+alias pandone="pandoc -s -V geometry:margin=1in  --highlight-style=pandoc_atom_one_dark.theme -o"

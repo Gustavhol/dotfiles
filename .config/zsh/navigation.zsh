@@ -24,6 +24,7 @@ fh() {
   print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --preview 'bat --color=always {}' --tac --height "50%" | sed -r 's/ *[0-9]*\*? *//' | sed -r 's/\\/\\\\/g')
 }
 
+# find files that contains $1
 ff() {
     rg -lu $1 | fzf-tmux --preview 'batgrep '$1' bat --color=always {}';
 }

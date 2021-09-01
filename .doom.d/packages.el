@@ -34,11 +34,17 @@
   :recipe (:host github :repo "merrickluo/lsp-tailwindcss"
            :files ("lsp-tailwindcss.el")))
 (package! lsp-ui)
+(package! marginalia)
 (package! neuron-mode)
+(package! orderless)
 (package! prettier-js)
 (package! ranger)
+(package! ripgrep)
+(package! savehist)
 (package! tree-sitter)
 (package! tree-sitter-langs)
+;; (package! vertico)
+;; (package! vertico-mode)
 (package! wakatime-mode)
 (package! winsize
   :recipe (:host github :repo "PatrikOlin/winsize"

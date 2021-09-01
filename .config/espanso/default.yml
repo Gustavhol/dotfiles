@@ -83,6 +83,9 @@ matches:
   - trigger: ":flip"
     replace: "(╯°□°）╯︵ ┻━┻ "
 
+  - trigger: ":shrug"
+    replace: "¯\\_(ツ)_/¯"
+
 # random valid pin
   - trigger: ":pin"
     replace: "{{pin}}"
