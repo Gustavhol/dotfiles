@@ -193,7 +193,7 @@ hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 0
 hc attr theme.floating.outer_color '#000000' #black
 hc attr theme.active.inner_color '#98be65' #green
-hc attr theme.active.outer_color '#98be65' #green
+# hc attr theme.active.outer_color '#98be65' #green
 hc attr theme.normal.inner_color '#da8548' #darkorange
 hc attr theme.background_color '#98be65' #green
 

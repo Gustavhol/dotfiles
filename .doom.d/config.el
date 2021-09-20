@@ -67,12 +67,17 @@
 ;; ================ GLOBAL CONF ================
 ;; =============================================
 
+;; Vertico
+(setq vertico-sort-function 'vertico-sort-history-alpha)
+
+;;Tree-Sitter
 (use-package! tree-sitter
   :config
   (require 'tree-sitter-langs)
   (global-tree-sitter-mode)
   (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
 
+;; Wakatime
 (use-package wakatime-mode
   :diminish 'wakatime-mode
   :init
@@ -83,6 +88,7 @@
 
 (custom-set-variables '(wakatime-api-key "4e468cc9-62d5-4197-9cf6-69b4f0109ee4"))
 
+;;Marginalia
 (use-package marginalia
   :after vertico
   :bind (("M-A" . marginalia-cycle)
@@ -92,6 +98,7 @@
   (marginalia-annotators '(marginalia-annotators-heavy marginalia-annotators-light nil))
   :init
   (marginalia-mode))
+
 
 ;; To get syntax higilighting
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
@@ -202,15 +209,15 @@
                      (setq current-prefix-arg '(4))
                      (find-dotfile)))
       (:prefix "k"
-        :nv "k r" #'avy-kill-region
-        :nv "k l" #'avy-kill-whole-line)
+        :nv "r" #'avy-kill-region
+        :nv "l" #'avy-kill-whole-line)
       (:prefix "m"
-        :nv "m l" #'avy-move-line
-        :nv "m r" #'avy-move-region)
+        :nv "l" #'avy-move-line
+        :nv "r" #'avy-move-region)
       (:prefix "y"
         ;; :nv "f" #'avy-goto-char-2
-        :nv "c r" #'avy-copy-region
-        :nv "c l" #'avy-copy-line))
+        :nv "r" #'avy-copy-region
+        :nv "l" #'avy-copy-line))
 
 (map! :nv "f" #'nil
       :nv "f" #'avy-goto-char-2)

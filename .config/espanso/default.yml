@@ -130,3 +130,12 @@ matches:
         type: shell
         params:
           cmd: curl https://api.fejk.company/v1/companies | jq '.[] | .orgNum' | sed 's/"//g'
+
+# random bankGiroNr 
+  - trigger: ":bg"
+    replace: "{{bankgiro}}"
+    vars:
+      - name: bankgiro
+        type: shell
+        params:
+          cmd: curl https://api.fejk.company/v1/companies | jq '.[] | .bankgiro' | sed 's/"//g'
