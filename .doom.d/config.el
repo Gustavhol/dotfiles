@@ -172,7 +172,7 @@
 ;; =============================================
 
 (map! :leader
-      (:prefix "j"
+      (:prefix ("j" . "jump")
         :nv "j" #'evil-jump-backward
         :nv "b" #'evil-jump-backward
         :nv "f" #'evil-jump-forward)
@@ -185,14 +185,18 @@
         :nv "e" #'tide-goto-error
         :nv "s d" #'lsp-ui-doc-show
         :nv "s r" #'lsp-rename)
-      (:prefix "ö"
-        :nv "p s" #'persp-switch
-        :nv "f f" #'counsel-fzf
-        ;; :nv "f w" #'+ivy/project-search
-        :nv "w h" #'evil-window-move-far-left
-        :nv "w j" #'evil-window-move-very-bottom
-        :nv "w k" #'evil-window-move-very-top
-        :nv "w l" #'evil-window-move-far-right)
+      (:prefix ("ö" . "övrigt")
+        (:prefix ("p" . "perspective")
+        :nv "s" #'persp-switch)
+        ;; :nv "p s" #'persp-switch
+        (:prefix ("f" . "fzf")
+        :nv "f" #'counsel-fzf)
+        (:prefix ("w" . "move-window")
+        :nv "h" #'evil-window-move-far-left
+        :nv "j" #'evil-window-move-very-bottom
+        :nv "k" #'evil-window-move-very-top
+        :nv "l" #'evil-window-move-far-right)
+         )
       (:prefix "v"
         :nv "f" #'vimish-fold-toggle
         :nv "c f" #'vimish-fold-avy
@@ -220,10 +224,10 @@
         :nv "l" #'avy-copy-line))
 
 (map! :nv "f" #'nil
-      :nv "f" #'avy-goto-char-2)
+      :nv "f" #'avy-goto-char-timer)
 
-(map! :nmv "J" (cmd! (evil-next-line 5))
-      :nmv "K" (cmd! (evil-previous-line 5)))
+(map! :nmv "J" #'evil-scroll-down
+      :nmv "K" #'evil-scroll-up)
 
 ;; =============================================
 ;; ================ SAFEKEEPING ================

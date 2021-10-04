@@ -6,7 +6,7 @@
  '(custom-safe-themes
    '("835868dcd17131ba8b9619d14c67c127aa18b90a82438c8613586331129dda63" default))
  '(package-selected-packages
-   '(platformio-mode ripgrep modus-themes marginalia lsp-ui lsp-tailwindcss grip-mode evil-terminal-cursor-changer cloc))
+   '(command-log-mode platformio-mode ripgrep modus-themes marginalia lsp-ui lsp-tailwindcss grip-mode evil-terminal-cursor-changer cloc))
  '(wakatime-api-key "4e468cc9-62d5-4197-9cf6-69b4f0109ee4"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
