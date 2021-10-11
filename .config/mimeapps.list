@@ -43,3 +43,4 @@ application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;
 application/x-php=firefox.desktop;
 application/x-raw-disk-image=org.gnome.FileRoller.desktop;gnome-disk-image-mounter.desktop;
+application/octet-stream=emacsclient.desktop;
