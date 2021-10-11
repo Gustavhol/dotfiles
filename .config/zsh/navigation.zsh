@@ -34,4 +34,4 @@ ff() {
 mkcd() { mkdir -vp "$1" && cd "$1"; }
 
 # ssh and export xterm
-ssht() { ssh -t "$1" "export TERM=xterm;/bin/bash"}
+ssht() { ssh -t "$1" "export TERM=xterm-color;/bin/bash"}
