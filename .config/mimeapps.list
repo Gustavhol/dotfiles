@@ -43,3 +43,5 @@ application/x-php=firefox.desktop;
 application/x-raw-disk-image=org.gnome.FileRoller.desktop;gnome-disk-image-mounter.desktop;
 application/pdf=firefox.desktop;
 text/vnd.trolltech.linguist=emacs.desktop;
+image/gif=gimp.desktop;
+text/x-python=org.gnome.gedit.desktop;

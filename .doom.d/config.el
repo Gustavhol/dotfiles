@@ -163,8 +163,7 @@
   :init
   (setq lsp-tailwindcss-auto-install-server t)
   (setq lsp-tailwindcss-add-on-mode t)
-  (setq lsp-tailwindcss-server-dir "/etc/lsp/tailwindcss/extensions/dist/server/")
-  (setq lsp-tailwindcss-server-file "/etc/lsp/tailwindcss/extensions/dist/server/tailwindServer.js"))
+  (setq lsp-tailwindcss-server-dir "/home/gustav/.nvm/versions/node/v14.16.0/lib/node_modules/@tailwindcss/language-server/bin/tailwindcss-language-server"))
 
 
 ;; =============================================
