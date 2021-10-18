@@ -46,3 +46,4 @@ application/pdf=firefox.desktop;
 text/vnd.trolltech.linguist=emacs.desktop;
 image/gif=gimp.desktop;
 text/x-python=org.gnome.gedit.desktop;
+application/x-cd-image=org.gnome.FileRoller.desktop;

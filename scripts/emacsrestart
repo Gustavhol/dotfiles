@@ -1,0 +1,5 @@
+#!/bin/bash
+
+emacsclient -e "(doom/quicksave-session)"
+systemctl --user restart emacs
+emacsclient -e "(doom/quickload-session)"

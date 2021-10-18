@@ -204,7 +204,7 @@
 [play_sound]
     appname = weechat
     summary = "*"
-    script= "home/gustav/scripts/notify_sound.sh"
+    script= "/home/gustav/scripts/notify_sound.sh"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
