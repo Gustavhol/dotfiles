@@ -248,6 +248,8 @@ $HOME/.config/polybar/launch.sh
 
 #Autostart
 
+# $HOME/scripts/testscript.sh
+$HOME/scripts/set_screenstuff.sh
 blueman-applet
 fix_xcursor
 nm-applet
@@ -257,5 +259,5 @@ keynav
 killall volumeicon && hc volumeicon
 xidlehook --not-when-fullscreen --not-when-audio --timer 1800 "betterlockscreen --off 5 -l dimblur"
 xfce4-power-manager
-spawn $HOME/scripts/multimonitor_incremental_increase.sh
+
 

@@ -26,7 +26,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias zconf="~/scripts/zsh_conf.sh"
 alias herbstconf="nvim ~/.config/herbstluftwm/autostart"
 alias hc="herbstclient"
-alias i3conf="nvim ~/.config/i3/config"
 alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias reload='exec $SHELL'
 alias restart='exec $SHELL'

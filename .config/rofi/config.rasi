@@ -1,5 +1,6 @@
 configuration {
   font: "Hack Nerd Font 12";
-  theme: "/usr/share/rofi/themes/Arc-Dark.rasi";
-  modi: "window,drun,run,file-browser-extended,ssh,combi";
+  modi: "window,drun,run,ssh,combi";
 }
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
