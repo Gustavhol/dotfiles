@@ -49,3 +49,4 @@ text/x-python=org.gnome.gedit.desktop;
 application/zip=xarchiver.desktop;
 video/x-msvideo=vlc.desktop;
 image/svg+xml=viewnior.desktop;
+application/x-cd-image=org.gnome.FileRoller.desktop;

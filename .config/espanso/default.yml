@@ -21,6 +21,9 @@ matches:
   - trigger: ":plaid"
     replace: "qmk flash -kb keycapsss/plaid_pad/rev1 -km default"
 
+  - trigger: ":like"
+    replace: "/me gillart"
+
   # Dates
   - trigger: ":date"
     replace: "{{mydate}}"
